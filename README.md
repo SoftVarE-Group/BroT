@@ -1,10 +1,10 @@
 # SAT Encodings of the At-Most-k Constraint
-## A Case Study on Cofiguring University Courses
+## A Case Study on Configuring University Courses
 
 ### Citation
 This repository contains code and data corresponding to:
 
-P. M. Bittner, T. Thüm, I. Schaefer. SAT Encodings of the At-Most-k Constraint - A Case Study on Cofiguring University Courses, submitted to [SEFM 2019][1]
+P. M. Bittner, T. Thüm, I. Schaefer. SAT Encodings of the At-Most-k Constraint - A Case Study on Configuring University Courses, submitted to [SEFM 2019][1]
 
 [Frisch, A.M., Giannaros, P.A.: SAT Encodings of the At-Most-k Constraint. Some
 Old, Some New, Some Fast, Some Slow. In: Proc. of the Tenth Int. Workshop of
