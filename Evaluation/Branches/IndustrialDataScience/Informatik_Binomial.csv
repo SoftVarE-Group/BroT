@@ -1,0 +1,5 @@
+NumVars;NumLiterals;ConfigTime;EncodingRequests
+4;4;;AtLeast(4, 1)
+18;28048;;Exactly(4, 0), AtLeast(14, 7), Exactly(4, 1), AtLeast(14, 4), Exactly(4, 2), Exactly(4, 3), Exactly(4, 4)
+;;;
+22;28052;-1.0;

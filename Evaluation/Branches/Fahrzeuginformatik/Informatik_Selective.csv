@@ -1,0 +1,5 @@
+NumVars;NumLiterals;ConfigTime;EncodingRequests
+5;5;;AtLeast(5, 1)
+1002;6282;;Exactly(5, 0), Exactly(1, 0), Exactly(1, 0), AtLeast(20, 7), Exactly(1, 1), AtLeast(20, 6), Exactly(1, 1), Exactly(1, 0), AtLeast(20, 5), Exactly(1, 1), AtLeast(20, 4), Exactly(5, 1), Exactly(1, 0), Exactly(1, 0), AtLeast(20, 4), Exactly(1, 1), AtLeast(20, 3), Exactly(1, 1), Exactly(1, 0), AtLeast(20, 2), Exactly(1, 1), AtLeast(20, 1), Exactly(5, 2), Exactly(5, 3), Exactly(5, 4), Exactly(5, 5)
+;;;
+1007;6287;-1.0;

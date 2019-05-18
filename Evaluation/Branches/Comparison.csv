@@ -1,0 +1,37 @@
+Branch;Encoding;NumVars;NumLiterals
+Automotive Informatics;Binary;1159;6541
+Big Data Management;Binary;64;256
+H.-/S.-System Design;Binary;788;3834
+IT-Security;Binary;23;77
+Industrial Data Science;Binary;202;1018
+Medical Informatics;Binary;313;1732
+Networked Systems;Binary;246;1241
+Robotics;Binary;212;977
+Visual Computing;Binary;124;547
+Automotive Informatics;Binomial;32;895347
+Big Data Management;Binomial;9;338
+H.-/S.-System Design;Binomial;36;126738
+IT-Security;Binomial;7;61
+Industrial Data Science;Binomial;22;28052
+Medical Informatics;Binomial;15;31609
+Networked Systems;Binomial;27;87375
+Robotics;Binomial;17;6845
+Visual Computing;Binomial;14;1205
+Automotive Informatics;Selective;1007;6287
+Big Data Management;Selective;58;221
+H.-/S.-System Design;Selective;455;3074
+IT-Security;Selective;17;50
+Industrial Data Science;Selective;203;930
+Medical Informatics;Selective;308;1513
+Networked Systems;Selective;270;1227
+Robotics;Selective;212;977
+Visual Computing;Selective;124;524
+Automotive Informatics;Sequential Counter;2107;10135
+Big Data Management;Sequential Counter;58;237
+H.-/S.-System Design;Sequential Counter;1135;5363
+IT-Security;Sequential Counter;17;50
+Industrial Data Science;Sequential Counter;246;1095
+Medical Informatics;Sequential Counter;351;1630
+Networked Systems;Sequential Counter;343;1542
+Robotics;Sequential Counter;339;1570
+Visual Computing;Sequential Counter;131;560

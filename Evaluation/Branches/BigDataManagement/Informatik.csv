@@ -1,0 +1,6 @@
+Timeout (s);600;ConfigTrialsMax;50
+Encoding;NumVars;NumLiterals;ConfigTime;ConfigTrials
+Binomial;9;338;-1.0;0
+Binary;64;256;-1.0;0
+Sequential Counter;58;237;-1.0;0
+Selective;58;221;-1.0;0
