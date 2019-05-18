@@ -1,0 +1,22 @@
+.metadata
+.recommenders
+.settings
+*.class
+.idea
+bin
+
+# Generated code
+src-gen/
+
+.featureide
+
+# latex
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+
+# python environments
+venv
