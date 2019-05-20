@@ -15,6 +15,9 @@ Constraint Modelling and Reformulation (2010)][2]
 The code is given in two [Eclipse][3] workspaces: `Runtime` and `Development`.
 Additionally, we provide a jar file for testing our BRanch Of study Tool (Brot).
 It can open [FeatureIDE][7] feature model files and allows creating configurations for them.
+Opening the feature models of some branches may take a few minutes.
+Please note that opening them in the FeatureIDE plugins editor in eclipse may freeze the program because
+some of the models are too large.
 
 The [branches of study at TU Braunschweig][6] are given in the `Runtime` workspace together with
 the feature models they were compiled to.
