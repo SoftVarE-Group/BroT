@@ -1,0 +1,7 @@
+Das hier ist der Staatsfeind Nr. 1
+
+Die Masterarbeiten sollten in ein simples Oder übersetzt werden.
+
+Die Projektarbeiten lassen in der aktuellen Implementierung wieder mal
+die Klauselmenge explodieren. Das würde 32 Klauseln ergeben. Auf Papier habe
+ich eine Idee festgehalten, diese auf 1 zu reduzieren.

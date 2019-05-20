@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="Field Informatik">
+            <alt abstract="true" mandatory="true" name="Masterarbeit">
+                <feature name="Masterarbeit Algorithmik"/>
+                <feature name="Masterarbeit Computergraphik"/>
+                <feature name="Masterarbeit Connected and Mobile Systems"/>
+                <feature name="Masterarbeit Entwurf Integrierter Systeme"/>
+                <feature name="Masterarbeit Formale Methoden"/>
+                <feature name="Masterarbeit Informationssysteme"/>
+                <feature name="Masterarbeit Verteilte Systeme"/>
+                <feature name="Masterarbeit IT-Sicherheit"/>
+                <feature name="Masterarbeit Nachrichtentechnik"/>
+                <feature name="Masterarbeit Rechnerstrukturen und Eingebettete Systeme"/>
+                <feature name="Masterarbeit Robotik"/>
+                <feature name="Masterarbeit Software Engineering"/>
+                <feature name="Masterarbeit Theoretische Informatik"/>
+                <feature name="Masterarbeit Kommunikation und Multimedia"/>
+                <feature name="Masterarbeit Medizinische Informatik"/>
+            </alt>
+            <alt abstract="true" name="Projektarbeit">
+                <feature name="Projektarbeit Algorithmik"/>
+                <feature name="Projektarbeit Computergraphik"/>
+                <feature name="Projektarbeit Connected and Mobile Systems"/>
+                <feature name="Projektarbeit Entwurf Integrierter Systeme"/>
+                <feature name="Projektarbeit Formale Methoden"/>
+                <feature name="Projektarbeit Informationssysteme"/>
+                <feature name="Projektarbeit Verteilte Systeme"/>
+                <feature name="Projektarbeit IT-Sicherheit"/>
+                <feature name="Projektarbeit Nachrichtentechnik"/>
+                <feature name="Projektarbeit Rechnerstrukturen und Eingebettete Systeme"/>
+                <feature name="Projektarbeit Robotik"/>
+                <feature name="Projektarbeit Software Engineering"/>
+                <feature name="Projektarbeit Theoretische Informatik"/>
+                <feature name="Projektarbeit Medizinische Informatik"/>
+                <feature name="Projektarbeit Kommunikation und Multimedia"/>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Seminar">
+                <feature name="Seminar Algorithmik"/>
+                <feature name="Seminar Computergraphik"/>
+                <feature name="Seminar Connected and Mobile Systems"/>
+                <feature name="Seminar Entwurf Integrierter Systeme"/>
+                <feature name="Seminar Formale Methoden"/>
+                <feature name="Seminar Informationssysteme"/>
+                <feature name="Seminar Verteilte Systeme"/>
+                <feature name="Seminar IT-Sicherheit"/>
+                <feature name="Seminar Nachrichtentechnik"/>
+                <feature name="Seminar Rechnerstrukturen und Eingebettete Systeme"/>
+                <feature name="Seminar Robotik"/>
+                <feature name="Seminar Software Engineering"/>
+                <feature name="Seminar Theoretische Informatik"/>
+                <feature name="Seminar Medizinische Informatik"/>
+                <feature name="Seminar Kommunikation und Multimedia"/>
+            </alt>
+            <and abstract="true" name="Wahlpflicht Informatik">
+                <and abstract="true" name="Algorithmik">
+                    <feature name="Algorithmische Geometrie"/>
+                    <feature name="Mathematische Methoden der Algorithmik"/>
+                    <feature name="Praktikum Algorithmik"/>
+                    <feature name="Algorithm Engineering"/>
+                    <feature name="Approximationsalgorithmen"/>
+                    <feature name="Online-Algorithmen"/>
+                    <feature name="Verteilte Algorithmen"/>
+                </and>
+                <and abstract="true" name="Computergraphik">
+                    <feature name="Echtzeit-Computergraphik"/>
+                    <feature name="Bildbasierte Modellierung"/>
+                    <feature name="Physikbasierte Modellierung und Simulation"/>
+                    <feature name="Grundlagen Maschinelles Lernen"/>
+                    <feature name="Paralleles Rechnen I"/>
+                    <feature name="Visualisierung wissenschaftlicher Daten"/>
+                    <feature name="Bildkommunikation"/>
+                    <feature name="Digitale Bildverarbeitung"/>
+                    <feature name="Dreidimensionales Computersehen"/>
+                    <feature name="Bildverarbeitung-Praktikum"/>
+                    <feature name="Computergraphik Praktikum"/>
+                </and>
+                <and abstract="true" name="Connected and Mobile Systems">
+                    <feature name="Advanced Human Computer Interaction"/>
+                    <feature name="Advanced Networking I"/>
+                    <feature name="Advanced Networking II"/>
+                    <feature name="Management von Informationssicherheit"/>
+                    <feature name="Mensch-Maschine-Interaktion"/>
+                    <feature name="Mobilkommunikation"/>
+                    <feature name="Recent Topics in Computer Networking"/>
+                    <feature name="Computernetze II"/>
+                    <feature name="Mobile Computing Lab"/>
+                    <feature name="Praktikum Computernetze"/>
+                    <feature name="Praktikum Computernetze Administration"/>
+                    <feature name="Wireless Networking Lab"/>
+                    <feature name="Machine Learning for Pervasive Computing"/>
+                </and>
+                <and abstract="true" name="Entwurf Integrierter Systeme">
+                    <feature name="Chip- und System-Entwurf I"/>
+                    <feature name="Chip- und System-Entwurf II"/>
+                    <feature name="VLSI-Design II"/>
+                    <feature name="Praktikum VLSI-Design II"/>
+                </and>
+                <and abstract="true" name="Informationssysteme">
+                    <feature name="Ausgewählte Themen der Informationssysteme"/>
+                    <feature name="Data Warehousing &amp; Data-Mining-Techniken"/>
+                    <feature name="Datenbank-Projektgruppe - Projektgruppe Integritätsbedingungen"/>
+                    <feature name="Digitale Bibliotheken"/>
+                    <feature name="Distributed Data Management"/>
+                    <feature name="Information Retrieval &amp; Web Search"/>
+                    <feature name="Multimedia-Datenbanken"/>
+                    <feature name="Relationale Datenbanksysteme II"/>
+                    <feature name="Spatial Databases und Geo-Informationssysteme"/>
+                    <feature name="Wissensbasierte Systeme und deduktive Datenbanksysteme"/>
+                </and>
+                <and abstract="true" name="Nachrichtentechnik">
+                    <feature name="Mustererkennung"/>
+                    <feature name="Sprachdialogsysteme Spoken Language Processing"/>
+                    <feature name="Deep Learning Lab"/>
+                    <feature name="Digitale Signalverarbeitung"/>
+                </and>
+                <and abstract="true" name="Rechnerstrukturen und Eingebettete Systeme">
+                    <feature name="Raumfahrtelektronik II"/>
+                    <feature name="Entwurf fehlertoleranter Systeme"/>
+                    <feature name="Rechnerstrukturen II"/>
+                    <feature name="Advanced Computer Architecture"/>
+                    <feature name="Rechnersystembusse"/>
+                </and>
+                <and abstract="true" name="Programmierung und Reaktive Systeme">
+                    <feature name="Praktikum Reaktive Systeme"/>
+                    <feature name="Prozessalgebra"/>
+                    <feature name="Reaktive Systeme"/>
+                    <feature name="Software Engineering für Software im Automobil"/>
+                    <feature name="Verifikation reaktiver Systeme"/>
+                </and>
+                <and abstract="true" name="Software Engineering">
+                    <feature name="Softwarearchitektur"/>
+                    <feature name="Modellbasierte Softwareentwicklung"/>
+                    <feature name="Softwareproduktlinien: Konzepte und Implementierung"/>
+                    <feature name="Softwarequalität I"/>
+                    <feature name="Softwarequalität II"/>
+                    <feature name="Softwaretechnik, vertiefendes Praktikum"/>
+                    <feature name="Fahrzeuginformatik"/>
+                    <feature name="Praktikum Fahrzeuginformatik"/>
+                    <feature name="Software in sicherheitsrelevanten Systemen"/>
+                    <feature name="Industrielles Software-Entwicklungsmanagement"/>
+                    <feature name="Summercamp Planspiel Automotive Design"/>
+                    <feature name="Compiler I"/>
+                    <feature name="Compiler II"/>
+                    <feature name="Compilerbaupraktikum"/>
+                    <feature name="Generative Softwareentwicklung"/>
+                    <feature name="Prozesse und Methoden beim Testen von Software"/>
+                </and>
+                <and abstract="true" name="IT-Sicherheit">
+                    <feature name="Fortgeschrittene IT-Sicherheit"/>
+                    <feature name="Maschinelles Lernen in der IT-Sicherheit"/>
+                    <feature name="Praktikum Intelligente Systemsicherheit"/>
+                    <feature name="Praktikum IT-Sicherheit"/>
+                </and>
+                <and abstract="true" name="Theoretische Informatik">
+                    <feature name="Programmanalyse"/>
+                    <feature name="Algorithmische Automatentheorie"/>
+                    <feature name="Komplexitätstheorie"/>
+                    <feature name="Spiele mit perfekter Information"/>
+                    <feature name="Nebenläufigkeitstheorie"/>
+                    <feature name="Algebraische Automatentheorie"/>
+                    <feature name="Praktikum Programmanalyse"/>
+                    <feature name="Fehlerkorrigierende Codes I"/>
+                    <feature name="Fehlerkorrigierende Codes II"/>
+                    <feature name="Kryptologie I"/>
+                    <feature name="Kryptologie II"/>
+                    <feature name="Kryptologie III"/>
+                    <feature name="Komplexität von Algorithmen"/>
+                    <feature name="Logik in der Informatik"/>
+                    <feature name="Semantik von Programmiersprachen"/>
+                    <feature name="Algebra des Programmierens"/>
+                    <feature name="Grundlagen der Verifikation"/>
+                    <feature name="Fundamente des Software Engineering"/>
+                </and>
+                <and abstract="true" name="Verteilte_Systeme">
+                    <feature name="Betriebssystemsicherheit"/>
+                    <feature name="Verteilte fehlertolerante Systeme"/>
+                    <feature name="Praktikum Betriebssysteme"/>
+                    <feature name="Praktikum Cloud Computing"/>
+                    <feature name="Webbasierte Systeme"/>
+                    <feature name="Verteilte Systeme"/>
+                    <feature name="Cloud Computing"/>
+                    <feature name="Praktikum Betriebssystementwicklung"/>
+                </and>
+                <and abstract="true" name="Medizinische Informatik">
+                    <feature name="Assistierende Gesundheitstechnologien A"/>
+                    <feature name="Assistierende Gesundheitstechnologien B"/>
+                    <feature name="Ausgewählte Themen der Medizinischen Informationssysteme"/>
+                    <feature name="Ausgewählte Themen der Repräsentation und Analyse medizinischer Daten"/>
+                    <feature name="Ausgewählte Themen der Virtuellen Medizin"/>
+                    <feature name="Biomedizinische Bild- und Signalerzeugung"/>
+                    <feature name="Biomedizinische Signal- und Bildanalyse"/>
+                    <feature name="Medizinische Informationssysteme B"/>
+                    <feature name="Repräsentation und Analyse medizinischer Daten"/>
+                    <feature name="Ringvorlesung der Medizinischen Informatik"/>
+                    <feature name="Unfallinformatik"/>
+                    <feature name="Virtuelle Medizin"/>
+                </and>
+                <and abstract="true" name="Robotik">
+                    <feature name="Robotik I"/>
+                    <feature name="Robotik II"/>
+                    <feature name="Robotik-Praktikum"/>
+                    <feature name="Embedded Intelligence"/>
+                    <feature name="Prozessinformatik"/>
+                    <feature name="Roboterlernen"/>
+                    <feature name="Roboterhände und Greifen"/>
+                    <feature name="Medizinrobotik"/>
+                    <feature name="Robot Control and Optimization"/>
+                </and>
+            </and>
+            <and abstract="true" name="Branch of Study">
+                <feature name="Studienrichtung ITSicherheit"/>
+            </and>
+            <and abstract="true" name="GeneratedVariables">
+                <and abstract="true" name="Selective">
+                    <description>
+Groups variables generated with encoding Selective
+</description>
+                    <feature abstract="true" name="S0_R_0_0"/>
+                    <feature abstract="true" name="S0_R_0_1"/>
+                    <feature abstract="true" name="S0_R_1_0"/>
+                    <feature abstract="true" name="S0_R_1_1"/>
+                    <feature abstract="true" name="S0_R_2_0"/>
+                    <feature abstract="true" name="S0_R_2_1"/>
+                    <feature abstract="true" name="S0_R_3_0"/>
+                    <feature abstract="true" name="S0_R_3_1"/>
+                    <feature abstract="true" name="S0_R_4_0"/>
+                    <feature abstract="true" name="S0_R_4_1"/>
+                </and>
+            </and>
+        </and>
+    </struct>
+    <constraints>
+        <rule>
+            <description>
+Pflichtkurse der Studienrichtung ITSicherheit
+</description>
+            <imp>
+                <var>Studienrichtung ITSicherheit</var>
+                <conj>
+                    <var>Seminar IT-Sicherheit</var>
+                    <var>Masterarbeit IT-Sicherheit</var>
+                </conj>
+            </imp>
+        </rule>
+        <rule>
+            <description>
+Wahlpflichtkurse der Studienrichtung ITSicherheit
+</description>
+            <imp>
+                <var>Studienrichtung ITSicherheit</var>
+                <disj>
+                    <conj>
+                        <var>Projektarbeit IT-Sicherheit</var>
+                        <disj>
+                            <var>Fortgeschrittene IT-Sicherheit</var>
+                            <var>S0_R_0_0</var>
+                        </disj>
+                        <disj>
+                            <var>Maschinelles Lernen in der IT-Sicherheit</var>
+                            <var>S0_R_1_0</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum IT-Sicherheit</var>
+                            <var>S0_R_2_0</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Intelligente Systemsicherheit</var>
+                            <var>S0_R_3_0</var>
+                        </disj>
+                        <disj>
+                            <var>Management von Informationssicherheit</var>
+                            <var>S0_R_4_0</var>
+                        </disj>
+                        <not>
+                            <var>S0_R_0_1</var>
+                        </not>
+                        <disj>
+                            <not>
+                                <var>S0_R_0_0</var>
+                            </not>
+                            <var>S0_R_1_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_0_1</var>
+                            </not>
+                            <var>S0_R_1_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_1_0</var>
+                            </not>
+                            <var>S0_R_2_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_1_1</var>
+                            </not>
+                            <var>S0_R_2_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_2_0</var>
+                            </not>
+                            <var>S0_R_3_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_2_1</var>
+                            </not>
+                            <var>S0_R_3_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_3_0</var>
+                            </not>
+                            <var>S0_R_4_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_3_1</var>
+                            </not>
+                            <var>S0_R_4_1</var>
+                        </disj>
+                        <disj>
+                            <var>Maschinelles Lernen in der IT-Sicherheit</var>
+                            <not>
+                                <var>S0_R_0_0</var>
+                            </not>
+                            <var>S0_R_1_1</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum IT-Sicherheit</var>
+                            <not>
+                                <var>S0_R_1_0</var>
+                            </not>
+                            <var>S0_R_2_1</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Intelligente Systemsicherheit</var>
+                            <not>
+                                <var>S0_R_2_0</var>
+                            </not>
+                            <var>S0_R_3_1</var>
+                        </disj>
+                        <disj>
+                            <var>Management von Informationssicherheit</var>
+                            <not>
+                                <var>S0_R_3_0</var>
+                            </not>
+                            <var>S0_R_4_1</var>
+                        </disj>
+                        <disj>
+                            <var>Maschinelles Lernen in der IT-Sicherheit</var>
+                            <not>
+                                <var>S0_R_0_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Praktikum IT-Sicherheit</var>
+                            <not>
+                                <var>S0_R_1_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Intelligente Systemsicherheit</var>
+                            <not>
+                                <var>S0_R_2_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Management von Informationssicherheit</var>
+                            <not>
+                                <var>S0_R_3_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Betriebssystemsicherheit</var>
+                            <not>
+                                <var>S0_R_4_1</var>
+                            </not>
+                        </disj>
+                    </conj>
+                </disj>
+            </imp>
+        </rule>
+    </constraints>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>

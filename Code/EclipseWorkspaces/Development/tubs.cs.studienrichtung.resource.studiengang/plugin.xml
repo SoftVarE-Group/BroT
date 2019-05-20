@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension point="org.emftext.access.syntax">
+		<metaInformationProvider class="tubs.cs.studienrichtung.resource.studiengang.mopp.StudiengangMetaInformation" id="tubs.cs.studienrichtung.resource.studiengang.mopp.StudiengangMetaInformation">
+		</metaInformationProvider>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.problem" name="EMFText Problem" point="org.eclipse.core.resources.markers">
+		<persistent value="true">
+		</persistent>
+		<super type="org.eclipse.core.resources.problemmarker">
+		</super>
+		<super type="org.eclipse.core.resources.textmarker">
+		</super>
+		<super type="org.eclipse.emf.ecore.diagnostic">
+		</super>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.problem.syntax_error" name="EMFText Problem" point="org.eclipse.core.resources.markers">
+		<persistent value="true">
+		</persistent>
+		<super type="tubs.cs.studienrichtung.resource.studiengang.problem">
+		</super>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.problem.print_problem" name="EMFText Problem" point="org.eclipse.core.resources.markers">
+		<persistent value="true">
+		</persistent>
+		<super type="tubs.cs.studienrichtung.resource.studiengang.problem">
+		</super>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.problem.unresolved_reference" name="EMFText Problem" point="org.eclipse.core.resources.markers">
+		<persistent value="true">
+		</persistent>
+		<super type="tubs.cs.studienrichtung.resource.studiengang.problem">
+		</super>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.problem.analysis_problem" name="EMFText Problem" point="org.eclipse.core.resources.markers">
+		<persistent value="true">
+		</persistent>
+		<super type="tubs.cs.studienrichtung.resource.studiengang.problem">
+		</super>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.problem.batch_constraint_problem" name="EMFText Problem" point="org.eclipse.core.resources.markers">
+		<persistent value="true">
+		</persistent>
+		<super type="tubs.cs.studienrichtung.resource.studiengang.problem">
+		</super>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.problem.live_constraint_problem" name="EMFText Problem" point="org.eclipse.core.resources.markers">
+		<persistent value="true">
+		</persistent>
+		<super type="tubs.cs.studienrichtung.resource.studiengang.problem">
+		</super>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.problem.builder_error" name="EMFText Problem" point="org.eclipse.core.resources.markers">
+		<persistent value="true">
+		</persistent>
+		<super type="tubs.cs.studienrichtung.resource.studiengang.problem">
+		</super>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.nature" name="studiengang nature" point="org.eclipse.core.resources.natures">
+		<runtime>
+			<run class="tubs.cs.studienrichtung.resource.studiengang.mopp.StudiengangNature">
+			</run>
+		</runtime>
+		<builder id="tubs.cs.studienrichtung.resource.studiengang.builder">
+		</builder>
+	</extension>
+	
+	<extension point="org.eclipse.core.resources.builders" id="tubs.cs.studienrichtung.resource.studiengang.builder" name="studiengang Builder">
+		<builder hasNature="true">
+			<run class="tubs.cs.studienrichtung.resource.studiengang.mopp.StudiengangBuilderAdapter">
+			</run>
+		</builder>
+	</extension>
+	
+	<extension-point id="tubs.cs.studienrichtung.resource.studiengang.default_load_options" name="Default Load Options" schema="schema/default_load_options.exsd">
+	</extension-point>
+	
+	<extension point="org.eclipse.emf.ecore.extension_parser">
+		<parser class="tubs.cs.studienrichtung.resource.studiengang.mopp.StudiengangResourceFactoryDelegator" type="studiengang">
+		</parser>
+	</extension>
+	
+	<extension-point id="tubs.cs.studienrichtung.resource.studiengang.additional_extension_parser" name="Additional Extension Parser" schema="schema/additional_extension_parser.exsd">
+	</extension-point>
+	
+	<extension point="org.eclipse.debug.core.breakpoints">
+		<breakpoint class="tubs.cs.studienrichtung.resource.studiengang.debug.StudiengangLineBreakpoint" id="tubs.cs.studienrichtung.resource.studiengang.debug.breakpoint" markerType="tubs.cs.studienrichtung.resource.studiengang.debug.lineBreakpoint.marker" name="studiengang Breakpoint">
+		</breakpoint>
+	</extension>
+	
+	<extension id="tubs.cs.studienrichtung.resource.studiengang.debug.lineBreakpoint.marker" point="org.eclipse.core.resources.markers">
+		<super type="org.eclipse.debug.core.lineBreakpointMarker">
+		</super>
+		<super type="org.eclipse.core.resources.textmarker">
+		</super>
+		<persistent value="true">
+		</persistent>
+	</extension>
+	
+	<extension point="org.eclipse.debug.core.launchConfigurationTypes">
+		<launchConfigurationType id="tubs.cs.studienrichtung.resource.studiengang.ui.launchConfigurationType" delegate="tubs.cs.studienrichtung.resource.studiengang.launch.StudiengangLaunchConfigurationDelegate" modes="run,debug" name="studiengang Application" sourceLocatorId="tubs.cs.studienrichtung.resource.studiengang.ui.sourceLocator" sourcePathComputerId="tubs.cs.studienrichtung.resource.studiengang.ui.sourcePathComputer" delegateName="studiengang Launch Tooling" delegateDescription="This will run or debug .studiengang files.">
+		</launchConfigurationType>
+	</extension>
+	
+	<extension point="org.eclipse.debug.core.sourcePathComputers">
+		<sourcePathComputer class="tubs.cs.studienrichtung.resource.studiengang.debug.StudiengangSourcePathComputerDelegate" id="tubs.cs.studienrichtung.resource.studiengang.ui.sourcePathComputer">
+		</sourcePathComputer>
+	</extension>
+	
+	<extension point="org.eclipse.debug.core.sourceLocators">
+		<sourceLocator id="tubs.cs.studienrichtung.resource.studiengang.ui.sourceLocator" class="tubs.cs.studienrichtung.resource.studiengang.debug.StudiengangSourceLocator" name="studiengang Source Locator">
+		</sourceLocator>
+	</extension>
+	
+</plugin>

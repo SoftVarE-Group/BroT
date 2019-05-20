@@ -1,0 +1,246 @@
+Studiengang "Informatik"
+	Studienrichtung "Studienrichtung Visual Computing" 
+		Pflicht 
+			"Seminar Computergraphik"
+			"Projektarbeit Computergraphik"
+			"Masterarbeit Computergraphik"
+		
+		Wahlpflicht 20 CP // 15
+			"Grundlagen Maschinelles Lernen"
+			"Mensch-Maschine-Interaktion"
+			"Advanced Human Computer Interaction"
+			"Paralleles Rechnen I"
+			"Visualisierung wissenschaftlicher Daten"
+			"Bildkommunikation"
+			"Mustererkennung"
+			"Deep Learning Lab"
+			
+		// Es ist Pflicht hier genau ein Fach zu waehlen. Die uebrigen sind dann Teil des Wahlpflichtpools.
+			"Echtzeit-Computergraphik"
+			"Bildbasierte Modellierung"
+			"Physikbasierte Modellierung und Simulation"
+		
+		Wahlpflicht 5 CP
+			"Echtzeit-Computergraphik"
+			"Bildbasierte Modellierung"
+			"Physikbasierte Modellierung und Simulation"
+    
+    // Equal for every branch
+	Bereich "Masterarbeit" [1; 1] {
+		"Masterarbeit Algorithmik" 30 CP
+		"Masterarbeit Computergraphik" 30 CP
+        "Masterarbeit Connected and Mobile Systems" 30 CP
+        "Masterarbeit Entwurf Integrierter Systeme" 30 CP
+		"Masterarbeit Formale Methoden" 30 CP
+        "Masterarbeit Informationssysteme" 30 CP
+		"Masterarbeit Verteilte Systeme" 30 CP
+        "Masterarbeit IT-Sicherheit" 30 CP
+        "Masterarbeit Nachrichtentechnik" 30 CP
+        "Masterarbeit Rechnerstrukturen und Eingebettete Systeme" 30 CP
+        "Masterarbeit Robotik" 30 CP
+        "Masterarbeit Software Engineering" 30 CP
+        "Masterarbeit Theoretische Informatik" 30 CP
+        "Masterarbeit Kommunikation und Multimedia" 30 CP
+        
+        // Gibt es die?
+		"Masterarbeit Medizinische Informatik" 30 CP
+    }
+	Bereich "Projektarbeit" [0; 1] {
+		"Projektarbeit Algorithmik" 15 CP
+		"Projektarbeit Computergraphik" 15 CP
+        "Projektarbeit Connected and Mobile Systems" 15 CP
+        "Projektarbeit Entwurf Integrierter Systeme" 15 CP
+		"Projektarbeit Formale Methoden" 15 CP
+        "Projektarbeit Informationssysteme" 15 CP
+		"Projektarbeit Verteilte Systeme" 15 CP
+        "Projektarbeit IT-Sicherheit" 15 CP
+        "Projektarbeit Nachrichtentechnik" 15 CP
+        "Projektarbeit Rechnerstrukturen und Eingebettete Systeme" 15 CP
+        "Projektarbeit Robotik" 15 CP
+        "Projektarbeit Software Engineering" 15 CP
+        "Projektarbeit Theoretische Informatik" 15 CP
+        "Projektarbeit Medizinische Informatik" 15 CP
+        "Projektarbeit Kommunikation und Multimedia" 15 CP
+	}
+    Bereich "Seminar" [1; 1] {
+		"Seminar Algorithmik" 5 CP
+		"Seminar Computergraphik" 5 CP
+		"Seminar Connected and Mobile Systems" 5 CP
+		"Seminar Entwurf Integrierter Systeme" 5 CP
+		"Seminar Formale Methoden" 5 CP
+		"Seminar Informationssysteme" 5 CP
+		"Seminar Verteilte Systeme" 5 CP
+		"Seminar IT-Sicherheit" 5 CP
+		"Seminar Nachrichtentechnik" 5 CP
+		"Seminar Rechnerstrukturen und Eingebettete Systeme" 5 CP
+		"Seminar Robotik" 5 CP
+		"Seminar Software Engineering" 5 CP
+		"Seminar Theoretische Informatik" 5 CP
+		"Seminar Medizinische Informatik" 5 CP
+        "Seminar Kommunikation und Multimedia" 5 CP
+	}
+	Bereich "Wahlpflicht Informatik" {
+		Bereich "Algorithmik" {
+			"Algorithmische Geometrie" 5 CP
+			"Mathematische Methoden der Algorithmik" 5 CP
+			"Praktikum Algorithmik" 5 CP
+			"Algorithm Engineering" 5 CP
+			"Approximationsalgorithmen" 5 CP
+			"Online-Algorithmen" 5 CP
+			"Verteilte Algorithmen" 5 CP
+		}
+		// gruppiert mit Bereich "Bildverarbeitung"
+		Bereich "Computergraphik" {
+			"Echtzeit-Computergraphik" 5 CP
+            "Bildbasierte Modellierung" 5 CP
+            "Physikbasierte Modellierung und Simulation" 5 CP
+            "Grundlagen Maschinelles Lernen" 5 CP
+            "Paralleles Rechnen I" 5 CP
+            "Visualisierung wissenschaftlicher Daten" 5 CP
+            "Bildkommunikation" 6 CP
+			
+			"Digitale Bildverarbeitung" 5 CP
+			"Dreidimensionales Computersehen" 5 CP
+			"Bildverarbeitung-Praktikum" 5 CP
+			"Computergraphik Praktikum" 5 CP
+		}
+		Bereich "Connected and Mobile Systems" {
+        	"Advanced Human Computer Interaction" 5 CP
+        	"Advanced Networking I" 5 CP
+            "Advanced Networking II" 5 CP
+            "Management von Informationssicherheit" 5 CP
+            "Mensch-Maschine-Interaktion" 5 CP
+            "Mobilkommunikation" 5 CP
+           	"Recent Topics in Computer Networking" 5 CP
+			"Computernetze II" 5 CP
+			"Mobile Computing Lab" 5 CP
+			"Praktikum Computernetze" 5 CP
+			"Praktikum Computernetze Administration" 5 CP
+			"Wireless Networking Lab" 5 CP
+			
+			// Listed as "Kommunikation and Multimedia
+			"Machine Learning for Pervasive Computing" 5 CP
+		}
+		Bereich "Entwurf Integrierter Systeme" {
+            "Chip- und System-Entwurf I" 10 CP
+            "Chip- und System-Entwurf II" 5 CP
+            "VLSI-Design II" 5 CP
+            "Praktikum VLSI-Design II" 5 CP
+        }
+        Bereich "Informationssysteme" {
+            "Ausgewählte Themen der Informationssysteme" 5 CP
+            "Data Warehousing & Data-Mining-Techniken" 5 CP
+            "Datenbank-Projektgruppe - Projektgruppe Integritätsbedingungen" 5 CP
+            "Digitale Bibliotheken" 5 CP
+            "Distributed Data Management" 5 CP
+            "Information Retrieval & Web Search" 5 CP
+            "Multimedia-Datenbanken" 5 CP
+            "Relationale Datenbanksysteme II" 5 CP
+            "Spatial Databases und Geo-Informationssysteme" 5 CP
+            "Wissensbasierte Systeme und deduktive Datenbanksysteme" 5 CP
+        }
+        Bereich "Nachrichtentechnik" {
+            "Mustererkennung" 5 CP
+            "Sprachdialogsysteme Spoken Language Processing" 5 CP
+            "Deep Learning Lab" 5 CP
+			"Digitale Signalverarbeitung" 8 CP // boese
+        }
+        Bereich "Rechnerstrukturen und Eingebettete Systeme" {
+            "Raumfahrtelektronik II" 5 CP
+            "Entwurf fehlertoleranter Systeme" 5 CP
+            "Rechnerstrukturen II" 6 CP
+            "Advanced Computer Architecture" 5 CP
+            "Rechnersystembusse" 5 CP
+        }
+        Bereich "Programmierung und Reaktive Systeme" {
+        	"Praktikum Reaktive Systeme" 5 CP
+            "Prozessalgebra" 5 CP
+            "Reaktive Systeme" 5 CP
+            "Software Engineering für Software im Automobil" 5 CP
+        	"Verifikation reaktiver Systeme" 5 CP
+        }
+        Bereich "Software Engineering" {
+            "Softwarearchitektur" 5 CP
+            "Modellbasierte Softwareentwicklung" 5 CP
+            "Softwareproduktlinien: Konzepte und Implementierung" 5 CP
+            "Softwarequalität I" 5 CP
+            "Softwarequalität II" 5 CP
+            "Softwaretechnik, vertiefendes Praktikum" 5 CP
+            "Fahrzeuginformatik" 5 CP
+            "Praktikum Fahrzeuginformatik" 5 CP
+            "Software in sicherheitsrelevanten Systemen" 5 CP
+            "Industrielles Software-Entwicklungsmanagement" 5 CP
+            "Summercamp Planspiel Automotive Design" 5 CP
+			"Compiler I" 5 CP
+			"Compiler II" 5 CP
+			"Compilerbaupraktikum" 5 CP
+			
+            "Generative Softwareentwicklung" 5 CP
+            "Prozesse und Methoden beim Testen von Software" 5 CP
+        }
+        Bereich "IT-Sicherheit" {
+            "Fortgeschrittene IT-Sicherheit" 5 CP
+            "Maschinelles Lernen in der IT-Sicherheit" 5 CP
+            "Praktikum Intelligente Systemsicherheit" 5 CP
+            "Praktikum IT-Sicherheit" 5 CP
+        }
+        Bereich "Theoretische Informatik" {
+            "Programmanalyse" 5 CP
+			"Algorithmische Automatentheorie" 10 CP
+			"Komplexitätstheorie" 10 CP
+			"Spiele mit perfekter Information" 5 CP
+			"Nebenläufigkeitstheorie" 10 CP
+			"Algebraische Automatentheorie" 10 CP
+			"Praktikum Programmanalyse" 5 CP
+			
+			// outdated
+			"Fehlerkorrigierende Codes I" 10 CP
+			"Fehlerkorrigierende Codes II" 10 CP
+			"Kryptologie I" 10 CP
+			"Kryptologie II" 10 CP
+			"Kryptologie III" 5 CP
+			
+			"Komplexität von Algorithmen" 10 CP
+			"Logik in der Informatik" 5 CP
+			"Semantik von Programmiersprachen" 10 CP
+			"Algebra des Programmierens" 10 CP
+			
+			"Grundlagen der Verifikation" 10 CP
+			"Fundamente des Software Engineering" 5 CP
+        }
+        Bereich "Verteilte_Systeme" {
+            "Betriebssystemsicherheit" 5 CP
+			"Verteilte fehlertolerante Systeme" 5 CP
+			"Praktikum Betriebssysteme" 5 CP
+			"Praktikum Cloud Computing" 5 CP
+			"Webbasierte Systeme" 5 CP
+			"Verteilte Systeme" 5 CP
+			"Cloud Computing" 5 CP
+			"Praktikum Betriebssystementwicklung" 5 CP
+        }
+        Bereich "Medizinische Informatik" {
+			"Assistierende Gesundheitstechnologien A" 6 CP
+			"Assistierende Gesundheitstechnologien B" 5 CP
+			"Ausgewählte Themen der Medizinischen Informationssysteme" 5 CP
+			"Ausgewählte Themen der Repräsentation und Analyse medizinischer Daten" 5 CP
+			"Ausgewählte Themen der Virtuellen Medizin" 5 CP
+			"Biomedizinische Bild- und Signalerzeugung" 5 CP
+			"Biomedizinische Signal- und Bildanalyse" 5 CP
+			"Medizinische Informationssysteme B" 5 CP
+			"Repräsentation und Analyse medizinischer Daten" 5 CP
+			"Ringvorlesung der Medizinischen Informatik" 5 CP
+			"Unfallinformatik" 5 CP
+			"Virtuelle Medizin" 5 CP
+        }
+        Bereich "Robotik" {
+			"Robotik I" 5 CP
+			"Robotik II" 5 CP
+			"Robotik-Praktikum" 5 CP
+            "Embedded Intelligence" 5 CP
+            "Prozessinformatik" 5 CP
+            "Roboterlernen" 5 CP
+			"Roboterhände und Greifen" 5 CP
+			"Medizinrobotik" 5 CP
+			"Robot Control and Optimization" 5 CP
+        }
+	}

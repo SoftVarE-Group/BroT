@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>tubs.cs.branches_of_study</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>tubs.cs.studienrichtung.resource.studiengang.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>tubs.cs.studienrichtung.resource.studiengang.nature</nature>
+	</natures>
+</projectDescription>

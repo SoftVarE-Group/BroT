@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EMFText Parser Plugin: studiengang
+Bundle-SymbolicName: tubs.cs.studienrichtung.resource.studiengang;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: Software Technology Group - TU Dresden Germany
+Require-Bundle: org.eclipse.core.runtime;resolution:=optional,
+ org.eclipse.core.resources;resolution:=optional,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.ecore.change,
+ org.eclipse.emf.validation;resolution:=optional,
+ org.emftext.access;resolution:=optional,
+ org.eclipse.debug.core;resolution:=optional,
+ org.emftext.commons.antlr3_4_0,
+ tubs.cs.studienrichtung,
+ org.eclipse.ui;bundle-version="3.110.0",
+ org.eclipse.ui.console;bundle-version="3.8.100"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: tubs.cs.studienrichtung.resource.studiengang,
+  tubs.cs.studienrichtung.resource.studiengang.analysis,
+  tubs.cs.studienrichtung.resource.studiengang.mopp,
+  tubs.cs.studienrichtung.resource.studiengang.debug,
+  tubs.cs.studienrichtung.resource.studiengang.launch,
+  tubs.cs.studienrichtung.resource.studiengang.grammar,
+  tubs.cs.studienrichtung.resource.studiengang.util
+Bundle-Activator: tubs.cs.studienrichtung.resource.studiengang.mopp.StudiengangPlugin

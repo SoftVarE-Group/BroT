@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="Field Computer Science">
+            <alt abstract="true" mandatory="true" name="Master Thesis">
+                <feature name="Master Thesis Algorithmics"/>
+                <feature name="Master Thesis Computer Graphics"/>
+                <feature name="Master Thesis Connected and Mobile Systems"/>
+                <feature name="Master Thesis Design of Integrated Systems"/>
+                <feature name="Master Thesis Formal Methods"/>
+                <feature name="Master Thesis Information Systems"/>
+                <feature name="Master Thesis Distributed Systems"/>
+                <feature name="Master Thesis IT Security"/>
+                <feature name="Master Thesis Communication Engineering"/>
+                <feature name="Master Thesis Computer Architecture and Embedded Devices"/>
+                <feature name="Master Thesis Robotics"/>
+                <feature name="Master Thesis Software Engineering"/>
+                <feature name="Master Thesis Theoretical Informatics"/>
+                <feature name="Master Thesis Communication and Multimedia"/>
+                <feature name="Master Thesis Medizinische Informatik"/>
+            </alt>
+            <alt abstract="true" name="Project Thesis">
+                <feature name="Project Thesis Algorithmics"/>
+                <feature name="Project Thesis Computer Graphics"/>
+                <feature name="Project Thesis Connected and Mobile Systems"/>
+                <feature name="Project Thesis Design of Integrated Systems"/>
+                <feature name="Project Thesis Formal Methods"/>
+                <feature name="Project Thesis Information Systems"/>
+                <feature name="Project Thesis Distributed Systems"/>
+                <feature name="Project Thesis IT Security"/>
+                <feature name="Project Thesis Communication Engineering"/>
+                <feature name="Project Thesis Computer Architecture and Embedded Devices"/>
+                <feature name="Project Thesis Robotics"/>
+                <feature name="Project Thesis Software Engineering"/>
+                <feature name="Project Thesis Theoretical Computer Science"/>
+                <feature name="Project Thesis Medical Informatics"/>
+                <feature name="Project Thesis Communication and Multimedia"/>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Seminar">
+                <feature name="Seminar Algorithmics"/>
+                <feature name="Seminar Computer Graphics"/>
+                <feature name="Seminar Connected and Mobile Systems"/>
+                <feature name="Seminar Design of Integrated Systems"/>
+                <feature name="Seminar Formal Methods"/>
+                <feature name="Seminar Information Systems"/>
+                <feature name="Seminar Distributed Systems"/>
+                <feature name="Seminar IT Security"/>
+                <feature name="Seminar Communication Engineering"/>
+                <feature name="Seminar Computer Architecture and Embedded Devices"/>
+                <feature name="Seminar Robotics"/>
+                <feature name="Seminar Software Engineering"/>
+                <feature name="Seminar Theoretical Informatics"/>
+                <feature name="Seminar Medizinische Informatik"/>
+                <feature name="Seminar Communication and Multimedia"/>
+            </alt>
+            <and abstract="true" name="Subjects">
+                <and abstract="true" name="Algorithmics">
+                    <feature name="Algorithmische Geometrie"/>
+                    <feature name="Mathematische Methoden der Algorithmics"/>
+                    <feature name="Praktikum Algorithmics"/>
+                    <feature name="Algorithm Engineering"/>
+                    <feature name="Approximationsalgorithmen"/>
+                    <feature name="Online-Algorithmen"/>
+                    <feature name="Verteilte Algorithmen"/>
+                </and>
+                <and abstract="true" name="Computer Graphics">
+                    <feature name="Echtzeit-Computer Graphics"/>
+                    <feature name="Bildbasierte Modellierung"/>
+                    <feature name="Physikbasierte Modellierung und Simulation"/>
+                    <feature name="Grundlagen Maschinelles Lernen"/>
+                    <feature name="Paralleles Rechnen I"/>
+                    <feature name="Visualisierung wissenschaftlicher Daten"/>
+                    <feature name="Bildkommunikation"/>
+                    <feature name="Digitale Bildverarbeitung"/>
+                    <feature name="Dreidimensionales Computersehen"/>
+                    <feature name="Bildverarbeitung-Praktikum"/>
+                    <feature name="Computer Graphics Praktikum"/>
+                </and>
+                <and abstract="true" name="Connected and Mobile Systems">
+                    <feature name="Advanced Human Computer Interaction"/>
+                    <feature name="Advanced Networking I"/>
+                    <feature name="Advanced Networking II"/>
+                    <feature name="Management von Informationssicherheit"/>
+                    <feature name="Mensch-Maschine-Interaktion"/>
+                    <feature name="Mobilkommunikation"/>
+                    <feature name="Recent Topics in Computer Networking"/>
+                    <feature name="Computernetze II"/>
+                    <feature name="Mobile Computing Lab"/>
+                    <feature name="Praktikum Computernetze"/>
+                    <feature name="Praktikum Computernetze Administration"/>
+                    <feature name="Wireless Networking Lab"/>
+                    <feature name="Machine Learning for Pervasive Computing"/>
+                </and>
+                <and abstract="true" name="Design of Integrated Systems">
+                    <feature name="Chip- und System-Entwurf I"/>
+                    <feature name="Chip- und System-Entwurf II"/>
+                    <feature name="VLSI-Design II"/>
+                    <feature name="Praktikum VLSI-Design II"/>
+                </and>
+                <and abstract="true" name="Information Systems">
+                    <feature name="Ausgewählte Themen der Information Systems"/>
+                    <feature name="Data Warehousing &amp; Data-Mining-Techniken"/>
+                    <feature name="Datenbank-Projektgruppe - Projektgruppe Integritätsbedingungen"/>
+                    <feature name="Digitale Bibliotheken"/>
+                    <feature name="Distributed Data Management"/>
+                    <feature name="Information Retrieval &amp; Web Search"/>
+                    <feature name="Multimedia-Datenbanken"/>
+                    <feature name="Relationale Datenbanksysteme II"/>
+                    <feature name="Spatial Databases und Geo-Information Systems"/>
+                    <feature name="Wissensbasierte Systeme und deduktive Datenbanksysteme"/>
+                </and>
+                <and abstract="true" name="Communication Engineering">
+                    <feature name="Mustererkennung"/>
+                    <feature name="Sprachdialogsysteme Spoken Language Processing"/>
+                    <feature name="Deep Learning Lab"/>
+                    <feature name="Digitale Signalverarbeitung"/>
+                </and>
+                <and abstract="true" name="Computer Architecture and Embedded Devices">
+                    <feature name="Raumfahrtelektronik II"/>
+                    <feature name="Entwurf fehlertoleranter Systeme"/>
+                    <feature name="Rechnerstrukturen II"/>
+                    <feature name="Advanced Computer Architecture"/>
+                    <feature name="Rechnersystembusse"/>
+                </and>
+                <and abstract="true" name="Programming and Reactive Systems">
+                    <feature name="Praktikum Reaktive Systeme"/>
+                    <feature name="Prozessalgebra"/>
+                    <feature name="Reaktive Systeme"/>
+                    <feature name="Software Engineering für Software im Automobil"/>
+                    <feature name="Verifikation reaktiver Systeme"/>
+                </and>
+                <and abstract="true" name="Software Engineering">
+                    <feature name="Softwarearchitektur"/>
+                    <feature name="Modellbasierte Softwareentwicklung"/>
+                    <feature name="Softwareproduktlinien: Konzepte und Implementierung"/>
+                    <feature name="Softwarequalität I"/>
+                    <feature name="Softwarequalität II"/>
+                    <feature name="Softwaretechnik, vertiefendes Praktikum"/>
+                    <feature name="Fahrzeuginformatik"/>
+                    <feature name="Praktikum Fahrzeuginformatik"/>
+                    <feature name="Software in sicherheitsrelevanten Systemen"/>
+                    <feature name="Industrielles Software-Entwicklungsmanagement"/>
+                    <feature name="Summercamp Planspiel Automotive Design"/>
+                    <feature name="Compiler I"/>
+                    <feature name="Compiler II"/>
+                    <feature name="Compilerbaupraktikum"/>
+                    <feature name="Generative Softwareentwicklung"/>
+                    <feature name="Prozesse und Methoden beim Testen von Software"/>
+                </and>
+                <and abstract="true" name="IT Security">
+                    <feature name="Fortgeschrittene IT Security"/>
+                    <feature name="Maschinelles Lernen in der IT Security"/>
+                    <feature name="Praktikum Intelligente Systemsicherheit"/>
+                    <feature name="Praktikum IT Security"/>
+                </and>
+                <and abstract="true" name="Theoretical Informatics">
+                    <feature name="Programmanalyse"/>
+                    <feature name="Algorithmische Automatentheorie"/>
+                    <feature name="Komplexitätstheorie"/>
+                    <feature name="Spiele mit perfekter Information"/>
+                    <feature name="Nebenläufigkeitstheorie"/>
+                    <feature name="Algebraische Automatentheorie"/>
+                    <feature name="Praktikum Programmanalyse"/>
+                    <feature name="Fehlerkorrigierende Codes I"/>
+                    <feature name="Fehlerkorrigierende Codes II"/>
+                    <feature name="Kryptologie I"/>
+                    <feature name="Kryptologie II"/>
+                    <feature name="Kryptologie III"/>
+                    <feature name="Komplexität von Algorithmen"/>
+                    <feature name="Logik in der Informatik"/>
+                    <feature name="Semantik von Programmiersprachen"/>
+                    <feature name="Algebra des Programmierens"/>
+                    <feature name="Grundlagen der Verifikation"/>
+                    <feature name="Fundamente des Software Engineering"/>
+                </and>
+                <and abstract="true" name="Distributed Systems">
+                    <feature name="Betriebssystemsicherheit"/>
+                    <feature name="Verteilte fehlertolerante Systeme"/>
+                    <feature name="Praktikum Betriebssysteme"/>
+                    <feature name="Praktikum Cloud Computing"/>
+                    <feature name="Webbasierte Systeme"/>
+                    <feature name="Cloud Computing"/>
+                    <feature name="Praktikum Betriebssystementwicklung"/>
+                </and>
+                <and abstract="true" name="Medical Informatics">
+                    <feature name="Assistierende Gesundheitstechnologien A"/>
+                    <feature name="Assistierende Gesundheitstechnologien B"/>
+                    <feature name="Ausgewählte Themen der Medizinischen Information Systems"/>
+                    <feature name="Ausgewählte Themen der Repräsentation und Analyse medizinischer Daten"/>
+                    <feature name="Ausgewählte Themen der Virtuellen Medizin"/>
+                    <feature name="Biomedizinische Bild- und Signalerzeugung"/>
+                    <feature name="Biomedizinische Signal- und Bildanalyse"/>
+                    <feature name="Medizinische Information Systems B"/>
+                    <feature name="Repräsentation und Analyse medizinischer Daten"/>
+                    <feature name="Ringvorlesung der Medizinischen Informatik"/>
+                    <feature name="Unfallinformatik"/>
+                    <feature name="Virtuelle Medizin"/>
+                </and>
+                <and abstract="true" name="Robotics">
+                    <feature name="Robotics I"/>
+                    <feature name="Robotics II"/>
+                    <feature name="Robotics-Praktikum"/>
+                    <feature name="Embedded Intelligence"/>
+                    <feature name="Prozessinformatik"/>
+                    <feature name="Roboterlernen"/>
+                    <feature name="Roboterhände und Greifen"/>
+                    <feature name="MedizinRobotics"/>
+                    <feature name="Robot Control and Optimization"/>
+                </and>
+            </and>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>

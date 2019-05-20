@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension point="org.emftext.access.syntax.ui">
+		<metaInformationProvider class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangUIMetaInformation" id="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangUIMetaInformation">
+		</metaInformationProvider>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors">
+		<editor class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangEditor" contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor" extensions="studiengang" icon="icons/editor_icon.gif" id="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangEditor" name="EMFText studiengang Editor">
+			<contentTypeBinding contentTypeId="tubs.cs.studienrichtung.resource.studiengang">
+			</contentTypeBinding>
+		</editor>
+	</extension>
+	
+	<extension point="org.eclipse.core.runtime.preferences">
+		<initializer class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangPreferenceInitializer">
+		</initializer>
+	</extension>
+	
+	<extension point="org.eclipse.ui.preferencePages">
+		<page name="Studiengang Text Editor" id="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangPreferencePage" class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangPreferencePage" category="org.eclipse.ui.preferencePages.GeneralTextEditor">
+		</page>
+		<page name="Syntax Coloring" id="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangSyntaxColoringPreferencePage" class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangSyntaxColoringPreferencePage" category="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangPreferencePage">
+		</page>
+		<page name="Brackets" id="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangBracketPreferencePage" class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangBracketPreferencePage" category="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangPreferencePage">
+		</page>
+		<page name="Content Assist" id="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangContentAssistPreferencePage" class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangContentAssistPreferencePage" category="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangPreferencePage">
+		</page>
+	</extension>
+	
+	<extension point="org.eclipse.ui.newWizards">
+		<category id="org.emftext.runtime.ui.EMFTextFileCategory" name="EMFText File">
+		</category>
+		<wizard category="org.emftext.runtime.ui.EMFTextFileCategory" icon="/icons/default_new_icon.gif" class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangNewFileWizard" id="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangNewFileWizard" name="EMFText .studiengang file">
+		</wizard>
+		<category id="org.emftext.runtime.ui.EMFTextProjectCategory" name="EMFText Project">
+		</category>
+		<wizard category="org.emftext.runtime.ui.EMFTextProjectCategory" icon="/icons/default_new_icon.gif" class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangNewProjectWizard" id="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangNewProjectWizard" name="EMFText studiengang project" project="true">
+		</wizard>
+	</extension>
+	
+	<extension point="org.eclipse.ui.ide.markerResolution">
+		<markerResolutionGenerator class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangMarkerResolutionGenerator" markerType="tubs.cs.studienrichtung.resource.studiengang.problem">
+		</markerResolutionGenerator>
+	</extension>
+	
+	<extension point="org.eclipse.core.filebuffers.annotationModelCreation">
+		<factory class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangAnnotationModelFactory" extensions="studiengang">
+		</factory>
+	</extension>
+	
+	<extension point="org.eclipse.core.contenttype.contentTypes">
+		<content-type id="tubs.cs.studienrichtung.resource.studiengang" name=".studiengang File" base-type="org.eclipse.core.runtime.text" file-extensions="studiengang">
+		</content-type>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors.documentProviders">
+		<provider class="org.eclipse.ui.editors.text.TextFileDocumentProvider" extensions="studiengang" id="tubs.cs.studienrichtung.resource.studiengang.ui.provider">
+		</provider>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors.annotationTypes">
+		<type name="tubs.cs.studienrichtung.resource.studiengang.ui.occurences">
+		</type>
+		<type name="tubs.cs.studienrichtung.resource.studiengang.ui.occurences.declaration" super="tubs.cs.studienrichtung.resource.studiengang.ui.occurences">
+		</type>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors.markerAnnotationSpecification">
+		<specification annotationType="tubs.cs.studienrichtung.resource.studiengang.ui.occurences" label="Occurrences (in .studiengang files)" icon="/icons/occurrence_icon.gif" textPreferenceKey="studiengang.occurrenceIndication" textPreferenceValue="false" highlightPreferenceKey="studiengang.occurrenceHighlighting" highlightPreferenceValue="true" contributesToHeader="false" overviewRulerPreferenceKey="studiengang.occurrenceIndicationInOverviewRuler" overviewRulerPreferenceValue="true" verticalRulerPreferenceKey="studiengang.occurrenceIndicationInVerticalRuler" verticalRulerPreferenceValue="false" colorPreferenceKey="studiengang.occurrenceIndicationColor" colorPreferenceValue="212,212,212" presentationLayer="4" showInNextPrevDropdownToolbarActionKey="studiengang.showOccurrenceInNextPrevDropdownToolbarAction" showInNextPrevDropdownToolbarAction="true" isGoToNextNavigationTargetKey="studiengang.isOccurrenceGoToNextNavigationTarget" isGoToNextNavigationTarget="false" isGoToPreviousNavigationTargetKey="studiengang.isOccurrenceGoToPreviousNavigationTarget" isGoToPreviousNavigationTarget="false" textStylePreferenceKey="studiengang.occurrenceTextStyle" textStylePreferenceValue="NONE">
+		</specification>
+		<specification annotationType="tubs.cs.studienrichtung.resource.studiengang.ui.occurences.declaration" label="Declarations (in .studiengang files)" textPreferenceKey="studiengang.declarationIndication" textPreferenceValue="false" highlightPreferenceKey="studiengang.declarationHighlighting" highlightPreferenceValue="true" overviewRulerPreferenceKey="studiengang.declarationIndicationInOverviewRuler" overviewRulerPreferenceValue="true" verticalRulerPreferenceKey="studiengang.declarationIndicationInVerticalRuler" verticalRulerPreferenceValue="false" colorPreferenceKey="studiengang.declarationIndicationColor" colorPreferenceValue="240,216,168" presentationLayer="4" textStylePreferenceKey="studiengang.declarationTextStyle" textStylePreferenceValue="NONE">
+		</specification>
+	</extension>
+	
+	<extension point="org.eclipse.ui.commands">
+		<category description="All commands belonging to Studiengang" id="tubs.cs.studienrichtung.resource.studiengang.ui.command.category" name="Studiengang">
+		</category>
+		<command categoryId="tubs.cs.studienrichtung.resource.studiengang.ui.command.category" description="Toggle comment of the selected lines" id="tubs.cs.studienrichtung.resource.studiengang.ui.command.togglecomment" name="Toggle Comment">
+		</command>
+	</extension>
+	
+	<extension point="org.eclipse.ui.handlers">
+		<handler class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangToggleCommentHandler" commandId="tubs.cs.studienrichtung.resource.studiengang.ui.command.togglecomment">
+		</handler>
+	</extension>
+	
+	<extension point="org.eclipse.ui.contexts">
+		<context name="Editing Studiengang Files" description="Editing Studiengang Files Context" parentId="org.eclipse.ui.textEditorScope" id="tubs.cs.studienrichtung.resource.studiengang.EditorScope">
+		</context>
+	</extension>
+	
+	<extension point="org.eclipse.ui.bindings">
+		<key sequence="M1+7" commandId="tubs.cs.studienrichtung.resource.studiengang.ui.command.togglecomment" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" contextId="tubs.cs.studienrichtung.resource.studiengang.EditorScope">
+		</key>
+	</extension>
+	
+	<extension point="org.eclipse.debug.ui.launchConfigurationTypeImages">
+		<launchConfigurationTypeImage icon="/icons/launch_type_icon.gif" configTypeID="tubs.cs.studienrichtung.resource.studiengang.ui.launchConfigurationType" id="tubs.cs.studiengang.launchImage">
+		</launchConfigurationTypeImage>
+	</extension>
+	
+	<extension point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+		<launchConfigurationTabGroup type="tubs.cs.studienrichtung.resource.studiengang.ui.launchConfigurationType" class="tubs.cs.studienrichtung.resource.studiengang.ui.launch.StudiengangLaunchConfigurationTabGroup" id="tubs.cs.studiengang.launchConfigurationTabGroup" helpContextId="tubs.cs.studiengang.launchConfigHelpContext">
+			<launchMode mode="debug" perspective="org.eclipse.debug.ui.DebugPerspective" description="Debug studiengang model.">
+			</launchMode>
+			<launchMode mode="run" description="Run studiengang model.">
+			</launchMode>
+		</launchConfigurationTabGroup>
+	</extension>
+	
+	<extension point="org.eclipse.debug.ui.launchShortcuts">
+		<shortcut label="studiengang Application" icon="/icons/launch_shortcut_icon.gif" helpContextId="tubs.cs.studiengang.launch" modes="run,debug" class="tubs.cs.studienrichtung.resource.studiengang.ui.launch.StudiengangLaunchShortcut" description="Launch a studiengang model" id="tubs.cs.studiengang.launchShortcut">
+			<description description="Run studiengang model" mode="run">
+			</description>
+			<description description="Debug studiengang model" mode="debug">
+			</description>
+			<contextualLaunch>
+				<enablement>
+					<with variable="selection">
+						<count value="1">
+						</count>
+						<iterate>
+							<adapt type="org.eclipse.core.resources.IResource">
+								<test property="org.eclipse.core.resources.extension" value="studiengang">
+								</test>
+							</adapt>
+						</iterate>
+					</with>
+				</enablement>
+			</contextualLaunch>
+			<configurationType id="tubs.cs.studienrichtung.resource.studiengang.ui.launchConfigurationType">
+			</configurationType>
+		</shortcut>
+	</extension>
+	
+	<extension point="org.eclipse.core.expressions.propertyTesters">
+		<propertyTester id="tubs.cs.studiengang.PropertyTester" type="java.lang.Object" namespace="tubs.cs.studiengang" properties="isLaunchable" class="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangPropertyTester">
+		</propertyTester>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors.annotationTypes">
+		<type name="tubs.cs.studienrichtung.resource.studiengang.ui.debug.lineBreakpoint" markerType="tubs.cs.studienrichtung.resource.studiengang.debug.lineBreakpoint.marker" super="org.eclipse.debug.core.breakpoint">
+		</type>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors.markerAnnotationSpecification">
+		<specification annotationType="tubs.cs.studienrichtung.resource.studiengang.ui.debug.lineBreakpoint" label="Breakpoints (in .studiengang files)" icon="/icons/breakpoint_icon.gif" textPreferenceKey="tubs.cs.studienrichtung.resource.studiengang.ui.lineBreakpoint" textPreferenceValue="false" highlightPreferenceKey="tubs.cs.studienrichtung.resource.studiengang.ui.lineBreakpointHighlighting" highlightPreferenceValue="true" contributesToHeader="false" overviewRulerPreferenceKey="tubs.cs.studienrichtung.resource.studiengang.ui.lineBreakpointIndicationInOverviewRuler" overviewRulerPreferenceValue="true" verticalRulerPreferenceKey="tubs.cs.studienrichtung.resource.studiengang.ui.lineBreakpointIndicationInVerticalRuler" verticalRulerPreferenceValue="false" colorPreferenceKey="tubs.cs.studienrichtung.resource.studiengang.ui.lineBreakpointColor" colorPreferenceValue="212,212,212" presentationLayer="4" showInNextPrevDropdownToolbarActionKey="tubs.cs.studienrichtung.resource.studiengang.ui.showLineBreakpointInNextPrevDropdownToolbarAction" showInNextPrevDropdownToolbarAction="true" isGoToNextNavigationTargetKey="tubs.cs.studienrichtung.resource.studiengang.ui.isLineBreakpointGoToNextNavigationTarget" isGoToNextNavigationTarget="false" isGoToPreviousNavigationTargetKey="tubs.cs.studienrichtung.resource.studiengang.ui.isLineBreakpointGoToPreviousNavigationTarget" isGoToPreviousNavigationTarget="false" textStylePreferenceKey="tubs.cs.studienrichtung.resource.studiengang.ui.lineBreakpointTextStyle" textStylePreferenceValue="NONE">
+		</specification>
+	</extension>
+	
+	<extension point="org.eclipse.core.runtime.adapters">
+		<factory adaptableType="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangEditor" class="tubs.cs.studienrichtung.resource.studiengang.ui.debug.StudiengangAdapterFactory">
+			<adapter type="org.eclipse.debug.ui.actions.IToggleBreakpointsTarget">
+			</adapter>
+		</factory>
+		<factory adaptableType="tubs.cs.studienrichtung.resource.studiengang.debug.StudiengangDebugVariable" class="tubs.cs.studienrichtung.resource.studiengang.ui.debug.StudiengangAdapterFactory">
+			<adapter type="org.eclipse.debug.internal.ui.viewers.model.provisional.IElementLabelProvider">
+			</adapter>
+		</factory>
+		<factory adaptableType="tubs.cs.studienrichtung.resource.studiengang.debug.StudiengangDebugVariable" class="tubs.cs.studienrichtung.resource.studiengang.ui.debug.StudiengangAdapterFactory">
+			<adapter type="org.eclipse.debug.internal.ui.viewers.model.provisional.IElementContentProvider">
+			</adapter>
+		</factory>
+	</extension>
+	
+	<extension point="org.eclipse.ui.popupMenus">
+		<viewerContribution id="tubs.cs.studienrichtung.resource.studiengang.ui.RulerPopupActions" targetID="tubs.cs.studienrichtung.resource.studiengang.EditorRuler">
+			<action id="tubs.cs.studienrichtung.resource.studiengang.ui.toggleBreakpointAction" icon="icons/breakpoint_icon.gif" label="Toggle Breakpoint" class="org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate" menubarPath="debug">
+			</action>
+		</viewerContribution>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editorActions">
+		<editorContribution targetID="tubs.cs.studienrichtung.resource.studiengang.ui.StudiengangEditor" id="tubs.cs.studienrichtung.resource.studiengang.ui.BreakpointRulerActions">
+			<action id="tubs.cs.studienrichtung.resource.studiengang.ui.debug.RulerToggleBreakpointAction" label="Add breakpoint" class="org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate" actionID="RulerDoubleClick">
+			</action>
+		</editorContribution>
+	</extension>
+	
+	<extension point="org.eclipse.debug.ui.debugModelPresentations">
+		<debugModelPresentation id="tubs.cs.studienrichtung.resource.studiengang.debugModel" class="tubs.cs.studienrichtung.resource.studiengang.ui.debug.StudiengangDebugModelPresentation">
+		</debugModelPresentation>
+	</extension>
+	
+</plugin>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: tubs.cs.fm.graphicalconfigurator;singleton:=true
+Bundle-Version: 0.0.1
+Bundle-ClassPath: .,
+ lib/org.sat4j.core.jar,
+ lib/de.ovgu.featureide.lib.fm-v3.5.3.jar,
+ lib/miglayout15-swing.jar
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Automatic-Module-Name: tubs.cs.studienrichtung
+Bundle-RequiredExecutionEnvironment: JavaSE-10
+Export-Package: de.ovgu.featureide.examples.graphicalconfigurator
+Bundle-ActivationPolicy: lazy

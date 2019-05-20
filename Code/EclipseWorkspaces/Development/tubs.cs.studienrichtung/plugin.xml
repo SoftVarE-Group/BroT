@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Studienrichtung -->
+      <package
+            uri="http://tubs.cs/studienrichtung/1.0"
+            class="tubs.cs.studienrichtung.StudienrichtungPackage"
+            genModel="model/Studienrichtung.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.validation.constraintProviders">
+      <category
+            id="tubs.cs.studienrichtung.category"
+            mandatory="true"
+            name="Studiengang">
+      </category>
+      <constraintProvider
+            cache="true"
+            mode="Batch">
+         <package
+               namespaceUri="http://tubs.cs/studienrichtung/1.0">
+         </package>
+         <constraints
+               categories="tubs.cs.studienrichtung.category">
+            <constraint
+                  class="UniqueNamesConstraint"
+                  id="tubs.cs.studienrichtung.UniqueNamesConstraint"
+                  isEnabledByDefault="true"
+                  lang="Java"
+                  mode="Batch"
+                  name="UniqueNamesConstraint"
+                  severity="ERROR"
+                  statusCode="1">
+               <message>
+                  The name {0} is already in use!
+               </message>
+               <target
+                     class="Named">
+               </target>
+            </constraint>
+         </constraints>
+      </constraintProvider>
+   </extension>
+
+</plugin>

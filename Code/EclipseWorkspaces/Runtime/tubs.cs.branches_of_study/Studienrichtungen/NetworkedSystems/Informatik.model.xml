@@ -1,0 +1,4184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="Field Informatik">
+            <alt abstract="true" mandatory="true" name="Masterarbeit">
+                <feature name="Masterarbeit Algorithmik"/>
+                <feature name="Masterarbeit Computergraphik"/>
+                <feature name="Masterarbeit Connected and Mobile Systems"/>
+                <feature name="Masterarbeit Entwurf Integrierter Systeme"/>
+                <feature name="Masterarbeit Formale Methoden"/>
+                <feature name="Masterarbeit Informationssysteme"/>
+                <feature name="Masterarbeit Verteilte Systeme"/>
+                <feature name="Masterarbeit IT-Sicherheit"/>
+                <feature name="Masterarbeit Nachrichtentechnik"/>
+                <feature name="Masterarbeit Rechnerstrukturen und Eingebettete Systeme"/>
+                <feature name="Masterarbeit Robotik"/>
+                <feature name="Masterarbeit Software Engineering"/>
+                <feature name="Masterarbeit Theoretische Informatik"/>
+                <feature name="Masterarbeit Kommunikation und Multimedia"/>
+                <feature name="Masterarbeit Medizinische Informatik"/>
+            </alt>
+            <alt abstract="true" name="Projektarbeit">
+                <feature name="Projektarbeit Algorithmik"/>
+                <feature name="Projektarbeit Computergraphik"/>
+                <feature name="Projektarbeit Connected and Mobile Systems"/>
+                <feature name="Projektarbeit Entwurf Integrierter Systeme"/>
+                <feature name="Projektarbeit Formale Methoden"/>
+                <feature name="Projektarbeit Informationssysteme"/>
+                <feature name="Projektarbeit Verteilte Systeme"/>
+                <feature name="Projektarbeit IT-Sicherheit"/>
+                <feature name="Projektarbeit Nachrichtentechnik"/>
+                <feature name="Projektarbeit Rechnerstrukturen und Eingebettete Systeme"/>
+                <feature name="Projektarbeit Robotik"/>
+                <feature name="Projektarbeit Software Engineering"/>
+                <feature name="Projektarbeit Theoretische Informatik"/>
+                <feature name="Projektarbeit Medizinische Informatik"/>
+                <feature name="Projektarbeit Kommunikation und Multimedia"/>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Seminar">
+                <feature name="Seminar Algorithmik"/>
+                <feature name="Seminar Computergraphik"/>
+                <feature name="Seminar Connected and Mobile Systems"/>
+                <feature name="Seminar Entwurf Integrierter Systeme"/>
+                <feature name="Seminar Formale Methoden"/>
+                <feature name="Seminar Informationssysteme"/>
+                <feature name="Seminar Verteilte Systeme"/>
+                <feature name="Seminar IT-Sicherheit"/>
+                <feature name="Seminar Nachrichtentechnik"/>
+                <feature name="Seminar Rechnerstrukturen und Eingebettete Systeme"/>
+                <feature name="Seminar Robotik"/>
+                <feature name="Seminar Software Engineering"/>
+                <feature name="Seminar Theoretische Informatik"/>
+                <feature name="Seminar Medizinische Informatik"/>
+                <feature name="Seminar Kommunikation und Multimedia"/>
+            </alt>
+            <and abstract="true" name="Wahlpflicht Informatik">
+                <and abstract="true" name="Algorithmik">
+                    <feature name="Algorithmische Geometrie"/>
+                    <feature name="Mathematische Methoden der Algorithmik"/>
+                    <feature name="Praktikum Algorithmik"/>
+                    <feature name="Algorithm Engineering"/>
+                    <feature name="Approximationsalgorithmen"/>
+                    <feature name="Online-Algorithmen"/>
+                    <feature name="Verteilte Algorithmen"/>
+                </and>
+                <and abstract="true" name="Computergraphik">
+                    <feature name="Echtzeit-Computergraphik"/>
+                    <feature name="Bildbasierte Modellierung"/>
+                    <feature name="Physikbasierte Modellierung und Simulation"/>
+                    <feature name="Grundlagen Maschinelles Lernen"/>
+                    <feature name="Paralleles Rechnen I"/>
+                    <feature name="Visualisierung wissenschaftlicher Daten"/>
+                    <feature name="Bildkommunikation"/>
+                    <feature name="Digitale Bildverarbeitung"/>
+                    <feature name="Dreidimensionales Computersehen"/>
+                    <feature name="Bildverarbeitung-Praktikum"/>
+                    <feature name="Computergraphik Praktikum"/>
+                </and>
+                <and abstract="true" name="Connected and Mobile Systems">
+                    <feature name="Advanced Human Computer Interaction"/>
+                    <feature name="Advanced Networking I"/>
+                    <feature name="Advanced Networking II"/>
+                    <feature name="Management von Informationssicherheit"/>
+                    <feature name="Mensch-Maschine-Interaktion"/>
+                    <feature name="Mobilkommunikation"/>
+                    <feature name="Recent Topics in Computer Networking"/>
+                    <feature name="Computernetze II"/>
+                    <feature name="Mobile Computing Lab"/>
+                    <feature name="Praktikum Computernetze"/>
+                    <feature name="Praktikum Computernetze Administration"/>
+                    <feature name="Wireless Networking Lab"/>
+                    <feature name="Machine Learning for Pervasive Computing"/>
+                </and>
+                <and abstract="true" name="Entwurf Integrierter Systeme">
+                    <feature name="Chip- und System-Entwurf I"/>
+                    <feature name="Chip- und System-Entwurf II"/>
+                    <feature name="VLSI-Design II"/>
+                    <feature name="Praktikum VLSI-Design II"/>
+                </and>
+                <and abstract="true" name="Informationssysteme">
+                    <feature name="Ausgewählte Themen der Informationssysteme"/>
+                    <feature name="Data Warehousing &amp; Data-Mining-Techniken"/>
+                    <feature name="Datenbank-Projektgruppe - Projektgruppe Integritätsbedingungen"/>
+                    <feature name="Digitale Bibliotheken"/>
+                    <feature name="Distributed Data Management"/>
+                    <feature name="Information Retrieval &amp; Web Search"/>
+                    <feature name="Multimedia-Datenbanken"/>
+                    <feature name="Relationale Datenbanksysteme II"/>
+                    <feature name="Spatial Databases und Geo-Informationssysteme"/>
+                    <feature name="Wissensbasierte Systeme und deduktive Datenbanksysteme"/>
+                </and>
+                <and abstract="true" name="Nachrichtentechnik">
+                    <feature name="Mustererkennung"/>
+                    <feature name="Sprachdialogsysteme Spoken Language Processing"/>
+                    <feature name="Deep Learning Lab"/>
+                    <feature name="Digitale Signalverarbeitung"/>
+                </and>
+                <and abstract="true" name="Rechnerstrukturen und Eingebettete Systeme">
+                    <feature name="Raumfahrtelektronik II"/>
+                    <feature name="Entwurf fehlertoleranter Systeme"/>
+                    <feature name="Rechnerstrukturen II"/>
+                    <feature name="Advanced Computer Architecture"/>
+                    <feature name="Rechnersystembusse"/>
+                </and>
+                <and abstract="true" name="Programmierung und Reaktive Systeme">
+                    <feature name="Praktikum Reaktive Systeme"/>
+                    <feature name="Prozessalgebra"/>
+                    <feature name="Reaktive Systeme"/>
+                    <feature name="Software Engineering für Software im Automobil"/>
+                    <feature name="Verifikation reaktiver Systeme"/>
+                </and>
+                <and abstract="true" name="Software Engineering">
+                    <feature name="Softwarearchitektur"/>
+                    <feature name="Modellbasierte Softwareentwicklung"/>
+                    <feature name="Softwareproduktlinien: Konzepte und Implementierung"/>
+                    <feature name="Softwarequalität I"/>
+                    <feature name="Softwarequalität II"/>
+                    <feature name="Softwaretechnik, vertiefendes Praktikum"/>
+                    <feature name="Fahrzeuginformatik"/>
+                    <feature name="Praktikum Fahrzeuginformatik"/>
+                    <feature name="Software in sicherheitsrelevanten Systemen"/>
+                    <feature name="Industrielles Software-Entwicklungsmanagement"/>
+                    <feature name="Summercamp Planspiel Automotive Design"/>
+                    <feature name="Compiler I"/>
+                    <feature name="Compiler II"/>
+                    <feature name="Compilerbaupraktikum"/>
+                    <feature name="Generative Softwareentwicklung"/>
+                    <feature name="Prozesse und Methoden beim Testen von Software"/>
+                </and>
+                <and abstract="true" name="IT-Sicherheit">
+                    <feature name="Fortgeschrittene IT-Sicherheit"/>
+                    <feature name="Maschinelles Lernen in der IT-Sicherheit"/>
+                    <feature name="Praktikum Intelligente Systemsicherheit"/>
+                    <feature name="Praktikum IT-Sicherheit"/>
+                </and>
+                <and abstract="true" name="Theoretische Informatik">
+                    <feature name="Programmanalyse"/>
+                    <feature name="Algorithmische Automatentheorie"/>
+                    <feature name="Komplexitätstheorie"/>
+                    <feature name="Spiele mit perfekter Information"/>
+                    <feature name="Nebenläufigkeitstheorie"/>
+                    <feature name="Algebraische Automatentheorie"/>
+                    <feature name="Praktikum Programmanalyse"/>
+                    <feature name="Fehlerkorrigierende Codes I"/>
+                    <feature name="Fehlerkorrigierende Codes II"/>
+                    <feature name="Kryptologie I"/>
+                    <feature name="Kryptologie II"/>
+                    <feature name="Kryptologie III"/>
+                    <feature name="Komplexität von Algorithmen"/>
+                    <feature name="Logik in der Informatik"/>
+                    <feature name="Semantik von Programmiersprachen"/>
+                    <feature name="Algebra des Programmierens"/>
+                    <feature name="Grundlagen der Verifikation"/>
+                    <feature name="Fundamente des Software Engineering"/>
+                </and>
+                <and abstract="true" name="Verteilte_Systeme">
+                    <feature name="Betriebssystemsicherheit"/>
+                    <feature name="Verteilte fehlertolerante Systeme"/>
+                    <feature name="Praktikum Betriebssysteme"/>
+                    <feature name="Praktikum Cloud Computing"/>
+                    <feature name="Webbasierte Systeme"/>
+                    <feature name="Verteilte Systeme"/>
+                    <feature name="Cloud Computing"/>
+                    <feature name="Praktikum Betriebssystementwicklung"/>
+                </and>
+                <and abstract="true" name="Medizinische Informatik">
+                    <feature name="Assistierende Gesundheitstechnologien A"/>
+                    <feature name="Assistierende Gesundheitstechnologien B"/>
+                    <feature name="Ausgewählte Themen der Medizinischen Informationssysteme"/>
+                    <feature name="Ausgewählte Themen der Repräsentation und Analyse medizinischer Daten"/>
+                    <feature name="Ausgewählte Themen der Virtuellen Medizin"/>
+                    <feature name="Biomedizinische Bild- und Signalerzeugung"/>
+                    <feature name="Biomedizinische Signal- und Bildanalyse"/>
+                    <feature name="Medizinische Informationssysteme B"/>
+                    <feature name="Repräsentation und Analyse medizinischer Daten"/>
+                    <feature name="Ringvorlesung der Medizinischen Informatik"/>
+                    <feature name="Unfallinformatik"/>
+                    <feature name="Virtuelle Medizin"/>
+                </and>
+                <and abstract="true" name="Robotik">
+                    <feature name="Robotik I"/>
+                    <feature name="Robotik II"/>
+                    <feature name="Robotik-Praktikum"/>
+                    <feature name="Embedded Intelligence"/>
+                    <feature name="Prozessinformatik"/>
+                    <feature name="Roboterlernen"/>
+                    <feature name="Roboterhände und Greifen"/>
+                    <feature name="Medizinrobotik"/>
+                    <feature name="Robot Control and Optimization"/>
+                </and>
+            </and>
+            <and abstract="true" name="Branch of Study">
+                <feature name="Studienrichtung NetworkedSystems"/>
+            </and>
+            <and abstract="true" name="GeneratedVariables">
+                <and abstract="true" name="Selective">
+                    <description>
+Groups variables generated with encoding Selective
+</description>
+                    <feature abstract="true" name="S3_R_0_0"/>
+                    <feature abstract="true" name="S3_R_0_1"/>
+                    <feature abstract="true" name="S3_R_0_2"/>
+                    <feature abstract="true" name="S3_R_0_3"/>
+                    <feature abstract="true" name="S3_R_0_4"/>
+                    <feature abstract="true" name="S3_R_0_5"/>
+                    <feature abstract="true" name="S3_R_0_6"/>
+                    <feature abstract="true" name="S3_R_0_7"/>
+                    <feature abstract="true" name="S3_R_0_8"/>
+                    <feature abstract="true" name="S3_R_1_0"/>
+                    <feature abstract="true" name="S3_R_1_1"/>
+                    <feature abstract="true" name="S3_R_1_2"/>
+                    <feature abstract="true" name="S3_R_1_3"/>
+                    <feature abstract="true" name="S3_R_1_4"/>
+                    <feature abstract="true" name="S3_R_1_5"/>
+                    <feature abstract="true" name="S3_R_1_6"/>
+                    <feature abstract="true" name="S3_R_1_7"/>
+                    <feature abstract="true" name="S3_R_1_8"/>
+                    <feature abstract="true" name="S3_R_2_0"/>
+                    <feature abstract="true" name="S3_R_2_1"/>
+                    <feature abstract="true" name="S3_R_2_2"/>
+                    <feature abstract="true" name="S3_R_2_3"/>
+                    <feature abstract="true" name="S3_R_2_4"/>
+                    <feature abstract="true" name="S3_R_2_5"/>
+                    <feature abstract="true" name="S3_R_2_6"/>
+                    <feature abstract="true" name="S3_R_2_7"/>
+                    <feature abstract="true" name="S3_R_2_8"/>
+                    <feature abstract="true" name="S3_R_3_0"/>
+                    <feature abstract="true" name="S3_R_3_1"/>
+                    <feature abstract="true" name="S3_R_3_2"/>
+                    <feature abstract="true" name="S3_R_3_3"/>
+                    <feature abstract="true" name="S3_R_3_4"/>
+                    <feature abstract="true" name="S3_R_3_5"/>
+                    <feature abstract="true" name="S3_R_3_6"/>
+                    <feature abstract="true" name="S3_R_3_7"/>
+                    <feature abstract="true" name="S3_R_3_8"/>
+                    <feature abstract="true" name="S3_R_4_0"/>
+                    <feature abstract="true" name="S3_R_4_1"/>
+                    <feature abstract="true" name="S3_R_4_2"/>
+                    <feature abstract="true" name="S3_R_4_3"/>
+                    <feature abstract="true" name="S3_R_4_4"/>
+                    <feature abstract="true" name="S3_R_4_5"/>
+                    <feature abstract="true" name="S3_R_4_6"/>
+                    <feature abstract="true" name="S3_R_4_7"/>
+                    <feature abstract="true" name="S3_R_4_8"/>
+                    <feature abstract="true" name="S3_R_5_0"/>
+                    <feature abstract="true" name="S3_R_5_1"/>
+                    <feature abstract="true" name="S3_R_5_2"/>
+                    <feature abstract="true" name="S3_R_5_3"/>
+                    <feature abstract="true" name="S3_R_5_4"/>
+                    <feature abstract="true" name="S3_R_5_5"/>
+                    <feature abstract="true" name="S3_R_5_6"/>
+                    <feature abstract="true" name="S3_R_5_7"/>
+                    <feature abstract="true" name="S3_R_5_8"/>
+                    <feature abstract="true" name="S3_R_6_0"/>
+                    <feature abstract="true" name="S3_R_6_1"/>
+                    <feature abstract="true" name="S3_R_6_2"/>
+                    <feature abstract="true" name="S3_R_6_3"/>
+                    <feature abstract="true" name="S3_R_6_4"/>
+                    <feature abstract="true" name="S3_R_6_5"/>
+                    <feature abstract="true" name="S3_R_6_6"/>
+                    <feature abstract="true" name="S3_R_6_7"/>
+                    <feature abstract="true" name="S3_R_6_8"/>
+                    <feature abstract="true" name="S3_R_7_0"/>
+                    <feature abstract="true" name="S3_R_7_1"/>
+                    <feature abstract="true" name="S3_R_7_2"/>
+                    <feature abstract="true" name="S3_R_7_3"/>
+                    <feature abstract="true" name="S3_R_7_4"/>
+                    <feature abstract="true" name="S3_R_7_5"/>
+                    <feature abstract="true" name="S3_R_7_6"/>
+                    <feature abstract="true" name="S3_R_7_7"/>
+                    <feature abstract="true" name="S3_R_7_8"/>
+                    <feature abstract="true" name="S3_R_8_0"/>
+                    <feature abstract="true" name="S3_R_8_1"/>
+                    <feature abstract="true" name="S3_R_8_2"/>
+                    <feature abstract="true" name="S3_R_8_3"/>
+                    <feature abstract="true" name="S3_R_8_4"/>
+                    <feature abstract="true" name="S3_R_8_5"/>
+                    <feature abstract="true" name="S3_R_8_6"/>
+                    <feature abstract="true" name="S3_R_8_7"/>
+                    <feature abstract="true" name="S3_R_8_8"/>
+                    <feature abstract="true" name="S3_R_9_0"/>
+                    <feature abstract="true" name="S3_R_9_1"/>
+                    <feature abstract="true" name="S3_R_9_2"/>
+                    <feature abstract="true" name="S3_R_9_3"/>
+                    <feature abstract="true" name="S3_R_9_4"/>
+                    <feature abstract="true" name="S3_R_9_5"/>
+                    <feature abstract="true" name="S3_R_9_6"/>
+                    <feature abstract="true" name="S3_R_9_7"/>
+                    <feature abstract="true" name="S3_R_9_8"/>
+                    <feature abstract="true" name="S3_R_10_0"/>
+                    <feature abstract="true" name="S3_R_10_1"/>
+                    <feature abstract="true" name="S3_R_10_2"/>
+                    <feature abstract="true" name="S3_R_10_3"/>
+                    <feature abstract="true" name="S3_R_10_4"/>
+                    <feature abstract="true" name="S3_R_10_5"/>
+                    <feature abstract="true" name="S3_R_10_6"/>
+                    <feature abstract="true" name="S3_R_10_7"/>
+                    <feature abstract="true" name="S3_R_10_8"/>
+                    <feature abstract="true" name="S3_R_11_0"/>
+                    <feature abstract="true" name="S3_R_11_1"/>
+                    <feature abstract="true" name="S3_R_11_2"/>
+                    <feature abstract="true" name="S3_R_11_3"/>
+                    <feature abstract="true" name="S3_R_11_4"/>
+                    <feature abstract="true" name="S3_R_11_5"/>
+                    <feature abstract="true" name="S3_R_11_6"/>
+                    <feature abstract="true" name="S3_R_11_7"/>
+                    <feature abstract="true" name="S3_R_11_8"/>
+                    <feature abstract="true" name="S3_R_12_0"/>
+                    <feature abstract="true" name="S3_R_12_1"/>
+                    <feature abstract="true" name="S3_R_12_2"/>
+                    <feature abstract="true" name="S3_R_12_3"/>
+                    <feature abstract="true" name="S3_R_12_4"/>
+                    <feature abstract="true" name="S3_R_12_5"/>
+                    <feature abstract="true" name="S3_R_12_6"/>
+                    <feature abstract="true" name="S3_R_12_7"/>
+                    <feature abstract="true" name="S3_R_12_8"/>
+                    <feature abstract="true" name="S3_R_13_0"/>
+                    <feature abstract="true" name="S3_R_13_1"/>
+                    <feature abstract="true" name="S3_R_13_2"/>
+                    <feature abstract="true" name="S3_R_13_3"/>
+                    <feature abstract="true" name="S3_R_13_4"/>
+                    <feature abstract="true" name="S3_R_13_5"/>
+                    <feature abstract="true" name="S3_R_13_6"/>
+                    <feature abstract="true" name="S3_R_13_7"/>
+                    <feature abstract="true" name="S3_R_13_8"/>
+                    <feature abstract="true" name="S3_R_14_0"/>
+                    <feature abstract="true" name="S3_R_14_1"/>
+                    <feature abstract="true" name="S3_R_14_2"/>
+                    <feature abstract="true" name="S3_R_14_3"/>
+                    <feature abstract="true" name="S3_R_14_4"/>
+                    <feature abstract="true" name="S3_R_14_5"/>
+                    <feature abstract="true" name="S3_R_14_6"/>
+                    <feature abstract="true" name="S3_R_14_7"/>
+                    <feature abstract="true" name="S3_R_14_8"/>
+                    <feature abstract="true" name="S6_T_0_0"/>
+                    <feature abstract="true" name="S6_T_0_1"/>
+                    <feature abstract="true" name="S6_T_0_2"/>
+                    <feature abstract="true" name="S6_T_0_3"/>
+                    <feature abstract="true" name="S6_T_0_4"/>
+                    <feature abstract="true" name="S6_T_0_5"/>
+                    <feature abstract="true" name="S6_T_0_6"/>
+                    <feature abstract="true" name="S6_T_0_7"/>
+                    <feature abstract="true" name="S6_T_0_8"/>
+                    <feature abstract="true" name="S6_T_0_9"/>
+                    <feature abstract="true" name="S6_T_0_10"/>
+                    <feature abstract="true" name="S6_T_0_11"/>
+                    <feature abstract="true" name="S6_T_0_12"/>
+                    <feature abstract="true" name="S6_T_0_13"/>
+                    <feature abstract="true" name="S6_T_0_14"/>
+                    <feature abstract="true" name="S6_T_0_15"/>
+                    <feature abstract="true" name="S6_T_1_0"/>
+                    <feature abstract="true" name="S6_T_1_1"/>
+                    <feature abstract="true" name="S6_T_1_2"/>
+                    <feature abstract="true" name="S6_T_1_3"/>
+                    <feature abstract="true" name="S6_T_1_4"/>
+                    <feature abstract="true" name="S6_T_1_5"/>
+                    <feature abstract="true" name="S6_T_1_6"/>
+                    <feature abstract="true" name="S6_T_1_7"/>
+                    <feature abstract="true" name="S6_T_1_8"/>
+                    <feature abstract="true" name="S6_T_1_9"/>
+                    <feature abstract="true" name="S6_T_1_10"/>
+                    <feature abstract="true" name="S6_T_1_11"/>
+                    <feature abstract="true" name="S6_T_1_12"/>
+                    <feature abstract="true" name="S6_T_1_13"/>
+                    <feature abstract="true" name="S6_T_1_14"/>
+                    <feature abstract="true" name="S6_T_1_15"/>
+                    <feature abstract="true" name="S6_T_2_0"/>
+                    <feature abstract="true" name="S6_T_2_1"/>
+                    <feature abstract="true" name="S6_T_2_2"/>
+                    <feature abstract="true" name="S6_T_2_3"/>
+                    <feature abstract="true" name="S6_T_2_4"/>
+                    <feature abstract="true" name="S6_T_2_5"/>
+                    <feature abstract="true" name="S6_T_2_6"/>
+                    <feature abstract="true" name="S6_T_2_7"/>
+                    <feature abstract="true" name="S6_T_2_8"/>
+                    <feature abstract="true" name="S6_T_2_9"/>
+                    <feature abstract="true" name="S6_T_2_10"/>
+                    <feature abstract="true" name="S6_T_2_11"/>
+                    <feature abstract="true" name="S6_T_2_12"/>
+                    <feature abstract="true" name="S6_T_2_13"/>
+                    <feature abstract="true" name="S6_T_2_14"/>
+                    <feature abstract="true" name="S6_T_2_15"/>
+                    <feature abstract="true" name="S6_T_3_0"/>
+                    <feature abstract="true" name="S6_T_3_1"/>
+                    <feature abstract="true" name="S6_T_3_2"/>
+                    <feature abstract="true" name="S6_T_3_3"/>
+                    <feature abstract="true" name="S6_T_3_4"/>
+                    <feature abstract="true" name="S6_T_3_5"/>
+                    <feature abstract="true" name="S6_T_3_6"/>
+                    <feature abstract="true" name="S6_T_3_7"/>
+                    <feature abstract="true" name="S6_T_3_8"/>
+                    <feature abstract="true" name="S6_T_3_9"/>
+                    <feature abstract="true" name="S6_T_3_10"/>
+                    <feature abstract="true" name="S6_T_3_11"/>
+                    <feature abstract="true" name="S6_T_3_12"/>
+                    <feature abstract="true" name="S6_T_3_13"/>
+                    <feature abstract="true" name="S6_T_3_14"/>
+                    <feature abstract="true" name="S6_T_3_15"/>
+                    <feature abstract="true" name="S6_T_4_0"/>
+                    <feature abstract="true" name="S6_T_4_1"/>
+                    <feature abstract="true" name="S6_T_4_2"/>
+                    <feature abstract="true" name="S6_T_4_3"/>
+                    <feature abstract="true" name="S6_T_4_4"/>
+                    <feature abstract="true" name="S6_T_4_5"/>
+                    <feature abstract="true" name="S6_T_4_6"/>
+                    <feature abstract="true" name="S6_T_4_7"/>
+                    <feature abstract="true" name="S6_T_4_8"/>
+                    <feature abstract="true" name="S6_T_4_9"/>
+                    <feature abstract="true" name="S6_T_4_10"/>
+                    <feature abstract="true" name="S6_T_4_11"/>
+                    <feature abstract="true" name="S6_T_4_12"/>
+                    <feature abstract="true" name="S6_T_4_13"/>
+                    <feature abstract="true" name="S6_T_4_14"/>
+                    <feature abstract="true" name="S6_T_4_15"/>
+                    <feature abstract="true" name="S6_T_5_0"/>
+                    <feature abstract="true" name="S6_T_5_1"/>
+                    <feature abstract="true" name="S6_T_5_2"/>
+                    <feature abstract="true" name="S6_T_5_3"/>
+                    <feature abstract="true" name="S6_T_5_4"/>
+                    <feature abstract="true" name="S6_T_5_5"/>
+                    <feature abstract="true" name="S6_T_5_6"/>
+                    <feature abstract="true" name="S6_T_5_7"/>
+                    <feature abstract="true" name="S6_T_5_8"/>
+                    <feature abstract="true" name="S6_T_5_9"/>
+                    <feature abstract="true" name="S6_T_5_10"/>
+                    <feature abstract="true" name="S6_T_5_11"/>
+                    <feature abstract="true" name="S6_T_5_12"/>
+                    <feature abstract="true" name="S6_T_5_13"/>
+                    <feature abstract="true" name="S6_T_5_14"/>
+                    <feature abstract="true" name="S6_T_5_15"/>
+                    <feature abstract="true" name="S6_T_6_0"/>
+                    <feature abstract="true" name="S6_T_6_1"/>
+                    <feature abstract="true" name="S6_T_6_2"/>
+                    <feature abstract="true" name="S6_T_6_3"/>
+                    <feature abstract="true" name="S6_T_6_4"/>
+                    <feature abstract="true" name="S6_T_6_5"/>
+                    <feature abstract="true" name="S6_T_6_6"/>
+                    <feature abstract="true" name="S6_T_6_7"/>
+                    <feature abstract="true" name="S6_T_6_8"/>
+                    <feature abstract="true" name="S6_T_6_9"/>
+                    <feature abstract="true" name="S6_T_6_10"/>
+                    <feature abstract="true" name="S6_T_6_11"/>
+                    <feature abstract="true" name="S6_T_6_12"/>
+                    <feature abstract="true" name="S6_T_6_13"/>
+                    <feature abstract="true" name="S6_T_6_14"/>
+                    <feature abstract="true" name="S6_T_6_15"/>
+                    <feature abstract="true" name="S6_T_7_0"/>
+                    <feature abstract="true" name="S6_T_7_1"/>
+                    <feature abstract="true" name="S6_T_7_2"/>
+                    <feature abstract="true" name="S6_T_7_3"/>
+                    <feature abstract="true" name="S6_T_7_4"/>
+                    <feature abstract="true" name="S6_T_7_5"/>
+                    <feature abstract="true" name="S6_T_7_6"/>
+                    <feature abstract="true" name="S6_T_7_7"/>
+                    <feature abstract="true" name="S6_T_7_8"/>
+                    <feature abstract="true" name="S6_T_7_9"/>
+                    <feature abstract="true" name="S6_T_7_10"/>
+                    <feature abstract="true" name="S6_T_7_11"/>
+                    <feature abstract="true" name="S6_T_7_12"/>
+                    <feature abstract="true" name="S6_T_7_13"/>
+                    <feature abstract="true" name="S6_T_7_14"/>
+                    <feature abstract="true" name="S6_T_7_15"/>
+                    <feature abstract="true" name="S6_T_8_0"/>
+                    <feature abstract="true" name="S6_T_8_1"/>
+                    <feature abstract="true" name="S6_T_8_2"/>
+                    <feature abstract="true" name="S6_T_8_3"/>
+                    <feature abstract="true" name="S6_T_8_4"/>
+                    <feature abstract="true" name="S6_T_8_5"/>
+                    <feature abstract="true" name="S6_T_8_6"/>
+                    <feature abstract="true" name="S6_T_8_7"/>
+                    <feature abstract="true" name="S6_T_8_8"/>
+                    <feature abstract="true" name="S6_T_8_9"/>
+                    <feature abstract="true" name="S6_T_8_10"/>
+                    <feature abstract="true" name="S6_T_8_11"/>
+                    <feature abstract="true" name="S6_T_8_12"/>
+                    <feature abstract="true" name="S6_T_8_13"/>
+                    <feature abstract="true" name="S6_T_8_14"/>
+                    <feature abstract="true" name="S6_T_8_15"/>
+                    <feature abstract="true" name="S6_T_9_0"/>
+                    <feature abstract="true" name="S6_T_9_1"/>
+                    <feature abstract="true" name="S6_T_9_2"/>
+                    <feature abstract="true" name="S6_T_9_3"/>
+                    <feature abstract="true" name="S6_T_9_4"/>
+                    <feature abstract="true" name="S6_T_9_5"/>
+                    <feature abstract="true" name="S6_T_9_6"/>
+                    <feature abstract="true" name="S6_T_9_7"/>
+                    <feature abstract="true" name="S6_T_9_8"/>
+                    <feature abstract="true" name="S6_T_9_9"/>
+                    <feature abstract="true" name="S6_T_9_10"/>
+                    <feature abstract="true" name="S6_T_9_11"/>
+                    <feature abstract="true" name="S6_T_9_12"/>
+                    <feature abstract="true" name="S6_T_9_13"/>
+                    <feature abstract="true" name="S6_T_9_14"/>
+                    <feature abstract="true" name="S6_T_9_15"/>
+                    <feature abstract="true" name="S6_T_10_0"/>
+                    <feature abstract="true" name="S6_T_10_1"/>
+                    <feature abstract="true" name="S6_T_10_2"/>
+                    <feature abstract="true" name="S6_T_10_3"/>
+                    <feature abstract="true" name="S6_T_10_4"/>
+                    <feature abstract="true" name="S6_T_10_5"/>
+                    <feature abstract="true" name="S6_T_10_6"/>
+                    <feature abstract="true" name="S6_T_10_7"/>
+                    <feature abstract="true" name="S6_T_10_8"/>
+                    <feature abstract="true" name="S6_T_10_9"/>
+                    <feature abstract="true" name="S6_T_10_10"/>
+                    <feature abstract="true" name="S6_T_10_11"/>
+                    <feature abstract="true" name="S6_T_10_12"/>
+                    <feature abstract="true" name="S6_T_10_13"/>
+                    <feature abstract="true" name="S6_T_10_14"/>
+                    <feature abstract="true" name="S6_T_10_15"/>
+                    <feature abstract="true" name="S6_T_11_0"/>
+                    <feature abstract="true" name="S6_T_11_1"/>
+                    <feature abstract="true" name="S6_T_11_2"/>
+                    <feature abstract="true" name="S6_T_11_3"/>
+                    <feature abstract="true" name="S6_T_11_4"/>
+                    <feature abstract="true" name="S6_T_11_5"/>
+                    <feature abstract="true" name="S6_T_11_6"/>
+                    <feature abstract="true" name="S6_T_11_7"/>
+                    <feature abstract="true" name="S6_T_11_8"/>
+                    <feature abstract="true" name="S6_T_11_9"/>
+                    <feature abstract="true" name="S6_T_11_10"/>
+                    <feature abstract="true" name="S6_T_11_11"/>
+                    <feature abstract="true" name="S6_T_11_12"/>
+                    <feature abstract="true" name="S6_T_11_13"/>
+                    <feature abstract="true" name="S6_T_11_14"/>
+                    <feature abstract="true" name="S6_T_11_15"/>
+                    <feature abstract="true" name="S6_B_0_0"/>
+                    <feature abstract="true" name="S6_B_0_1"/>
+                    <feature abstract="true" name="S6_B_0_2"/>
+                    <feature abstract="true" name="S6_B_0_3"/>
+                    <feature abstract="true" name="S6_B_1_0"/>
+                    <feature abstract="true" name="S6_B_1_1"/>
+                    <feature abstract="true" name="S6_B_1_2"/>
+                    <feature abstract="true" name="S6_B_1_3"/>
+                    <feature abstract="true" name="S6_B_2_0"/>
+                    <feature abstract="true" name="S6_B_2_1"/>
+                    <feature abstract="true" name="S6_B_2_2"/>
+                    <feature abstract="true" name="S6_B_2_3"/>
+                    <feature abstract="true" name="S6_B_3_0"/>
+                    <feature abstract="true" name="S6_B_3_1"/>
+                    <feature abstract="true" name="S6_B_3_2"/>
+                    <feature abstract="true" name="S6_B_3_3"/>
+                    <feature abstract="true" name="S6_B_4_0"/>
+                    <feature abstract="true" name="S6_B_4_1"/>
+                    <feature abstract="true" name="S6_B_4_2"/>
+                    <feature abstract="true" name="S6_B_4_3"/>
+                    <feature abstract="true" name="S6_B_5_0"/>
+                    <feature abstract="true" name="S6_B_5_1"/>
+                    <feature abstract="true" name="S6_B_5_2"/>
+                    <feature abstract="true" name="S6_B_5_3"/>
+                    <feature abstract="true" name="S6_B_6_0"/>
+                    <feature abstract="true" name="S6_B_6_1"/>
+                    <feature abstract="true" name="S6_B_6_2"/>
+                    <feature abstract="true" name="S6_B_6_3"/>
+                    <feature abstract="true" name="S6_B_7_0"/>
+                    <feature abstract="true" name="S6_B_7_1"/>
+                    <feature abstract="true" name="S6_B_7_2"/>
+                    <feature abstract="true" name="S6_B_7_3"/>
+                    <feature abstract="true" name="S6_B_8_0"/>
+                    <feature abstract="true" name="S6_B_8_1"/>
+                    <feature abstract="true" name="S6_B_8_2"/>
+                    <feature abstract="true" name="S6_B_8_3"/>
+                    <feature abstract="true" name="S6_B_9_0"/>
+                    <feature abstract="true" name="S6_B_9_1"/>
+                    <feature abstract="true" name="S6_B_9_2"/>
+                    <feature abstract="true" name="S6_B_9_3"/>
+                    <feature abstract="true" name="S6_B_10_0"/>
+                    <feature abstract="true" name="S6_B_10_1"/>
+                    <feature abstract="true" name="S6_B_10_2"/>
+                    <feature abstract="true" name="S6_B_10_3"/>
+                    <feature abstract="true" name="S6_B_11_0"/>
+                    <feature abstract="true" name="S6_B_11_1"/>
+                    <feature abstract="true" name="S6_B_11_2"/>
+                    <feature abstract="true" name="S6_B_11_3"/>
+                </and>
+            </and>
+        </and>
+    </struct>
+    <constraints>
+        <rule>
+            <description>
+Wahlpflichtkurse der Studienrichtung NetworkedSystems
+</description>
+            <imp>
+                <var>Studienrichtung NetworkedSystems</var>
+                <conj>
+                    <disj>
+                        <var>Masterarbeit Connected and Mobile Systems</var>
+                        <var>Masterarbeit Verteilte Systeme</var>
+                    </disj>
+                </conj>
+            </imp>
+        </rule>
+        <rule>
+            <description>
+Wahlpflichtkurse der Studienrichtung NetworkedSystems
+</description>
+            <imp>
+                <var>Studienrichtung NetworkedSystems</var>
+                <conj>
+                    <disj>
+                        <var>Praktikum Betriebssysteme</var>
+                        <var>Praktikum Cloud Computing</var>
+                        <var>Praktikum Computernetze</var>
+                        <var>Praktikum Computernetze Administration</var>
+                        <var>Wireless Networking Lab</var>
+                    </disj>
+                </conj>
+            </imp>
+        </rule>
+        <rule>
+            <description>
+Wahlpflichtkurse der Studienrichtung NetworkedSystems
+</description>
+            <imp>
+                <var>Studienrichtung NetworkedSystems</var>
+                <conj>
+                    <disj>
+                        <var>Seminar Connected and Mobile Systems</var>
+                        <var>Seminar Verteilte Systeme</var>
+                    </disj>
+                </conj>
+            </imp>
+        </rule>
+        <rule>
+            <description>
+Wahlpflichtkurse der Studienrichtung NetworkedSystems
+</description>
+            <imp>
+                <var>Studienrichtung NetworkedSystems</var>
+                <disj>
+                    <conj>
+                        <not>
+                            <var>Projektarbeit Connected and Mobile Systems</var>
+                        </not>
+                        <not>
+                            <var>Projektarbeit Verteilte Systeme</var>
+                        </not>
+                        <disj>
+                            <var>Verteilte fehlertolerante Systeme</var>
+                            <var>S3_R_0_0</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <var>S3_R_1_0</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <var>S3_R_2_0</var>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <var>S3_R_3_0</var>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <var>S3_R_4_0</var>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <var>S3_R_5_0</var>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <var>S3_R_6_0</var>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <var>S3_R_7_0</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <var>S3_R_8_0</var>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <var>S3_R_9_0</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <var>S3_R_10_0</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <var>S3_R_11_0</var>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <var>S3_R_12_0</var>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <var>S3_R_13_0</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <var>S3_R_14_0</var>
+                        </disj>
+                        <not>
+                            <var>S3_R_0_1</var>
+                        </not>
+                        <not>
+                            <var>S3_R_0_2</var>
+                        </not>
+                        <not>
+                            <var>S3_R_0_3</var>
+                        </not>
+                        <not>
+                            <var>S3_R_0_4</var>
+                        </not>
+                        <not>
+                            <var>S3_R_0_5</var>
+                        </not>
+                        <not>
+                            <var>S3_R_0_6</var>
+                        </not>
+                        <not>
+                            <var>S3_R_0_7</var>
+                        </not>
+                        <not>
+                            <var>S3_R_0_8</var>
+                        </not>
+                        <disj>
+                            <not>
+                                <var>S3_R_0_0</var>
+                            </not>
+                            <var>S3_R_1_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_0_1</var>
+                            </not>
+                            <var>S3_R_1_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_0_2</var>
+                            </not>
+                            <var>S3_R_1_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_0_3</var>
+                            </not>
+                            <var>S3_R_1_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_0_4</var>
+                            </not>
+                            <var>S3_R_1_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_0_5</var>
+                            </not>
+                            <var>S3_R_1_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_0_6</var>
+                            </not>
+                            <var>S3_R_1_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_0_7</var>
+                            </not>
+                            <var>S3_R_1_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_0_8</var>
+                            </not>
+                            <var>S3_R_1_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_1_0</var>
+                            </not>
+                            <var>S3_R_2_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_1_1</var>
+                            </not>
+                            <var>S3_R_2_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_1_2</var>
+                            </not>
+                            <var>S3_R_2_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_1_3</var>
+                            </not>
+                            <var>S3_R_2_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_1_4</var>
+                            </not>
+                            <var>S3_R_2_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_1_5</var>
+                            </not>
+                            <var>S3_R_2_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_1_6</var>
+                            </not>
+                            <var>S3_R_2_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_1_7</var>
+                            </not>
+                            <var>S3_R_2_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_1_8</var>
+                            </not>
+                            <var>S3_R_2_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_2_0</var>
+                            </not>
+                            <var>S3_R_3_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_2_1</var>
+                            </not>
+                            <var>S3_R_3_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_2_2</var>
+                            </not>
+                            <var>S3_R_3_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_2_3</var>
+                            </not>
+                            <var>S3_R_3_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_2_4</var>
+                            </not>
+                            <var>S3_R_3_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_2_5</var>
+                            </not>
+                            <var>S3_R_3_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_2_6</var>
+                            </not>
+                            <var>S3_R_3_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_2_7</var>
+                            </not>
+                            <var>S3_R_3_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_2_8</var>
+                            </not>
+                            <var>S3_R_3_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_3_0</var>
+                            </not>
+                            <var>S3_R_4_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_3_1</var>
+                            </not>
+                            <var>S3_R_4_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_3_2</var>
+                            </not>
+                            <var>S3_R_4_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_3_3</var>
+                            </not>
+                            <var>S3_R_4_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_3_4</var>
+                            </not>
+                            <var>S3_R_4_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_3_5</var>
+                            </not>
+                            <var>S3_R_4_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_3_6</var>
+                            </not>
+                            <var>S3_R_4_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_3_7</var>
+                            </not>
+                            <var>S3_R_4_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_3_8</var>
+                            </not>
+                            <var>S3_R_4_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_4_0</var>
+                            </not>
+                            <var>S3_R_5_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_4_1</var>
+                            </not>
+                            <var>S3_R_5_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_4_2</var>
+                            </not>
+                            <var>S3_R_5_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_4_3</var>
+                            </not>
+                            <var>S3_R_5_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_4_4</var>
+                            </not>
+                            <var>S3_R_5_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_4_5</var>
+                            </not>
+                            <var>S3_R_5_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_4_6</var>
+                            </not>
+                            <var>S3_R_5_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_4_7</var>
+                            </not>
+                            <var>S3_R_5_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_4_8</var>
+                            </not>
+                            <var>S3_R_5_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_5_0</var>
+                            </not>
+                            <var>S3_R_6_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_5_1</var>
+                            </not>
+                            <var>S3_R_6_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_5_2</var>
+                            </not>
+                            <var>S3_R_6_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_5_3</var>
+                            </not>
+                            <var>S3_R_6_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_5_4</var>
+                            </not>
+                            <var>S3_R_6_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_5_5</var>
+                            </not>
+                            <var>S3_R_6_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_5_6</var>
+                            </not>
+                            <var>S3_R_6_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_5_7</var>
+                            </not>
+                            <var>S3_R_6_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_5_8</var>
+                            </not>
+                            <var>S3_R_6_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_6_0</var>
+                            </not>
+                            <var>S3_R_7_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_6_1</var>
+                            </not>
+                            <var>S3_R_7_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_6_2</var>
+                            </not>
+                            <var>S3_R_7_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_6_3</var>
+                            </not>
+                            <var>S3_R_7_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_6_4</var>
+                            </not>
+                            <var>S3_R_7_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_6_5</var>
+                            </not>
+                            <var>S3_R_7_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_6_6</var>
+                            </not>
+                            <var>S3_R_7_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_6_7</var>
+                            </not>
+                            <var>S3_R_7_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_6_8</var>
+                            </not>
+                            <var>S3_R_7_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_7_0</var>
+                            </not>
+                            <var>S3_R_8_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_7_1</var>
+                            </not>
+                            <var>S3_R_8_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_7_2</var>
+                            </not>
+                            <var>S3_R_8_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_7_3</var>
+                            </not>
+                            <var>S3_R_8_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_7_4</var>
+                            </not>
+                            <var>S3_R_8_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_7_5</var>
+                            </not>
+                            <var>S3_R_8_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_7_6</var>
+                            </not>
+                            <var>S3_R_8_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_7_7</var>
+                            </not>
+                            <var>S3_R_8_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_7_8</var>
+                            </not>
+                            <var>S3_R_8_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_8_0</var>
+                            </not>
+                            <var>S3_R_9_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_8_1</var>
+                            </not>
+                            <var>S3_R_9_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_8_2</var>
+                            </not>
+                            <var>S3_R_9_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_8_3</var>
+                            </not>
+                            <var>S3_R_9_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_8_4</var>
+                            </not>
+                            <var>S3_R_9_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_8_5</var>
+                            </not>
+                            <var>S3_R_9_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_8_6</var>
+                            </not>
+                            <var>S3_R_9_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_8_7</var>
+                            </not>
+                            <var>S3_R_9_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_8_8</var>
+                            </not>
+                            <var>S3_R_9_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_9_0</var>
+                            </not>
+                            <var>S3_R_10_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_9_1</var>
+                            </not>
+                            <var>S3_R_10_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_9_2</var>
+                            </not>
+                            <var>S3_R_10_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_9_3</var>
+                            </not>
+                            <var>S3_R_10_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_9_4</var>
+                            </not>
+                            <var>S3_R_10_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_9_5</var>
+                            </not>
+                            <var>S3_R_10_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_9_6</var>
+                            </not>
+                            <var>S3_R_10_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_9_7</var>
+                            </not>
+                            <var>S3_R_10_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_9_8</var>
+                            </not>
+                            <var>S3_R_10_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_10_0</var>
+                            </not>
+                            <var>S3_R_11_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_10_1</var>
+                            </not>
+                            <var>S3_R_11_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_10_2</var>
+                            </not>
+                            <var>S3_R_11_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_10_3</var>
+                            </not>
+                            <var>S3_R_11_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_10_4</var>
+                            </not>
+                            <var>S3_R_11_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_10_5</var>
+                            </not>
+                            <var>S3_R_11_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_10_6</var>
+                            </not>
+                            <var>S3_R_11_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_10_7</var>
+                            </not>
+                            <var>S3_R_11_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_10_8</var>
+                            </not>
+                            <var>S3_R_11_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_11_0</var>
+                            </not>
+                            <var>S3_R_12_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_11_1</var>
+                            </not>
+                            <var>S3_R_12_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_11_2</var>
+                            </not>
+                            <var>S3_R_12_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_11_3</var>
+                            </not>
+                            <var>S3_R_12_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_11_4</var>
+                            </not>
+                            <var>S3_R_12_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_11_5</var>
+                            </not>
+                            <var>S3_R_12_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_11_6</var>
+                            </not>
+                            <var>S3_R_12_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_11_7</var>
+                            </not>
+                            <var>S3_R_12_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_11_8</var>
+                            </not>
+                            <var>S3_R_12_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_12_0</var>
+                            </not>
+                            <var>S3_R_13_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_12_1</var>
+                            </not>
+                            <var>S3_R_13_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_12_2</var>
+                            </not>
+                            <var>S3_R_13_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_12_3</var>
+                            </not>
+                            <var>S3_R_13_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_12_4</var>
+                            </not>
+                            <var>S3_R_13_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_12_5</var>
+                            </not>
+                            <var>S3_R_13_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_12_6</var>
+                            </not>
+                            <var>S3_R_13_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_12_7</var>
+                            </not>
+                            <var>S3_R_13_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_12_8</var>
+                            </not>
+                            <var>S3_R_13_8</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_13_0</var>
+                            </not>
+                            <var>S3_R_14_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_13_1</var>
+                            </not>
+                            <var>S3_R_14_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_13_2</var>
+                            </not>
+                            <var>S3_R_14_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_13_3</var>
+                            </not>
+                            <var>S3_R_14_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_13_4</var>
+                            </not>
+                            <var>S3_R_14_4</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_13_5</var>
+                            </not>
+                            <var>S3_R_14_5</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_13_6</var>
+                            </not>
+                            <var>S3_R_14_6</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_13_7</var>
+                            </not>
+                            <var>S3_R_14_7</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S3_R_13_8</var>
+                            </not>
+                            <var>S3_R_14_8</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <not>
+                                <var>S3_R_0_0</var>
+                            </not>
+                            <var>S3_R_1_1</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <not>
+                                <var>S3_R_0_1</var>
+                            </not>
+                            <var>S3_R_1_2</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <not>
+                                <var>S3_R_0_2</var>
+                            </not>
+                            <var>S3_R_1_3</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <not>
+                                <var>S3_R_0_3</var>
+                            </not>
+                            <var>S3_R_1_4</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <not>
+                                <var>S3_R_0_4</var>
+                            </not>
+                            <var>S3_R_1_5</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <not>
+                                <var>S3_R_0_5</var>
+                            </not>
+                            <var>S3_R_1_6</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <not>
+                                <var>S3_R_0_6</var>
+                            </not>
+                            <var>S3_R_1_7</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <not>
+                                <var>S3_R_0_7</var>
+                            </not>
+                            <var>S3_R_1_8</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <not>
+                                <var>S3_R_1_0</var>
+                            </not>
+                            <var>S3_R_2_1</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <not>
+                                <var>S3_R_1_1</var>
+                            </not>
+                            <var>S3_R_2_2</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <not>
+                                <var>S3_R_1_2</var>
+                            </not>
+                            <var>S3_R_2_3</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <not>
+                                <var>S3_R_1_3</var>
+                            </not>
+                            <var>S3_R_2_4</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <not>
+                                <var>S3_R_1_4</var>
+                            </not>
+                            <var>S3_R_2_5</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <not>
+                                <var>S3_R_1_5</var>
+                            </not>
+                            <var>S3_R_2_6</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <not>
+                                <var>S3_R_1_6</var>
+                            </not>
+                            <var>S3_R_2_7</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <not>
+                                <var>S3_R_1_7</var>
+                            </not>
+                            <var>S3_R_2_8</var>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <not>
+                                <var>S3_R_2_0</var>
+                            </not>
+                            <var>S3_R_3_1</var>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <not>
+                                <var>S3_R_2_1</var>
+                            </not>
+                            <var>S3_R_3_2</var>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <not>
+                                <var>S3_R_2_2</var>
+                            </not>
+                            <var>S3_R_3_3</var>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <not>
+                                <var>S3_R_2_3</var>
+                            </not>
+                            <var>S3_R_3_4</var>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <not>
+                                <var>S3_R_2_4</var>
+                            </not>
+                            <var>S3_R_3_5</var>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <not>
+                                <var>S3_R_2_5</var>
+                            </not>
+                            <var>S3_R_3_6</var>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <not>
+                                <var>S3_R_2_6</var>
+                            </not>
+                            <var>S3_R_3_7</var>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <not>
+                                <var>S3_R_2_7</var>
+                            </not>
+                            <var>S3_R_3_8</var>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <not>
+                                <var>S3_R_3_0</var>
+                            </not>
+                            <var>S3_R_4_1</var>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <not>
+                                <var>S3_R_3_1</var>
+                            </not>
+                            <var>S3_R_4_2</var>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <not>
+                                <var>S3_R_3_2</var>
+                            </not>
+                            <var>S3_R_4_3</var>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <not>
+                                <var>S3_R_3_3</var>
+                            </not>
+                            <var>S3_R_4_4</var>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <not>
+                                <var>S3_R_3_4</var>
+                            </not>
+                            <var>S3_R_4_5</var>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <not>
+                                <var>S3_R_3_5</var>
+                            </not>
+                            <var>S3_R_4_6</var>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <not>
+                                <var>S3_R_3_6</var>
+                            </not>
+                            <var>S3_R_4_7</var>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <not>
+                                <var>S3_R_3_7</var>
+                            </not>
+                            <var>S3_R_4_8</var>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <not>
+                                <var>S3_R_4_0</var>
+                            </not>
+                            <var>S3_R_5_1</var>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <not>
+                                <var>S3_R_4_1</var>
+                            </not>
+                            <var>S3_R_5_2</var>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <not>
+                                <var>S3_R_4_2</var>
+                            </not>
+                            <var>S3_R_5_3</var>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <not>
+                                <var>S3_R_4_3</var>
+                            </not>
+                            <var>S3_R_5_4</var>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <not>
+                                <var>S3_R_4_4</var>
+                            </not>
+                            <var>S3_R_5_5</var>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <not>
+                                <var>S3_R_4_5</var>
+                            </not>
+                            <var>S3_R_5_6</var>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <not>
+                                <var>S3_R_4_6</var>
+                            </not>
+                            <var>S3_R_5_7</var>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <not>
+                                <var>S3_R_4_7</var>
+                            </not>
+                            <var>S3_R_5_8</var>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <not>
+                                <var>S3_R_5_0</var>
+                            </not>
+                            <var>S3_R_6_1</var>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <not>
+                                <var>S3_R_5_1</var>
+                            </not>
+                            <var>S3_R_6_2</var>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <not>
+                                <var>S3_R_5_2</var>
+                            </not>
+                            <var>S3_R_6_3</var>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <not>
+                                <var>S3_R_5_3</var>
+                            </not>
+                            <var>S3_R_6_4</var>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <not>
+                                <var>S3_R_5_4</var>
+                            </not>
+                            <var>S3_R_6_5</var>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <not>
+                                <var>S3_R_5_5</var>
+                            </not>
+                            <var>S3_R_6_6</var>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <not>
+                                <var>S3_R_5_6</var>
+                            </not>
+                            <var>S3_R_6_7</var>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <not>
+                                <var>S3_R_5_7</var>
+                            </not>
+                            <var>S3_R_6_8</var>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <not>
+                                <var>S3_R_6_0</var>
+                            </not>
+                            <var>S3_R_7_1</var>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <not>
+                                <var>S3_R_6_1</var>
+                            </not>
+                            <var>S3_R_7_2</var>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <not>
+                                <var>S3_R_6_2</var>
+                            </not>
+                            <var>S3_R_7_3</var>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <not>
+                                <var>S3_R_6_3</var>
+                            </not>
+                            <var>S3_R_7_4</var>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <not>
+                                <var>S3_R_6_4</var>
+                            </not>
+                            <var>S3_R_7_5</var>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <not>
+                                <var>S3_R_6_5</var>
+                            </not>
+                            <var>S3_R_7_6</var>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <not>
+                                <var>S3_R_6_6</var>
+                            </not>
+                            <var>S3_R_7_7</var>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <not>
+                                <var>S3_R_6_7</var>
+                            </not>
+                            <var>S3_R_7_8</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <not>
+                                <var>S3_R_7_0</var>
+                            </not>
+                            <var>S3_R_8_1</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <not>
+                                <var>S3_R_7_1</var>
+                            </not>
+                            <var>S3_R_8_2</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <not>
+                                <var>S3_R_7_2</var>
+                            </not>
+                            <var>S3_R_8_3</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <not>
+                                <var>S3_R_7_3</var>
+                            </not>
+                            <var>S3_R_8_4</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <not>
+                                <var>S3_R_7_4</var>
+                            </not>
+                            <var>S3_R_8_5</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <not>
+                                <var>S3_R_7_5</var>
+                            </not>
+                            <var>S3_R_8_6</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <not>
+                                <var>S3_R_7_6</var>
+                            </not>
+                            <var>S3_R_8_7</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <not>
+                                <var>S3_R_7_7</var>
+                            </not>
+                            <var>S3_R_8_8</var>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <not>
+                                <var>S3_R_8_0</var>
+                            </not>
+                            <var>S3_R_9_1</var>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <not>
+                                <var>S3_R_8_1</var>
+                            </not>
+                            <var>S3_R_9_2</var>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <not>
+                                <var>S3_R_8_2</var>
+                            </not>
+                            <var>S3_R_9_3</var>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <not>
+                                <var>S3_R_8_3</var>
+                            </not>
+                            <var>S3_R_9_4</var>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <not>
+                                <var>S3_R_8_4</var>
+                            </not>
+                            <var>S3_R_9_5</var>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <not>
+                                <var>S3_R_8_5</var>
+                            </not>
+                            <var>S3_R_9_6</var>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <not>
+                                <var>S3_R_8_6</var>
+                            </not>
+                            <var>S3_R_9_7</var>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <not>
+                                <var>S3_R_8_7</var>
+                            </not>
+                            <var>S3_R_9_8</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <not>
+                                <var>S3_R_9_0</var>
+                            </not>
+                            <var>S3_R_10_1</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <not>
+                                <var>S3_R_9_1</var>
+                            </not>
+                            <var>S3_R_10_2</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <not>
+                                <var>S3_R_9_2</var>
+                            </not>
+                            <var>S3_R_10_3</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <not>
+                                <var>S3_R_9_3</var>
+                            </not>
+                            <var>S3_R_10_4</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <not>
+                                <var>S3_R_9_4</var>
+                            </not>
+                            <var>S3_R_10_5</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <not>
+                                <var>S3_R_9_5</var>
+                            </not>
+                            <var>S3_R_10_6</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <not>
+                                <var>S3_R_9_6</var>
+                            </not>
+                            <var>S3_R_10_7</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <not>
+                                <var>S3_R_9_7</var>
+                            </not>
+                            <var>S3_R_10_8</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <not>
+                                <var>S3_R_10_0</var>
+                            </not>
+                            <var>S3_R_11_1</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <not>
+                                <var>S3_R_10_1</var>
+                            </not>
+                            <var>S3_R_11_2</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <not>
+                                <var>S3_R_10_2</var>
+                            </not>
+                            <var>S3_R_11_3</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <not>
+                                <var>S3_R_10_3</var>
+                            </not>
+                            <var>S3_R_11_4</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <not>
+                                <var>S3_R_10_4</var>
+                            </not>
+                            <var>S3_R_11_5</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <not>
+                                <var>S3_R_10_5</var>
+                            </not>
+                            <var>S3_R_11_6</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <not>
+                                <var>S3_R_10_6</var>
+                            </not>
+                            <var>S3_R_11_7</var>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <not>
+                                <var>S3_R_10_7</var>
+                            </not>
+                            <var>S3_R_11_8</var>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <not>
+                                <var>S3_R_11_0</var>
+                            </not>
+                            <var>S3_R_12_1</var>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <not>
+                                <var>S3_R_11_1</var>
+                            </not>
+                            <var>S3_R_12_2</var>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <not>
+                                <var>S3_R_11_2</var>
+                            </not>
+                            <var>S3_R_12_3</var>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <not>
+                                <var>S3_R_11_3</var>
+                            </not>
+                            <var>S3_R_12_4</var>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <not>
+                                <var>S3_R_11_4</var>
+                            </not>
+                            <var>S3_R_12_5</var>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <not>
+                                <var>S3_R_11_5</var>
+                            </not>
+                            <var>S3_R_12_6</var>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <not>
+                                <var>S3_R_11_6</var>
+                            </not>
+                            <var>S3_R_12_7</var>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <not>
+                                <var>S3_R_11_7</var>
+                            </not>
+                            <var>S3_R_12_8</var>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <not>
+                                <var>S3_R_12_0</var>
+                            </not>
+                            <var>S3_R_13_1</var>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <not>
+                                <var>S3_R_12_1</var>
+                            </not>
+                            <var>S3_R_13_2</var>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <not>
+                                <var>S3_R_12_2</var>
+                            </not>
+                            <var>S3_R_13_3</var>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <not>
+                                <var>S3_R_12_3</var>
+                            </not>
+                            <var>S3_R_13_4</var>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <not>
+                                <var>S3_R_12_4</var>
+                            </not>
+                            <var>S3_R_13_5</var>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <not>
+                                <var>S3_R_12_5</var>
+                            </not>
+                            <var>S3_R_13_6</var>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <not>
+                                <var>S3_R_12_6</var>
+                            </not>
+                            <var>S3_R_13_7</var>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <not>
+                                <var>S3_R_12_7</var>
+                            </not>
+                            <var>S3_R_13_8</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <not>
+                                <var>S3_R_13_0</var>
+                            </not>
+                            <var>S3_R_14_1</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <not>
+                                <var>S3_R_13_1</var>
+                            </not>
+                            <var>S3_R_14_2</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <not>
+                                <var>S3_R_13_2</var>
+                            </not>
+                            <var>S3_R_14_3</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <not>
+                                <var>S3_R_13_3</var>
+                            </not>
+                            <var>S3_R_14_4</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <not>
+                                <var>S3_R_13_4</var>
+                            </not>
+                            <var>S3_R_14_5</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <not>
+                                <var>S3_R_13_5</var>
+                            </not>
+                            <var>S3_R_14_6</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <not>
+                                <var>S3_R_13_6</var>
+                            </not>
+                            <var>S3_R_14_7</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <not>
+                                <var>S3_R_13_7</var>
+                            </not>
+                            <var>S3_R_14_8</var>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Betriebssysteme</var>
+                            <not>
+                                <var>S3_R_0_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Cloud Computing</var>
+                            <not>
+                                <var>S3_R_1_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Webbasierte Systeme</var>
+                            <not>
+                                <var>S3_R_2_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Verteilte Systeme</var>
+                            <not>
+                                <var>S3_R_3_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Cloud Computing</var>
+                            <not>
+                                <var>S3_R_4_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Computernetze II</var>
+                            <not>
+                                <var>S3_R_5_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Recent Topics in Computer Networking</var>
+                            <not>
+                                <var>S3_R_6_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking I</var>
+                            <not>
+                                <var>S3_R_7_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Mobile Computing Lab</var>
+                            <not>
+                                <var>S3_R_8_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze</var>
+                            <not>
+                                <var>S3_R_9_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Advanced Networking II</var>
+                            <not>
+                                <var>S3_R_10_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Mobilkommunikation</var>
+                            <not>
+                                <var>S3_R_11_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Mensch-Maschine-Interaktion</var>
+                            <not>
+                                <var>S3_R_12_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Praktikum Computernetze Administration</var>
+                            <not>
+                                <var>S3_R_13_8</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Wireless Networking Lab</var>
+                            <not>
+                                <var>S3_R_14_8</var>
+                            </not>
+                        </disj>
+                    </conj>
+                    <conj>
+                        <disj>
+                            <var>Projektarbeit Connected and Mobile Systems</var>
+                            <var>Projektarbeit Verteilte Systeme</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>Projektarbeit Connected and Mobile Systems</var>
+                            </not>
+                            <not>
+                                <var>Projektarbeit Verteilte Systeme</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S6_T_0_0</var>
+                            <var>Verteilte fehlertolerante Systeme</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_0</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_0</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_0</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_0</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S6_T_0_1</var>
+                            <var>S6_T_1_1</var>
+                            <var>Praktikum Betriebssysteme</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_1</var>
+                            </not>
+                            <var>S6_B_0_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_1</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_1</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_1</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_1</var>
+                            </not>
+                            <var>S6_B_1_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_1</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_1</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_1</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S6_T_0_2</var>
+                            <var>S6_T_1_2</var>
+                            <var>S6_T_2_2</var>
+                            <var>Praktikum Cloud Computing</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_2</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_2</var>
+                            </not>
+                            <var>S6_B_0_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_2</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_2</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_2</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_2</var>
+                            </not>
+                            <var>S6_B_1_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_2</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_2</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_2</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_2</var>
+                            </not>
+                            <var>S6_B_2_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_2</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_2</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S6_T_0_3</var>
+                            <var>S6_T_1_3</var>
+                            <var>S6_T_2_3</var>
+                            <var>S6_T_3_3</var>
+                            <var>Webbasierte Systeme</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_3</var>
+                            </not>
+                            <var>S6_B_0_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_3</var>
+                            </not>
+                            <var>S6_B_0_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_3</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_3</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_3</var>
+                            </not>
+                            <var>S6_B_1_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_3</var>
+                            </not>
+                            <var>S6_B_1_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_3</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_3</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_3</var>
+                            </not>
+                            <var>S6_B_2_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_3</var>
+                            </not>
+                            <var>S6_B_2_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_3</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_3</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_3</var>
+                            </not>
+                            <var>S6_B_3_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_3</var>
+                            </not>
+                            <var>S6_B_3_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_3</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_3</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S6_T_0_4</var>
+                            <var>S6_T_1_4</var>
+                            <var>S6_T_2_4</var>
+                            <var>S6_T_3_4</var>
+                            <var>S6_T_4_4</var>
+                            <var>Verteilte Systeme</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_4</var>
+                            </not>
+                            <var>S6_B_0_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_0_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_0_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_4</var>
+                            </not>
+                            <var>S6_B_1_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_4</var>
+                            </not>
+                            <var>S6_B_2_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_4</var>
+                            </not>
+                            <var>S6_B_3_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_4</var>
+                            </not>
+                            <var>S6_B_4_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_4</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S6_T_1_5</var>
+                            <var>S6_T_2_5</var>
+                            <var>S6_T_3_5</var>
+                            <var>S6_T_4_5</var>
+                            <var>S6_T_5_5</var>
+                            <var>Cloud Computing</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_5</var>
+                            </not>
+                            <var>S6_B_1_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_5</var>
+                            </not>
+                            <var>S6_B_1_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_1_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_1_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_5</var>
+                            </not>
+                            <var>S6_B_2_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_5</var>
+                            </not>
+                            <var>S6_B_2_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_5</var>
+                            </not>
+                            <var>S6_B_3_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_5</var>
+                            </not>
+                            <var>S6_B_3_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_5</var>
+                            </not>
+                            <var>S6_B_4_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_5</var>
+                            </not>
+                            <var>S6_B_4_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_5</var>
+                            </not>
+                            <var>S6_B_5_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_5</var>
+                            </not>
+                            <var>S6_B_5_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_5</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S6_T_2_6</var>
+                            <var>S6_T_3_6</var>
+                            <var>S6_T_4_6</var>
+                            <var>S6_T_5_6</var>
+                            <var>S6_T_6_6</var>
+                            <var>Computernetze II</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_6</var>
+                            </not>
+                            <var>S6_B_2_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_6</var>
+                            </not>
+                            <var>S6_B_2_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_2_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_2_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_6</var>
+                            </not>
+                            <var>S6_B_3_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_6</var>
+                            </not>
+                            <var>S6_B_3_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_6</var>
+                            </not>
+                            <var>S6_B_4_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_6</var>
+                            </not>
+                            <var>S6_B_4_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_6</var>
+                            </not>
+                            <var>S6_B_5_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_6</var>
+                            </not>
+                            <var>S6_B_5_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_6</var>
+                            </not>
+                            <var>S6_B_6_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_6</var>
+                            </not>
+                            <var>S6_B_6_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_6</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S6_T_3_7</var>
+                            <var>S6_T_4_7</var>
+                            <var>S6_T_5_7</var>
+                            <var>S6_T_6_7</var>
+                            <var>S6_T_7_7</var>
+                            <var>Recent Topics in Computer Networking</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_7</var>
+                            </not>
+                            <var>S6_B_3_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_7</var>
+                            </not>
+                            <var>S6_B_3_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_7</var>
+                            </not>
+                            <var>S6_B_3_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_3_7</var>
+                            </not>
+                            <not>
+                                <var>S6_B_3_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_7</var>
+                            </not>
+                            <var>S6_B_4_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_7</var>
+                            </not>
+                            <var>S6_B_4_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_7</var>
+                            </not>
+                            <var>S6_B_4_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_7</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_7</var>
+                            </not>
+                            <var>S6_B_5_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_7</var>
+                            </not>
+                            <var>S6_B_5_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_7</var>
+                            </not>
+                            <var>S6_B_5_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_7</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_7</var>
+                            </not>
+                            <var>S6_B_6_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_7</var>
+                            </not>
+                            <var>S6_B_6_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_7</var>
+                            </not>
+                            <var>S6_B_6_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_7</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_7</var>
+                            </not>
+                            <var>S6_B_7_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_7</var>
+                            </not>
+                            <var>S6_B_7_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_7</var>
+                            </not>
+                            <var>S6_B_7_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_7</var>
+                            </not>
+                            <not>
+                                <var>S6_B_7_3</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S6_T_4_8</var>
+                            <var>S6_T_5_8</var>
+                            <var>S6_T_6_8</var>
+                            <var>S6_T_7_8</var>
+                            <var>S6_T_8_8</var>
+                            <var>Advanced Networking I</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_4_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_4_8</var>
+                            </not>
+                            <var>S6_B_4_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_8</var>
+                            </not>
+                            <var>S6_B_5_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_8</var>
+                            </not>
+                            <var>S6_B_6_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_7_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_7_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_7_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_8</var>
+                            </not>
+                            <var>S6_B_7_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_8</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_8</var>
+                            </not>
+                            <var>S6_B_8_3</var>
+                        </disj>
+                        <disj>
+                            <var>S6_T_5_9</var>
+                            <var>S6_T_6_9</var>
+                            <var>S6_T_7_9</var>
+                            <var>S6_T_8_9</var>
+                            <var>S6_T_9_9</var>
+                            <var>Mobile Computing Lab</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_9</var>
+                            </not>
+                            <var>S6_B_5_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_5_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_5_9</var>
+                            </not>
+                            <var>S6_B_5_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_9</var>
+                            </not>
+                            <var>S6_B_6_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_9</var>
+                            </not>
+                            <var>S6_B_6_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_9</var>
+                            </not>
+                            <var>S6_B_7_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_7_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_7_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_9</var>
+                            </not>
+                            <var>S6_B_7_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_9</var>
+                            </not>
+                            <var>S6_B_8_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_9</var>
+                            </not>
+                            <var>S6_B_8_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_9</var>
+                            </not>
+                            <var>S6_B_9_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_9_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_9</var>
+                            </not>
+                            <not>
+                                <var>S6_B_9_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_9</var>
+                            </not>
+                            <var>S6_B_9_3</var>
+                        </disj>
+                        <disj>
+                            <var>S6_T_6_10</var>
+                            <var>S6_T_7_10</var>
+                            <var>S6_T_8_10</var>
+                            <var>S6_T_9_10</var>
+                            <var>S6_T_10_10</var>
+                            <var>Praktikum Computernetze</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_10</var>
+                            </not>
+                            <var>S6_B_6_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_6_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_6_10</var>
+                            </not>
+                            <var>S6_B_6_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_7_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_10</var>
+                            </not>
+                            <var>S6_B_7_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_7_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_10</var>
+                            </not>
+                            <var>S6_B_7_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_10</var>
+                            </not>
+                            <var>S6_B_8_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_10</var>
+                            </not>
+                            <var>S6_B_8_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_9_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_10</var>
+                            </not>
+                            <var>S6_B_9_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_9_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_10</var>
+                            </not>
+                            <var>S6_B_9_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_10_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_10</var>
+                            </not>
+                            <var>S6_B_10_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_10</var>
+                            </not>
+                            <not>
+                                <var>S6_B_10_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_10</var>
+                            </not>
+                            <var>S6_B_10_3</var>
+                        </disj>
+                        <disj>
+                            <var>S6_T_7_11</var>
+                            <var>S6_T_8_11</var>
+                            <var>S6_T_9_11</var>
+                            <var>S6_T_10_11</var>
+                            <var>S6_T_11_11</var>
+                            <var>Advanced Networking II</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_11</var>
+                            </not>
+                            <var>S6_B_7_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_11</var>
+                            </not>
+                            <var>S6_B_7_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_11</var>
+                            </not>
+                            <not>
+                                <var>S6_B_7_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_7_11</var>
+                            </not>
+                            <var>S6_B_7_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_11</var>
+                            </not>
+                            <var>S6_B_8_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_11</var>
+                            </not>
+                            <var>S6_B_8_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_11</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_11</var>
+                            </not>
+                            <var>S6_B_8_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_11</var>
+                            </not>
+                            <var>S6_B_9_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_11</var>
+                            </not>
+                            <var>S6_B_9_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_11</var>
+                            </not>
+                            <not>
+                                <var>S6_B_9_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_11</var>
+                            </not>
+                            <var>S6_B_9_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_11</var>
+                            </not>
+                            <var>S6_B_10_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_11</var>
+                            </not>
+                            <var>S6_B_10_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_11</var>
+                            </not>
+                            <not>
+                                <var>S6_B_10_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_11</var>
+                            </not>
+                            <var>S6_B_10_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_11</var>
+                            </not>
+                            <var>S6_B_11_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_11</var>
+                            </not>
+                            <var>S6_B_11_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_11</var>
+                            </not>
+                            <not>
+                                <var>S6_B_11_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_11</var>
+                            </not>
+                            <var>S6_B_11_3</var>
+                        </disj>
+                        <disj>
+                            <var>S6_T_8_12</var>
+                            <var>S6_T_9_12</var>
+                            <var>S6_T_10_12</var>
+                            <var>S6_T_11_12</var>
+                            <var>Mobilkommunikation</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_12</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_12</var>
+                            </not>
+                            <not>
+                                <var>S6_B_8_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_12</var>
+                            </not>
+                            <var>S6_B_8_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_8_12</var>
+                            </not>
+                            <var>S6_B_8_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_12</var>
+                            </not>
+                            <not>
+                                <var>S6_B_9_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_12</var>
+                            </not>
+                            <not>
+                                <var>S6_B_9_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_12</var>
+                            </not>
+                            <var>S6_B_9_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_12</var>
+                            </not>
+                            <var>S6_B_9_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_12</var>
+                            </not>
+                            <not>
+                                <var>S6_B_10_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_12</var>
+                            </not>
+                            <not>
+                                <var>S6_B_10_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_12</var>
+                            </not>
+                            <var>S6_B_10_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_12</var>
+                            </not>
+                            <var>S6_B_10_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_12</var>
+                            </not>
+                            <not>
+                                <var>S6_B_11_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_12</var>
+                            </not>
+                            <not>
+                                <var>S6_B_11_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_12</var>
+                            </not>
+                            <var>S6_B_11_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_12</var>
+                            </not>
+                            <var>S6_B_11_3</var>
+                        </disj>
+                        <disj>
+                            <var>S6_T_9_13</var>
+                            <var>S6_T_10_13</var>
+                            <var>S6_T_11_13</var>
+                            <var>Mensch-Maschine-Interaktion</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_13</var>
+                            </not>
+                            <var>S6_B_9_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_13</var>
+                            </not>
+                            <not>
+                                <var>S6_B_9_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_13</var>
+                            </not>
+                            <var>S6_B_9_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_9_13</var>
+                            </not>
+                            <var>S6_B_9_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_13</var>
+                            </not>
+                            <var>S6_B_10_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_13</var>
+                            </not>
+                            <not>
+                                <var>S6_B_10_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_13</var>
+                            </not>
+                            <var>S6_B_10_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_13</var>
+                            </not>
+                            <var>S6_B_10_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_13</var>
+                            </not>
+                            <var>S6_B_11_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_13</var>
+                            </not>
+                            <not>
+                                <var>S6_B_11_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_13</var>
+                            </not>
+                            <var>S6_B_11_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_13</var>
+                            </not>
+                            <var>S6_B_11_3</var>
+                        </disj>
+                        <disj>
+                            <var>S6_T_10_14</var>
+                            <var>S6_T_11_14</var>
+                            <var>Praktikum Computernetze Administration</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_14</var>
+                            </not>
+                            <not>
+                                <var>S6_B_10_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_14</var>
+                            </not>
+                            <var>S6_B_10_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_14</var>
+                            </not>
+                            <var>S6_B_10_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_10_14</var>
+                            </not>
+                            <var>S6_B_10_3</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_14</var>
+                            </not>
+                            <not>
+                                <var>S6_B_11_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_14</var>
+                            </not>
+                            <var>S6_B_11_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_14</var>
+                            </not>
+                            <var>S6_B_11_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_14</var>
+                            </not>
+                            <var>S6_B_11_3</var>
+                        </disj>
+                        <disj>
+                            <var>S6_T_11_15</var>
+                            <var>Wireless Networking Lab</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_15</var>
+                            </not>
+                            <var>S6_B_11_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_15</var>
+                            </not>
+                            <var>S6_B_11_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_15</var>
+                            </not>
+                            <var>S6_B_11_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S6_T_11_15</var>
+                            </not>
+                            <var>S6_B_11_3</var>
+                        </disj>
+                    </conj>
+                </disj>
+            </imp>
+        </rule>
+    </constraints>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>

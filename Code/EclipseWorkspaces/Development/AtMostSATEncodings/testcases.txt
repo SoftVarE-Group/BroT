@@ -1,0 +1,9 @@
+== Neat Cases
+5 1 - Neat for testing
+
+== Interesting Cases
+5 2 yes - Dead Feature in Commander
+5 2 no  - Commander Model is void
+
+15 3 - Commander: Look at It0 and It1. They are exactly the same and only differ by g and s. Maybe these could be chosen more wisely in the first place?
+				  Maybe the condition to use the binomial method in the recursion instead is too strong. => Test deeper commander recursions and dont break so fast.

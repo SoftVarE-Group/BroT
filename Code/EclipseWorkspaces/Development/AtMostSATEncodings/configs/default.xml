@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="CommanderEncoding_atMost_n5_k2"/>
+    <feature automatic="selected" name="Variables"/>
+    <feature automatic="unselected" name="A"/>
+    <feature manual="selected" name="B"/>
+    <feature automatic="unselected" name="C"/>
+    <feature manual="selected" name="D"/>
+    <feature automatic="unselected" name="E"/>
+    <feature automatic="selected" name="Commanders"/>
+    <feature automatic="selected" name="It0"/>
+    <feature automatic="selected" name="G_0_0"/>
+    <feature automatic="unselected" name="c_0_0_0"/>
+    <feature automatic="selected" name="c_0_0_1"/>
+    <feature automatic="selected" name="G_0_1"/>
+    <feature automatic="unselected" name="c_0_1_0"/>
+    <feature automatic="selected" name="c_0_1_1"/>
+    <feature automatic="unselected" name="c_0_2_0"/>
+    <feature automatic="unselected" name="c_0_2_1"/>
+</configuration>

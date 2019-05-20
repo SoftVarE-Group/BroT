@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/tubs.cs.studienrichtung/src-gen" editDirectory="/tubs.cs.studienrichtung.edit/src-gen"
+    editorDirectory="/tubs.cs.studienrichtung.editor/src-gen" modelPluginID="tubs.cs.studienrichtung"
+    modelName="Studienrichtung" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    testsDirectory="/tubs.cs.studienrichtung.tests/src-gen" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="10.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>Studienrichtung.ecore</foreignModel>
+  <genPackages prefix="Studienrichtung" basePackage="tubs.cs" disposableProviderFactory="true"
+      ecorePackage="Studienrichtung.ecore#/">
+    <genClasses ecoreClass="Studienrichtung.ecore#//Branch">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Studienrichtung.ecore#//Branch/constraints"/>
+    </genClasses>
+    <genClasses ecoreClass="Studienrichtung.ecore#//Subject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Studienrichtung.ecore#//Subject/creditPoints"/>
+    </genClasses>
+    <genClasses ecoreClass="Studienrichtung.ecore#//StudyArea">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Studienrichtung.ecore#//StudyArea/branches"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Studienrichtung.ecore#//StudyArea/categories"/>
+    </genClasses>
+    <genClasses ecoreClass="Studienrichtung.ecore#//Category">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Studienrichtung.ecore#//Category/categories"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Studienrichtung.ecore#//Category/subjects"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Studienrichtung.ecore#//Category/cardinalityMin"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Studienrichtung.ecore#//Category/cardinalityMax"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="Studienrichtung.ecore#//Constraint">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Studienrichtung.ecore#//Constraint/subjects"/>
+    </genClasses>
+    <genClasses ecoreClass="Studienrichtung.ecore#//MandatoryOptionals">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Studienrichtung.ecore#//MandatoryOptionals/numberOfMandatorySubjects"/>
+    </genClasses>
+    <genClasses ecoreClass="Studienrichtung.ecore#//Mandatory"/>
+    <genClasses ecoreClass="Studienrichtung.ecore#//Optional">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Studienrichtung.ecore#//Optional/creditsToAchieve"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="Studienrichtung.ecore#//Named">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Studienrichtung.ecore#//Named/name"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

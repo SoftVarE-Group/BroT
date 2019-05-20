@@ -1,0 +1,219 @@
+Studiengang "Informatik"
+	Bereich "Master Thesis" [1; 1] {
+		"Master Thesis Algorithmics" 30 CP
+		"Master Thesis Computer Graphics" 30 CP
+        "Master Thesis Connected and Mobile Systems" 30 CP
+        "Master Thesis Design of Integrated Systems" 30 CP
+		"Master Thesis Formal Methods" 30 CP
+        "Master Thesis Information Systems" 30 CP
+		"Master Thesis Distributed Systems" 30 CP
+        "Master Thesis IT Security" 30 CP
+        "Master Thesis Communication Engineering" 30 CP
+        "Master Thesis Computer Architecture and Embedded Devices" 30 CP
+        "Master Thesis Robotics" 30 CP
+        "Master Thesis Software Engineering" 30 CP
+        "Master Thesis Theoretical Informatics" 30 CP
+        "Master Thesis Communication and Multimedia" 30 CP
+        
+        // Gibt es die?
+		"Master Thesis Medizinische Informatik" 30 CP
+    }
+	Bereich "Project Thesis" [0; 1] {
+		"Project Thesis Algorithmics" 15 CP
+		"Project Thesis Computer Graphics" 15 CP
+        "Project Thesis Connected and Mobile Systems" 15 CP
+        "Project Thesis Design of Integrated Systems" 15 CP
+		"Project Thesis Formal Methods" 15 CP
+        "Project Thesis Information Systems" 15 CP
+		"Project Thesis Distributed Systems" 15 CP
+        "Project Thesis IT Security" 15 CP
+        "Project Thesis Communication Engineering" 15 CP
+        "Project Thesis Computer Architecture and Embedded Devices" 15 CP
+        "Project Thesis Robotics" 15 CP
+        "Project Thesis Software Engineering" 15 CP
+        "Project Thesis Theoretical Computer Science" 15 CP
+        "Project Thesis Medical Informatics" 15 CP
+        "Project Thesis Communication and Multimedia" 15 CP
+	}
+    Bereich "Seminar" [1; 1] {
+		"Seminar Algorithmics" 5 CP
+		"Seminar Computer Graphics" 5 CP
+		"Seminar Connected and Mobile Systems" 5 CP
+		"Seminar Design of Integrated Systems" 5 CP
+		"Seminar Formal Methods" 5 CP
+		"Seminar Information Systems" 5 CP
+		"Seminar Distributed Systems" 5 CP
+		"Seminar IT Security" 5 CP
+		"Seminar Communication Engineering" 5 CP
+		"Seminar Computer Architecture and Embedded Devices" 5 CP
+		"Seminar Robotics" 5 CP
+		"Seminar Software Engineering" 5 CP
+		"Seminar Theoretical Informatics" 5 CP
+		"Seminar Medizinische Informatik" 5 CP
+        "Seminar Communication and Multimedia" 5 CP
+	}
+	Bereich "Subjects" {
+		Bereich "Algorithmics" {
+			"Algorithmische Geometrie" 5 CP
+			"Mathematische Methoden der Algorithmics" 5 CP
+			"Praktikum Algorithmics" 5 CP
+			"Algorithm Engineering" 5 CP
+			"Approximationsalgorithmen" 5 CP
+			"Online-Algorithmen" 5 CP
+			"Verteilte Algorithmen" 5 CP
+		}
+		// gruppiert mit Bereich "Bildverarbeitung"
+		Bereich "Computer Graphics" {
+			"Echtzeit-Computer Graphics" 5 CP
+            "Bildbasierte Modellierung" 5 CP
+            "Physikbasierte Modellierung und Simulation" 5 CP
+            "Grundlagen Maschinelles Lernen" 5 CP
+            "Paralleles Rechnen I" 5 CP
+            "Visualisierung wissenschaftlicher Daten" 5 CP
+            "Bildkommunikation" 6 CP
+			
+			"Digitale Bildverarbeitung" 5 CP
+			"Dreidimensionales Computersehen" 5 CP
+			"Bildverarbeitung-Praktikum" 5 CP
+			"Computer Graphics Praktikum" 5 CP
+		}
+		Bereich "Connected and Mobile Systems" {
+        	"Advanced Human Computer Interaction" 5 CP
+        	"Advanced Networking I" 5 CP
+            "Advanced Networking II" 5 CP
+            "Management von Informationssicherheit" 5 CP
+            "Mensch-Maschine-Interaktion" 5 CP
+            "Mobilkommunikation" 5 CP
+           	"Recent Topics in Computer Networking" 5 CP
+			"Computernetze II" 5 CP
+			"Mobile Computing Lab" 5 CP
+			"Praktikum Computernetze" 5 CP
+			"Praktikum Computernetze Administration" 5 CP
+			"Wireless Networking Lab" 5 CP
+			
+			// Listed as "Kommunikation and Multimedia
+			"Machine Learning for Pervasive Computing" 5 CP
+		}
+		Bereich "Design of Integrated Systems" {
+            "Chip- und System-Entwurf I" 10 CP
+            "Chip- und System-Entwurf II" 5 CP
+            "VLSI-Design II" 5 CP
+            "Praktikum VLSI-Design II" 5 CP
+        }
+        Bereich "Information Systems" {
+            "Ausgewählte Themen der Information Systems" 5 CP
+            "Data Warehousing & Data-Mining-Techniken" 5 CP
+            "Datenbank-Projektgruppe - Projektgruppe Integritätsbedingungen" 5 CP
+            "Digitale Bibliotheken" 5 CP
+            "Distributed Data Management" 5 CP
+            "Information Retrieval & Web Search" 5 CP
+            "Multimedia-Datenbanken" 5 CP
+            "Relationale Datenbanksysteme II" 5 CP
+            "Spatial Databases und Geo-Information Systems" 5 CP
+            "Wissensbasierte Systeme und deduktive Datenbanksysteme" 5 CP
+        }
+        Bereich "Communication Engineering" {
+            "Mustererkennung" 5 CP
+            "Sprachdialogsysteme Spoken Language Processing" 5 CP
+            "Deep Learning Lab" 5 CP
+			"Digitale Signalverarbeitung" 8 CP // boese
+        }
+        Bereich "Computer Architecture and Embedded Devices" {
+            "Raumfahrtelektronik II" 5 CP
+            "Entwurf fehlertoleranter Systeme" 5 CP
+            "Rechnerstrukturen II" 6 CP
+            "Advanced Computer Architecture" 5 CP
+            "Rechnersystembusse" 5 CP
+        }
+        Bereich "Programmierung und Reaktive Systeme" {
+        	"Praktikum Reaktive Systeme" 5 CP
+            "Prozessalgebra" 5 CP
+            "Reaktive Systeme" 5 CP
+            "Software Engineering für Software im Automobil" 5 CP
+        	"Verifikation reaktiver Systeme" 5 CP
+        }
+        Bereich "Software Engineering" {
+            "Softwarearchitektur" 5 CP
+            "Modellbasierte Softwareentwicklung" 5 CP
+            "Softwareproduktlinien: Konzepte und Implementierung" 5 CP
+            "Softwarequalität I" 5 CP
+            "Softwarequalität II" 5 CP
+            "Softwaretechnik, vertiefendes Praktikum" 5 CP
+            "Fahrzeuginformatik" 5 CP
+            "Praktikum Fahrzeuginformatik" 5 CP
+            "Software in sicherheitsrelevanten Systemen" 5 CP
+            "Industrielles Software-Entwicklungsmanagement" 5 CP
+            "Summercamp Planspiel Automotive Design" 5 CP
+			"Compiler I" 5 CP
+			"Compiler II" 5 CP
+			"Compilerbaupraktikum" 5 CP
+			
+            "Generative Softwareentwicklung" 5 CP
+            "Prozesse und Methoden beim Testen von Software" 5 CP
+        }
+        Bereich "IT Security" {
+            "Fortgeschrittene IT Security" 5 CP
+            "Maschinelles Lernen in der IT Security" 5 CP
+            "Praktikum Intelligente Systemsicherheit" 5 CP
+            "Praktikum IT Security" 5 CP
+        }
+        Bereich "Theoretical Informatics" {
+            "Programmanalyse" 5 CP
+			"Algorithmische Automatentheorie" 10 CP
+			"Komplexitätstheorie" 10 CP
+			"Spiele mit perfekter Information" 5 CP
+			"Nebenläufigkeitstheorie" 10 CP
+			"Algebraische Automatentheorie" 10 CP
+			"Praktikum Programmanalyse" 5 CP
+			
+			// outdated
+			"Fehlerkorrigierende Codes I" 10 CP
+			"Fehlerkorrigierende Codes II" 10 CP
+			"Kryptologie I" 10 CP
+			"Kryptologie II" 10 CP
+			"Kryptologie III" 5 CP
+			
+			"Komplexität von Algorithmen" 10 CP
+			"Logik in der Informatik" 5 CP
+			"Semantik von Programmiersprachen" 10 CP
+			"Algebra des Programmierens" 10 CP
+			
+			"Grundlagen der Verifikation" 10 CP
+			"Fundamente des Software Engineering" 5 CP
+        }
+        Bereich "Distributed_Systems" {
+            "Betriebssystemsicherheit" 5 CP
+			"Verteilte fehlertolerante Systeme" 5 CP
+			"Praktikum Betriebssysteme" 5 CP
+			"Praktikum Cloud Computing" 5 CP
+			"Webbasierte Systeme" 5 CP
+			"Distributed Systems" 5 CP
+			"Cloud Computing" 5 CP
+			"Praktikum Betriebssystementwicklung" 5 CP
+        }
+        Bereich "Medizinische Informatik" {
+			"Assistierende Gesundheitstechnologien A" 6 CP
+			"Assistierende Gesundheitstechnologien B" 5 CP
+			"Ausgewählte Themen der Medizinischen Information Systems" 5 CP
+			"Ausgewählte Themen der Repräsentation und Analyse medizinischer Daten" 5 CP
+			"Ausgewählte Themen der Virtuellen Medizin" 5 CP
+			"Biomedizinische Bild- und Signalerzeugung" 5 CP
+			"Biomedizinische Signal- und Bildanalyse" 5 CP
+			"Medizinische Information Systems B" 5 CP
+			"Repräsentation und Analyse medizinischer Daten" 5 CP
+			"Ringvorlesung der Medizinischen Informatik" 5 CP
+			"Unfallinformatik" 5 CP
+			"Virtuelle Medizin" 5 CP
+        }
+        Bereich "Robotics" {
+			"Robotics I" 5 CP
+			"Robotics II" 5 CP
+			"Robotics-Praktikum" 5 CP
+            "Embedded Intelligence" 5 CP
+            "Prozessinformatik" 5 CP
+            "Roboterlernen" 5 CP
+			"Roboterhände und Greifen" 5 CP
+			"MedizinRobotics" 5 CP
+			"Robot Control and Optimization" 5 CP
+        }
+	}

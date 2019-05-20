@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="Field Computer Science">
+            <alt abstract="true" mandatory="true" name="Master Thesis">
+                <feature name="Master Thesis Algorithmics"/>
+                <feature name="Master Thesis Computergraphik"/>
+                <feature name="Master Thesis Connected and Mobile Systems"/>
+                <feature name="Master Thesis Entwurf Integrierter Systeme"/>
+                <feature name="Master Thesis Formale Methoden"/>
+                <feature name="Master Thesis Information Systems"/>
+                <feature name="Master Thesis Verteilte Systeme"/>
+                <feature name="Master Thesis IT-Security"/>
+                <feature name="Master Thesis Nachrichtentechnik"/>
+                <feature name="Master Thesis Rechnerstrukturen und Eingebettete Systeme"/>
+                <feature name="Master Thesis Robotics"/>
+                <feature name="Master Thesis Software Engineering"/>
+                <feature name="Master Thesis Theoretische Informatik"/>
+                <feature name="Master Thesis Kommunikation und Multimedia"/>
+                <feature name="Master Thesis Medizinische Informatik"/>
+            </alt>
+            <alt abstract="true" name="Project Thesis">
+                <feature name="Project Thesis Algorithmics"/>
+                <feature name="Project Thesis Computergraphik"/>
+                <feature name="Project Thesis Connected and Mobile Systems"/>
+                <feature name="Project Thesis Entwurf Integrierter Systeme"/>
+                <feature name="Project Thesis Formale Methoden"/>
+                <feature name="Project Thesis Information Systems"/>
+                <feature name="Project Thesis Verteilte Systeme"/>
+                <feature name="Project Thesis IT-Security"/>
+                <feature name="Project Thesis Nachrichtentechnik"/>
+                <feature name="Project Thesis Rechnerstrukturen und Eingebettete Systeme"/>
+                <feature name="Project Thesis Robotics"/>
+                <feature name="Project Thesis Software Engineering"/>
+                <feature name="Project Thesis Theoretische Informatik"/>
+                <feature name="Project Thesis Medizinische Informatik"/>
+                <feature name="Project Thesis Kommunikation und Multimedia"/>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Seminar">
+                <feature name="Seminar Algorithmics"/>
+                <feature name="Seminar Computergraphik"/>
+                <feature name="Seminar Connected and Mobile Systems"/>
+                <feature name="Seminar Entwurf Integrierter Systeme"/>
+                <feature name="Seminar Formale Methoden"/>
+                <feature name="Seminar Informationssysteme"/>
+                <feature name="Seminar Verteilte Systeme"/>
+                <feature name="Seminar IT-Security"/>
+                <feature name="Seminar Nachrichtentechnik"/>
+                <feature name="Seminar Rechnerstrukturen und Eingebettete Systeme"/>
+                <feature name="Seminar Robotics"/>
+                <feature name="Seminar Software Engineering"/>
+                <feature name="Seminar Theoretische Informatik"/>
+                <feature name="Seminar Medizinische Informatik"/>
+                <feature name="Seminar Kommunikation und Multimedia"/>
+            </alt>
+            <and abstract="true" name="Subjects">
+                <and abstract="true" name="Algorithmics">
+                    <feature name="Algorithmische Geometrie"/>
+                    <feature name="Mathematische Methoden der Algorithmics"/>
+                    <feature name="Lab Algorithmics"/>
+                    <feature name="Algorithm Engineering"/>
+                    <feature name="Approximationsalgorithmen"/>
+                    <feature name="Online-Algorithmen"/>
+                    <feature name="Verteilte Algorithmen"/>
+                </and>
+                <and abstract="true" name="Computergraphik">
+                    <feature name="Echtzeit-Computergraphik"/>
+                    <feature name="Bildbasierte Modellierung"/>
+                    <feature name="Physikbasierte Modellierung und Simulation"/>
+                    <feature name="Grundlagen Maschinelles Lernen"/>
+                    <feature name="Paralleles Rechnen I"/>
+                    <feature name="Visualisierung wissenschaftlicher Daten"/>
+                    <feature name="Bildkommunikation"/>
+                    <feature name="Digitale Bildverarbeitung"/>
+                    <feature name="Dreidimensionales Computersehen"/>
+                    <feature name="Bildverarbeitung-Lab"/>
+                    <feature name="Computergraphik Lab"/>
+                </and>
+                <and abstract="true" name="Connected and Mobile Systems">
+                    <feature name="Advanced Human Computer Interaction"/>
+                    <feature name="Advanced Networking I"/>
+                    <feature name="Advanced Networking II"/>
+                    <feature name="Management von Informationssicherheit"/>
+                    <feature name="Mensch-Maschine-Interaktion"/>
+                    <feature name="Mobilkommunikation"/>
+                    <feature name="Recent Topics in Computer Networking"/>
+                    <feature name="Computernetze II"/>
+                    <feature name="Mobile Computing Lab"/>
+                    <feature name="Lab Computernetze"/>
+                    <feature name="Lab Computernetze Administration"/>
+                    <feature name="Wireless Networking Lab"/>
+                    <feature name="Machine Learning for Pervasive Computing"/>
+                </and>
+                <and abstract="true" name="Entwurf Integrierter Systeme">
+                    <feature name="Chip- und System-Entwurf I"/>
+                    <feature name="Chip- und System-Entwurf II"/>
+                    <feature name="VLSI-Design II"/>
+                    <feature name="Lab VLSI-Design II"/>
+                </and>
+                <and abstract="true" name="Informationssysteme">
+                    <feature name="Ausgewählte Themen der Informationssysteme"/>
+                    <feature name="Data Warehousing &amp; Data Mining Techniques"/>
+                    <feature name="Datenbank-Projektgruppe - Projektgruppe Integritätsbedingungen"/>
+                    <feature name="Digital Libraries"/>
+                    <feature name="Distributed Data Management"/>
+                    <feature name="Information Retrieval &amp; Web Search"/>
+                    <feature name="Multimedia-Datenbanken"/>
+                    <feature name="Relational Data Bases II"/>
+                    <feature name="Spatial Databases and Geo-Information Systems"/>
+                    <feature name="Wissensbasierte Systeme und deduktive Datenbanksysteme"/>
+                </and>
+                <and abstract="true" name="Nachrichtentechnik">
+                    <feature name="Mustererkennung"/>
+                    <feature name="Sprachdialogsysteme Spoken Language Processing"/>
+                    <feature name="Deep Learning Lab"/>
+                    <feature name="Digitale Signalverarbeitung"/>
+                </and>
+                <and abstract="true" name="Rechnerstrukturen und Eingebettete Systeme">
+                    <feature name="Raumfahrtelektronik II"/>
+                    <feature name="Entwurf fehlertoleranter Systeme"/>
+                    <feature name="Rechnerstrukturen II"/>
+                    <feature name="Advanced Computer Architecture"/>
+                    <feature name="Rechnersystembusse"/>
+                </and>
+                <and abstract="true" name="Programmierung und Reaktive Systeme">
+                    <feature name="Lab Reaktive Systeme"/>
+                    <feature name="Prozessalgebra"/>
+                    <feature name="Reaktive Systeme"/>
+                    <feature name="Software Engineering für Software im Automobil"/>
+                    <feature name="Verifikation reaktiver Systeme"/>
+                </and>
+                <and abstract="true" name="Software Engineering">
+                    <feature name="Softwarearchitektur"/>
+                    <feature name="Modellbasierte Softwareentwicklung"/>
+                    <feature name="Softwareproduktlinien: Konzepte und Implementierung"/>
+                    <feature name="Softwarequalität I"/>
+                    <feature name="Softwarequalität II"/>
+                    <feature name="Softwaretechnik, vertiefendes Lab"/>
+                    <feature name="Fahrzeuginformatik"/>
+                    <feature name="Lab Fahrzeuginformatik"/>
+                    <feature name="Software in sicherheitsrelevanten Systemen"/>
+                    <feature name="Industrielles Software-Entwicklungsmanagement"/>
+                    <feature name="Summercamp Planspiel Automotive Design"/>
+                    <feature name="Compiler I"/>
+                    <feature name="Compiler II"/>
+                    <feature name="CompilerbauLab"/>
+                    <feature name="Generative Softwareentwicklung"/>
+                    <feature name="Prozesse und Methoden beim Testen von Software"/>
+                </and>
+                <and abstract="true" name="IT-Security">
+                    <feature name="Fortgeschrittene IT-Security"/>
+                    <feature name="Maschinelles Lernen in der IT-Security"/>
+                    <feature name="Lab Intelligente Systemsicherheit"/>
+                    <feature name="Lab IT-Security"/>
+                </and>
+                <and abstract="true" name="Theoretische Informatik">
+                    <feature name="Programmanalyse"/>
+                    <feature name="Algorithmische Automatentheorie"/>
+                    <feature name="Komplexitätstheorie"/>
+                    <feature name="Spiele mit perfekter Information"/>
+                    <feature name="Nebenläufigkeitstheorie"/>
+                    <feature name="Algebraische Automatentheorie"/>
+                    <feature name="Lab Programmanalyse"/>
+                    <feature name="Fehlerkorrigierende Codes I"/>
+                    <feature name="Fehlerkorrigierende Codes II"/>
+                    <feature name="Kryptologie I"/>
+                    <feature name="Kryptologie II"/>
+                    <feature name="Kryptologie III"/>
+                    <feature name="Komplexität von Algorithmen"/>
+                    <feature name="Logik in der Informatik"/>
+                    <feature name="Semantik von Programmiersprachen"/>
+                    <feature name="Algebra des Programmierens"/>
+                    <feature name="Grundlagen der Verifikation"/>
+                    <feature name="Fundamente des Software Engineering"/>
+                </and>
+                <and abstract="true" name="Verteilte_Systeme">
+                    <feature name="Betriebssystemsicherheit"/>
+                    <feature name="Verteilte fehlertolerante Systeme"/>
+                    <feature name="Lab Betriebssysteme"/>
+                    <feature name="Lab Cloud Computing"/>
+                    <feature name="Webbasierte Systeme"/>
+                    <feature name="Verteilte Systeme"/>
+                    <feature name="Cloud Computing"/>
+                    <feature name="Lab Betriebssystementwicklung"/>
+                </and>
+                <and abstract="true" name="Medizinische Informatik">
+                    <feature name="Assistierende Gesundheitstechnologien A"/>
+                    <feature name="Assistierende Gesundheitstechnologien B"/>
+                    <feature name="Ausgewählte Themen der Medizinischen Informationssysteme"/>
+                    <feature name="Ausgewählte Themen der Repräsentation und Analyse medizinischer Daten"/>
+                    <feature name="Ausgewählte Themen der Virtuellen Medizin"/>
+                    <feature name="Biomedizinische Bild- und Signalerzeugung"/>
+                    <feature name="Biomedizinische Signal- und Bildanalyse"/>
+                    <feature name="Medizinische Informationssysteme B"/>
+                    <feature name="Repräsentation und Analyse medizinischer Daten"/>
+                    <feature name="Ringvorlesung der Medizinischen Informatik"/>
+                    <feature name="Unfallinformatik"/>
+                    <feature name="Virtuelle Medizin"/>
+                </and>
+                <and abstract="true" name="Robotics">
+                    <feature name="Robotics I"/>
+                    <feature name="Robotics II"/>
+                    <feature name="Robotics-Lab"/>
+                    <feature name="Embedded Intelligence"/>
+                    <feature name="Prozessinformatik"/>
+                    <feature name="Roboterlernen"/>
+                    <feature name="Roboterhände und Greifen"/>
+                    <feature name="MedizinRobotics"/>
+                    <feature name="Robot Control and Optimization"/>
+                </and>
+            </and>
+            <and abstract="true" name="Branch of Study">
+                <feature name="Branch Big Data Management"/>
+            </and>
+            <and abstract="true" name="GeneratedVariables">
+                <and abstract="true" name="Selective">
+                    <description>
+Groups variables generated with encoding Selective
+</description>
+                    <feature abstract="true" name="S0_R_0_0"/>
+                    <feature abstract="true" name="S0_R_0_1"/>
+                    <feature abstract="true" name="S0_R_1_0"/>
+                    <feature abstract="true" name="S0_R_1_1"/>
+                    <feature abstract="true" name="S0_R_2_0"/>
+                    <feature abstract="true" name="S0_R_2_1"/>
+                    <feature abstract="true" name="S0_R_3_0"/>
+                    <feature abstract="true" name="S0_R_3_1"/>
+                    <feature abstract="true" name="S0_R_4_0"/>
+                    <feature abstract="true" name="S0_R_4_1"/>
+                    <feature abstract="true" name="S0_R_5_0"/>
+                    <feature abstract="true" name="S0_R_5_1"/>
+                    <feature abstract="true" name="S0_R_6_0"/>
+                    <feature abstract="true" name="S0_R_6_1"/>
+                    <feature abstract="true" name="S1_T_0_0"/>
+                    <feature abstract="true" name="S1_T_0_1"/>
+                    <feature abstract="true" name="S1_T_0_2"/>
+                    <feature abstract="true" name="S1_T_0_3"/>
+                    <feature abstract="true" name="S1_T_0_4"/>
+                    <feature abstract="true" name="S1_T_0_5"/>
+                    <feature abstract="true" name="S1_T_0_6"/>
+                    <feature abstract="true" name="S1_T_0_7"/>
+                    <feature abstract="true" name="S1_T_1_0"/>
+                    <feature abstract="true" name="S1_T_1_1"/>
+                    <feature abstract="true" name="S1_T_1_2"/>
+                    <feature abstract="true" name="S1_T_1_3"/>
+                    <feature abstract="true" name="S1_T_1_4"/>
+                    <feature abstract="true" name="S1_T_1_5"/>
+                    <feature abstract="true" name="S1_T_1_6"/>
+                    <feature abstract="true" name="S1_T_1_7"/>
+                    <feature abstract="true" name="S1_T_2_0"/>
+                    <feature abstract="true" name="S1_T_2_1"/>
+                    <feature abstract="true" name="S1_T_2_2"/>
+                    <feature abstract="true" name="S1_T_2_3"/>
+                    <feature abstract="true" name="S1_T_2_4"/>
+                    <feature abstract="true" name="S1_T_2_5"/>
+                    <feature abstract="true" name="S1_T_2_6"/>
+                    <feature abstract="true" name="S1_T_2_7"/>
+                    <feature abstract="true" name="S1_T_3_0"/>
+                    <feature abstract="true" name="S1_T_3_1"/>
+                    <feature abstract="true" name="S1_T_3_2"/>
+                    <feature abstract="true" name="S1_T_3_3"/>
+                    <feature abstract="true" name="S1_T_3_4"/>
+                    <feature abstract="true" name="S1_T_3_5"/>
+                    <feature abstract="true" name="S1_T_3_6"/>
+                    <feature abstract="true" name="S1_T_3_7"/>
+                    <feature abstract="true" name="S1_T_4_0"/>
+                    <feature abstract="true" name="S1_T_4_1"/>
+                    <feature abstract="true" name="S1_T_4_2"/>
+                    <feature abstract="true" name="S1_T_4_3"/>
+                    <feature abstract="true" name="S1_T_4_4"/>
+                    <feature abstract="true" name="S1_T_4_5"/>
+                    <feature abstract="true" name="S1_T_4_6"/>
+                    <feature abstract="true" name="S1_T_4_7"/>
+                    <feature abstract="true" name="S1_B_0_0"/>
+                    <feature abstract="true" name="S1_B_0_1"/>
+                    <feature abstract="true" name="S1_B_0_2"/>
+                    <feature abstract="true" name="S1_B_1_0"/>
+                    <feature abstract="true" name="S1_B_1_1"/>
+                    <feature abstract="true" name="S1_B_1_2"/>
+                    <feature abstract="true" name="S1_B_2_0"/>
+                    <feature abstract="true" name="S1_B_2_1"/>
+                    <feature abstract="true" name="S1_B_2_2"/>
+                    <feature abstract="true" name="S1_B_3_0"/>
+                    <feature abstract="true" name="S1_B_3_1"/>
+                    <feature abstract="true" name="S1_B_3_2"/>
+                    <feature abstract="true" name="S1_B_4_0"/>
+                    <feature abstract="true" name="S1_B_4_1"/>
+                    <feature abstract="true" name="S1_B_4_2"/>
+                </and>
+            </and>
+        </and>
+    </struct>
+    <constraints>
+        <rule>
+            <description>
+Pflichtkurse der Branch Big Data Management
+</description>
+            <imp>
+                <var>Branch Big Data Management</var>
+                <conj>
+                    <var>Relational Data Bases II</var>
+                    <var>Data Warehousing &amp; Data Mining Techniques</var>
+                    <var>Master Thesis Information Systems</var>
+                </conj>
+            </imp>
+        </rule>
+        <rule>
+            <description>
+Wahlpflichtkurse der Branch Big Data Management
+</description>
+            <imp>
+                <var>Branch Big Data Management</var>
+                <disj>
+                    <conj>
+                        <not>
+                            <var>Project Thesis Information Systems</var>
+                        </not>
+                        <disj>
+                            <var>Seminar Informationssysteme</var>
+                            <var>S0_R_0_0</var>
+                        </disj>
+                        <disj>
+                            <var>Digital Libraries</var>
+                            <var>S0_R_1_0</var>
+                        </disj>
+                        <disj>
+                            <var>Spatial Databases and Geo-Information Systems</var>
+                            <var>S0_R_2_0</var>
+                        </disj>
+                        <disj>
+                            <var>Distributed Data Management</var>
+                            <var>S0_R_3_0</var>
+                        </disj>
+                        <disj>
+                            <var>Wissensbasierte Systeme und deduktive Datenbanksysteme</var>
+                            <var>S0_R_4_0</var>
+                        </disj>
+                        <disj>
+                            <var>Multimedia-Datenbanken</var>
+                            <var>S0_R_5_0</var>
+                        </disj>
+                        <disj>
+                            <var>Information Retrieval &amp; Web Search</var>
+                            <var>S0_R_6_0</var>
+                        </disj>
+                        <not>
+                            <var>S0_R_0_1</var>
+                        </not>
+                        <disj>
+                            <not>
+                                <var>S0_R_0_0</var>
+                            </not>
+                            <var>S0_R_1_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_0_1</var>
+                            </not>
+                            <var>S0_R_1_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_1_0</var>
+                            </not>
+                            <var>S0_R_2_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_1_1</var>
+                            </not>
+                            <var>S0_R_2_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_2_0</var>
+                            </not>
+                            <var>S0_R_3_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_2_1</var>
+                            </not>
+                            <var>S0_R_3_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_3_0</var>
+                            </not>
+                            <var>S0_R_4_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_3_1</var>
+                            </not>
+                            <var>S0_R_4_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_4_0</var>
+                            </not>
+                            <var>S0_R_5_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_4_1</var>
+                            </not>
+                            <var>S0_R_5_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_5_0</var>
+                            </not>
+                            <var>S0_R_6_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S0_R_5_1</var>
+                            </not>
+                            <var>S0_R_6_1</var>
+                        </disj>
+                        <disj>
+                            <var>Digital Libraries</var>
+                            <not>
+                                <var>S0_R_0_0</var>
+                            </not>
+                            <var>S0_R_1_1</var>
+                        </disj>
+                        <disj>
+                            <var>Spatial Databases and Geo-Information Systems</var>
+                            <not>
+                                <var>S0_R_1_0</var>
+                            </not>
+                            <var>S0_R_2_1</var>
+                        </disj>
+                        <disj>
+                            <var>Distributed Data Management</var>
+                            <not>
+                                <var>S0_R_2_0</var>
+                            </not>
+                            <var>S0_R_3_1</var>
+                        </disj>
+                        <disj>
+                            <var>Wissensbasierte Systeme und deduktive Datenbanksysteme</var>
+                            <not>
+                                <var>S0_R_3_0</var>
+                            </not>
+                            <var>S0_R_4_1</var>
+                        </disj>
+                        <disj>
+                            <var>Multimedia-Datenbanken</var>
+                            <not>
+                                <var>S0_R_4_0</var>
+                            </not>
+                            <var>S0_R_5_1</var>
+                        </disj>
+                        <disj>
+                            <var>Information Retrieval &amp; Web Search</var>
+                            <not>
+                                <var>S0_R_5_0</var>
+                            </not>
+                            <var>S0_R_6_1</var>
+                        </disj>
+                        <disj>
+                            <var>Digital Libraries</var>
+                            <not>
+                                <var>S0_R_0_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Spatial Databases and Geo-Information Systems</var>
+                            <not>
+                                <var>S0_R_1_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Distributed Data Management</var>
+                            <not>
+                                <var>S0_R_2_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Wissensbasierte Systeme und deduktive Datenbanksysteme</var>
+                            <not>
+                                <var>S0_R_3_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Multimedia-Datenbanken</var>
+                            <not>
+                                <var>S0_R_4_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Information Retrieval &amp; Web Search</var>
+                            <not>
+                                <var>S0_R_5_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>Ausgewählte Themen der Informationssysteme</var>
+                            <not>
+                                <var>S0_R_6_1</var>
+                            </not>
+                        </disj>
+                    </conj>
+                    <conj>
+                        <var>Project Thesis Information Systems</var>
+                        <disj>
+                            <var>S1_T_0_0</var>
+                            <var>Seminar Informationssysteme</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_0</var>
+                            </not>
+                            <not>
+                                <var>S1_B_0_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_0</var>
+                            </not>
+                            <not>
+                                <var>S1_B_0_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_0</var>
+                            </not>
+                            <not>
+                                <var>S1_B_0_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S1_T_0_1</var>
+                            <var>S1_T_1_1</var>
+                            <var>Digital Libraries</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_1</var>
+                            </not>
+                            <var>S1_B_0_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_1</var>
+                            </not>
+                            <not>
+                                <var>S1_B_0_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_1</var>
+                            </not>
+                            <not>
+                                <var>S1_B_0_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_1</var>
+                            </not>
+                            <var>S1_B_1_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_1</var>
+                            </not>
+                            <not>
+                                <var>S1_B_1_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_1</var>
+                            </not>
+                            <not>
+                                <var>S1_B_1_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S1_T_0_2</var>
+                            <var>S1_T_1_2</var>
+                            <var>S1_T_2_2</var>
+                            <var>Spatial Databases and Geo-Information Systems</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_2</var>
+                            </not>
+                            <not>
+                                <var>S1_B_0_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_2</var>
+                            </not>
+                            <var>S1_B_0_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_2</var>
+                            </not>
+                            <not>
+                                <var>S1_B_0_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_2</var>
+                            </not>
+                            <not>
+                                <var>S1_B_1_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_2</var>
+                            </not>
+                            <var>S1_B_1_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_2</var>
+                            </not>
+                            <not>
+                                <var>S1_B_1_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_2</var>
+                            </not>
+                            <not>
+                                <var>S1_B_2_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_2</var>
+                            </not>
+                            <var>S1_B_2_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_2</var>
+                            </not>
+                            <not>
+                                <var>S1_B_2_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S1_T_0_3</var>
+                            <var>S1_T_1_3</var>
+                            <var>S1_T_2_3</var>
+                            <var>S1_T_3_3</var>
+                            <var>Distributed Data Management</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_3</var>
+                            </not>
+                            <var>S1_B_0_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_3</var>
+                            </not>
+                            <var>S1_B_0_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_0_3</var>
+                            </not>
+                            <not>
+                                <var>S1_B_0_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_3</var>
+                            </not>
+                            <var>S1_B_1_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_3</var>
+                            </not>
+                            <var>S1_B_1_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_3</var>
+                            </not>
+                            <not>
+                                <var>S1_B_1_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_3</var>
+                            </not>
+                            <var>S1_B_2_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_3</var>
+                            </not>
+                            <var>S1_B_2_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_3</var>
+                            </not>
+                            <not>
+                                <var>S1_B_2_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_3</var>
+                            </not>
+                            <var>S1_B_3_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_3</var>
+                            </not>
+                            <var>S1_B_3_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_3</var>
+                            </not>
+                            <not>
+                                <var>S1_B_3_2</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <var>S1_T_1_4</var>
+                            <var>S1_T_2_4</var>
+                            <var>S1_T_3_4</var>
+                            <var>S1_T_4_4</var>
+                            <var>Wissensbasierte Systeme und deduktive Datenbanksysteme</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_4</var>
+                            </not>
+                            <not>
+                                <var>S1_B_1_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_4</var>
+                            </not>
+                            <not>
+                                <var>S1_B_1_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_1_4</var>
+                            </not>
+                            <var>S1_B_1_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_4</var>
+                            </not>
+                            <not>
+                                <var>S1_B_2_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_4</var>
+                            </not>
+                            <not>
+                                <var>S1_B_2_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_4</var>
+                            </not>
+                            <var>S1_B_2_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_4</var>
+                            </not>
+                            <not>
+                                <var>S1_B_3_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_4</var>
+                            </not>
+                            <not>
+                                <var>S1_B_3_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_4</var>
+                            </not>
+                            <var>S1_B_3_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_4</var>
+                            </not>
+                            <not>
+                                <var>S1_B_4_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_4</var>
+                            </not>
+                            <not>
+                                <var>S1_B_4_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_4</var>
+                            </not>
+                            <var>S1_B_4_2</var>
+                        </disj>
+                        <disj>
+                            <var>S1_T_2_5</var>
+                            <var>S1_T_3_5</var>
+                            <var>S1_T_4_5</var>
+                            <var>Multimedia-Datenbanken</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_5</var>
+                            </not>
+                            <var>S1_B_2_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_5</var>
+                            </not>
+                            <not>
+                                <var>S1_B_2_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_2_5</var>
+                            </not>
+                            <var>S1_B_2_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_5</var>
+                            </not>
+                            <var>S1_B_3_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_5</var>
+                            </not>
+                            <not>
+                                <var>S1_B_3_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_5</var>
+                            </not>
+                            <var>S1_B_3_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_5</var>
+                            </not>
+                            <var>S1_B_4_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_5</var>
+                            </not>
+                            <not>
+                                <var>S1_B_4_1</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_5</var>
+                            </not>
+                            <var>S1_B_4_2</var>
+                        </disj>
+                        <disj>
+                            <var>S1_T_3_6</var>
+                            <var>S1_T_4_6</var>
+                            <var>Information Retrieval &amp; Web Search</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_6</var>
+                            </not>
+                            <not>
+                                <var>S1_B_3_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_6</var>
+                            </not>
+                            <var>S1_B_3_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_3_6</var>
+                            </not>
+                            <var>S1_B_3_2</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_6</var>
+                            </not>
+                            <not>
+                                <var>S1_B_4_0</var>
+                            </not>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_6</var>
+                            </not>
+                            <var>S1_B_4_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_6</var>
+                            </not>
+                            <var>S1_B_4_2</var>
+                        </disj>
+                        <disj>
+                            <var>S1_T_4_7</var>
+                            <var>Ausgewählte Themen der Informationssysteme</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_7</var>
+                            </not>
+                            <var>S1_B_4_0</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_7</var>
+                            </not>
+                            <var>S1_B_4_1</var>
+                        </disj>
+                        <disj>
+                            <not>
+                                <var>S1_T_4_7</var>
+                            </not>
+                            <var>S1_B_4_2</var>
+                        </disj>
+                    </conj>
+                </disj>
+            </imp>
+        </rule>
+    </constraints>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>
