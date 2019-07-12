@@ -3,17 +3,17 @@
 
 This repository contains code and evaluation data corresponding to:
 
-P. M. Bittner, T. Thüm, I. Schaefer: SAT Encodings of the At-Most-k Constraint - A Case Study on Configuring University Courses, submitted to [SEFM 2019][1]
+P. M. Bittner, T. Thüm, I. Schaefer: SAT Encodings of the At-Most-k Constraint - A Case Study on Configuring University Courses, accepted at [SEFM 2019][1]
 
 [Frisch, A.M., Giannaros, P.A.: SAT Encodings of the At-Most-k Constraint. Some
-Old, Some New, Some Fast, Some Slow. In: Proc. of the Tenth Int. Workshop of
+Old, Some New, Some Fast, Some Slow. In: Proc. of the Ninth Int. Workshop of
 Constraint Modelling and Reformulation (2010)][2]
 
 [comment]: <> (Please cite as:)
 
 ### Code
 The code is given in two [Eclipse][3] workspaces: `Runtime` and `Development`.
-Additionally, we provide a jar file for testing our BRanch Of study Tool (Brot).
+Additionally, we provide a jar file for testing our Branch of study Tool (BroT).
 It can open [FeatureIDE][7] feature model files and allows creating configurations for them.
 Opening the feature models of some branches may take a few minutes.
 Please note that opening them in the FeatureIDE plugins editor in eclipse may freeze the program because
@@ -23,7 +23,7 @@ The [branches of study at TU Braunschweig][6] are given in the `Runtime` workspa
 the feature models they were compiled to.
 These are in german like the original specifications, but our DSL also supports english keywords.
 
-The `Development` Workspace contains the implementation of the at-most-k encodings, domain-specific language (DSL),
+The `Development` workspace contains the implementation of the at-most-k encodings, domain-specific language (DSL),
 and compiler to feature models.
 The encodings implementation can be found in the project `AtMostSATEncodings`.
 Our DSL and compiler are in the project `tubs.cs.studienrichtung`, which is an Eclipse plugin project.
