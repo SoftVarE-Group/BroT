@@ -18,7 +18,7 @@
  *
  * See http://featureide.cs.ovgu.de/ for further information.
  */
-package de.ovgu.featureide.examples.graphicalconfigurator;
+package src.de.tubs.brot;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -68,12 +68,10 @@ import net.miginfocom.swing.MigLayout;
  *
  * @author Sebastian Krieter
  * @author Thomas Thuem
+ * @author Paul Maximilian Bittner
  */
-public class GraphicalConfigurator {
-	
-	//public static String FileExplorerDefaultDirectory = "Data";
-	//public static String FileExplorerDefaultDirectory = "C:\\Users\\Bittner\\Documents\\ISF\\Projektarbeit\\git\\Workspaces\\Development\\AtMostSATEncodings\\generated";
-	public static String FileExplorerDefaultDirectory = "D:\\Bittner\\ISF\\Projektarbeit\\git\\Workspaces\\Runtime\\TestSuite\\Studienrichtungen";
+public class Brot {
+	public static String FileExplorerDefaultDirectory = "Code\\EclipseWorkspaces\\Runtime\\tubs.cs.branches_of_study\\Studienrichtungen";
 
 	public static void main(String[] args) {
 		try {
@@ -92,7 +90,7 @@ public class GraphicalConfigurator {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					GraphicalConfigurator.start(pathPassedToInvoke);
+					Brot.start(pathPassedToInvoke);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -102,13 +100,13 @@ public class GraphicalConfigurator {
 	}
 
 	public static void start(Path path) {
-		final GraphicalConfigurator gui = new GraphicalConfigurator();
+		final Brot gui = new Brot();
 		if (path != null)
 			gui.openFile(path);
 		gui.frame.setVisible(true);
 	}
 
-	private GraphicalConfigurator() {
+	private Brot() {
 		initialize();
 	}
 
@@ -116,6 +114,7 @@ public class GraphicalConfigurator {
 		frame = new JFrame();
 		frame.setBounds(0, 0, 1280, 720);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setTitle("Brot");
 
 		final Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
 		int x = (int) ((dimension.getWidth() - frame.getWidth()) / 2);
@@ -375,14 +374,7 @@ public class GraphicalConfigurator {
 		long timeBegin = System.nanoTime();
 		final FileHandler<IFeatureModel> fh = FeatureModelManager.load(path);
 		
-		double milliseconds = TimeUnit.MILLISECONDS.convert(System.nanoTime() - timeBegin, TimeUnit.NANOSECONDS);
-		
-		elapsedTimeLabel.setText("" + milliseconds);
-		System.out.println("Loading took: " + milliseconds);
-		
 		if (!fh.getLastProblems().containsError()) {
-			timeBegin = System.nanoTime();
-			
 			featureModel = fh.getObject();
 			final IFeature root = FeatureUtils.getRoot(featureModel);
 			if (root != null) {
@@ -390,10 +382,10 @@ public class GraphicalConfigurator {
 			}
 
 			configuration = new Configuration(featureModel, Configuration.PARAM_PROPAGATE);
-			System.out.println("Config creation took: " + TimeUnit.MILLISECONDS.convert(System.nanoTime() - timeBegin, TimeUnit.NANOSECONDS));
+			double seconds = TimeUnit.SECONDS.convert(System.nanoTime() - timeBegin, TimeUnit.NANOSECONDS);
+			System.out.println("Config creation took: " + seconds + "s");
 			configuration.update(true, null);
-			
-			System.out.println("Complete Config step took: " + TimeUnit.MILLISECONDS.convert(System.nanoTime() - timeBegin, TimeUnit.NANOSECONDS));
+			elapsedTimeLabel.setText(seconds + "s");
 		} else {
 			throw new IOException();
 		}

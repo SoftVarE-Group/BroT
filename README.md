@@ -12,10 +12,10 @@ Constraint Modelling and Reformulation (2010)][2]
 [comment]: <> (Please cite as:)
 
 ### Tool
-We provide a jar file for testing our Branch of study Tool (BroT).
+We provide a jar file for testing our BRanch Of study Tool (Brot).
 It can open [FeatureIDE][7] feature model files and allows creating configurations for them.
 Opening the feature models of some branches may take a few minutes.
-You can find the model files in `Code/EclipseWorkspaces/Runtime/tubs.cs.branches_of_study/Studienrichtungen`.
+You can find the model files for the [branches of study at TU Braunschweig][6] in `Code/EclipseWorkspaces/Runtime/tubs.cs.branches_of_study/Studienrichtungen`.
 
 Please note that opening them in the FeatureIDE plugins editor in eclipse may freeze the program because
 some of the models are too large.
