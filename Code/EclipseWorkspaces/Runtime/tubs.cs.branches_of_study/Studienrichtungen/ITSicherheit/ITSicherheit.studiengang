@@ -1,6 +1,5 @@
 Studiengang "Informatik"
 	Studienrichtung "Studienrichtung ITSicherheit"
-		// Unstimmigkeiten
 		// Als Pflichtmodul ist "Masterarbeit" aufgelistet.
 		// Ist damit "Masterarbeit IT-Sicherheit" gemeint?
 		Pflicht
@@ -15,6 +14,7 @@ Studiengang "Informatik"
 			// Hier steht auf der Webseite einfach nur
 			// "Projektarbeit"
 			// Daher Annahme, dass "Projektarbeit IT-Sicherheit" damit gemeint ist.
+            // Ausserdem: Projektarbeit ist tatsaechlich Pflicht, da die Punkte aller anderen Faecher < 35 sind.
 			"Projektarbeit IT-Sicherheit"
 			
 			"Management von Informationssicherheit"

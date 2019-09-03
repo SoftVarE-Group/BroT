@@ -1,5 +1,10 @@
 Studiengang "Informatik"
 	Studienrichtung "Studienrichtung NetworkedSystems"
+        // Projektarbeit ist Pflicht aber "nur erwuenscht".
+        // Und je nachdem, ob sie gewaehlt wird oder nicht,
+        // aendert sich der Umfang der Wahlpflichtveranstaltungen
+        //   => Also ist sie Wahlpflicht und nicht Pflicht!
+    
 		// Masterarbeit 
 		Wahlpflicht 30 CP
 			"Masterarbeit Connected and Mobile Systems"
@@ -19,8 +24,9 @@ Studiengang "Informatik"
 			"Seminar Connected and Mobile Systems"
 			"Seminar Verteilte Systeme"
 			
-		// Seminar ist auch als Pflicht gelistet:
+        // Das Seminar ist auch als Wahlpflicht- UND Pflicht-Modul gelistet:
 		// Also doch nur 25 statt 30 CP?
+        //   => Hier bleiben wir bei den spezifizierten 30 CP.
 		//
 		// Wir addieren 5 CP, da die Praktika, von denen eines
 		// als Pflicht gewaehlt werden muss, auch als Wahlpflicht gewaehlt werden

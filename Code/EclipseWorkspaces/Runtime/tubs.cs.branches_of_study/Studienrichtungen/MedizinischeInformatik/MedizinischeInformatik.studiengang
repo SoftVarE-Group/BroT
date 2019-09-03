@@ -4,6 +4,10 @@ Studiengang "Informatik"
 		Pflicht
 			"Masterarbeit Medizinische Informatik"
 			
+            
+        // Auf der Webseite wird von Nebenfaechern geredet.
+        // Ich hab das Gefuehl, dass diese fuer die Studienrichtung jedoch voellig
+        // unerheblich sind.
 		Wahlpflicht 40 CP // oder doch 70
 			"Assistierende Gesundheitstechnologien A"
 			"Assistierende Gesundheitstechnologien B"

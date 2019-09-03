@@ -7,8 +7,8 @@ Studiengang "Informatik"
 			"Seminar Robotik"
 			"Masterarbeit Robotik"
 			
-		// Es heisst insgesamt in der Studienrichtung Robotik
-		// sollen 70 CP erbracht werden.
+		// Es heisst, in der Studienrichtung Robotik
+		// sollen insgesamt 70 CP erbracht werden.
 		// Der Pflichtbereich hat bereits 50 CP verbraucht.
 		Wahlpflicht 20 CP
 			// Einzel- oder Teamprojekt
