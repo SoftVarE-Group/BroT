@@ -17,7 +17,8 @@ public class FMVariableFactory extends VariableFactory {
 	}
 	
 	public IFeature getRootAsFeature() {
-		return asFeature(getRoot());
+		//return asFeature(getRoot());
+		return fmgen.model.getStructure().getRoot().getFeature();
 	}
 	
 	public void setRoot(IFeature root) {
@@ -39,10 +40,13 @@ public class FMVariableFactory extends VariableFactory {
 		IFeature f = fmgen.factory.createFeature(fmgen.model, name);
 
 		IFeature parent = getRootAsFeature();
-		
+
 		if (props != null) {
 			if (isFeature(props.parent)) {
 				parent = asFeature(props.parent);
+				if (parent == null) {
+					throw new RuntimeException("Bug: Given parent " + props.parent + " is not a feature!");
+				}
 			}
 			
 			if (!props.description.isEmpty()) {
