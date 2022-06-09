@@ -22,6 +22,8 @@ You can find the model files for the [branches of study at TU Braunschweig][6] i
 Please note that opening them in the FeatureIDE plugins editor in eclipse may freeze the program because
 some of the models are too large.
 
+Examples for **using the SAT encodings in your own software projects** can be found in the [dedicated example project](https://github.com/SoftVarE-Group/BroTLibraryExample/tree/master).
+
 ### Code
 The code is given in two [Eclipse][3] workspaces: `Runtime` and `Development`.
 
