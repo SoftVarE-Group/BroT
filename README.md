@@ -1,9 +1,11 @@
 # SAT Encodings of the At-Most-k Constraint
 ## A Case Study on Configuring University Courses
 
+[![Preprint](https://img.shields.io/badge/Preprint-Read-purple)][preprint]
+
 This repository contains code and evaluation data corresponding to:
 
-[Bittner P.M., Thüm T., Schaefer I. (2019) SAT Encodings of the At-Most-k Constraint. In: Ölveczky P., Salaün G. (eds) Software Engineering and Formal Methods. SEFM 2019. Lecture Notes in Computer Science, vol 11724. Springer, Cham][1]
+[Bittner P.M., Thüm T., Schaefer I. (2019) SAT Encodings of the At-Most-k Constraint: A Case Study on Configuring University Courses. In: Ölveczky P., Salaün G. (eds) Software Engineering and Formal Methods. SEFM 2019. Lecture Notes in Computer Science, vol 11724. Springer, Cham][1]
 
 [Frisch, A.M., Giannaros, P.A.: SAT Encodings of the At-Most-k Constraint. Some
 Old, Some New, Some Fast, Some Slow. In: Proc. of the Ninth Int. Workshop of
@@ -85,3 +87,5 @@ report on research using this Software.
 [5]: https://marketplace.eclipse.org/content/emftext
 [6]: https://www.tu-braunschweig.de/informatik-msc/struktur/studienrichtungen
 [7]: https://featureide.github.io/
+
+[preprint]: https://github.com/SoftVarE-Group/Papers/raw/main/2019/2019-SEFM-Bittner.pdf
