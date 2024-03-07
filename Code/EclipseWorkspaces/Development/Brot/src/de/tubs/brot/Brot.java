@@ -24,6 +24,8 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.EventQueue;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -61,7 +63,6 @@ import de.ovgu.featureide.fm.core.configuration.XMLConfFormat;
 import de.ovgu.featureide.fm.core.functional.Functional;
 import de.ovgu.featureide.fm.core.io.manager.FeatureModelManager;
 import de.ovgu.featureide.fm.core.io.manager.FileHandler;
-import net.miginfocom.swing.MigLayout;
 
 /**
  * A simple configurator with GUI using the FeatureIDE library.
@@ -71,7 +72,7 @@ import net.miginfocom.swing.MigLayout;
  * @author Paul Maximilian Bittner
  */
 public class Brot {
-	public static String FileExplorerDefaultDirectory = "Code\\EclipseWorkspaces\\Runtime\\tubs.cs.branches_of_study\\Studienrichtungen";
+	public static Path FileExplorerDefaultDirectory = Path.of("Code", "EclipseWorkspaces", "Runtime", "tubs.cs.branches_of_study", "Studienrichtungen");
 
 	public static void main(String[] args) {
 		try {
@@ -152,20 +153,70 @@ public class Brot {
 		}
 	}
 	
+	/**
+	 * Creates a panel with information on
+	 * - feature model file
+	 * - configuration
+	 * - loading time
+	 * 
+	 * This will be at the top of our GUI.
+	 * @return
+	 */
+	private JPanel createInfoPanel() {
+		// contains information on 
+		JPanel panel = new JPanel(new GridBagLayout());
+		GridBagConstraints t = new GridBagConstraints();
+		t.anchor = GridBagConstraints.WEST;
+		{
+			t.gridx = 0;
+			t.weightx = 0;
+			{
+				t.gridy = 0;
+				panel.add(new JLabel("Feature Model:"), t);//"flowy,cell 0 0,grow");
+				
+				t.gridy = 1;
+				panel.add(new JLabel("Configuration Status:"), t);//"cell 0 0");
+				
+				t.gridy = 2;
+				panel.add(new JLabel("Loading Time (ms):"), t);//"cell 0 0");
+			}
+
+			t.gridx = 1;
+			t.weightx = 1;
+			t.fill = GridBagConstraints.HORIZONTAL;
+			{
+				t.gridy = 0;
+				panel.add(featureModelNameLabel, t);//"flowy,cell 1 0,grow");
+				
+				t.gridy = 1;
+				panel.add(configurationStatusLabel, t);//"cell 1 0");
+				
+				t.gridy = 2;
+				panel.add(elapsedTimeLabel, t);//"cell 1 0");
+			}
+		}
+		
+		return panel;
+	}
+	
 	private void createHeader() {
 		featureModelNameLabel = new JLabel("< No Feature Model Specified >");
 		configurationStatusLabel = new JLabel("< No Feature Model Specified >");
 		elapsedTimeLabel = new JLabel("0");
 
-		JPanel panel = new JPanel();
-		panel.setLayout(new MigLayout("", "[left][grow,fill]", "[16px]"));
-		panel.add(new JLabel("Feature Model:"), "flowy,cell 0 0,grow");
-		panel.add(new JLabel("Configuration Status:"), "cell 0 0");
-		panel.add(featureModelNameLabel, "flowy,cell 1 0,grow");
-		panel.add(configurationStatusLabel, "cell 1 0");
-		panel.add(new JLabel("Loading Time (ms):"), "cell 0 0");
-		panel.add(elapsedTimeLabel, "cell 1 0");
-		panel.add(new JSeparator(), BorderLayout.SOUTH);
+		JPanel panel = new JPanel(new GridBagLayout());
+		//panel.setLayout(new MigLayout("", "[left][grow,fill]", "[16px]"));
+		
+		GridBagConstraints t = new GridBagConstraints();
+
+		t.gridx = 0;
+		t.anchor = GridBagConstraints.WEST;
+		t.weightx = 1;
+		t.fill = GridBagConstraints.HORIZONTAL;
+		panel.add(createInfoPanel(), t);
+		
+		t.gridy = 1;
+		panel.add(new JSeparator(), t);//BorderLayout.SOUTH);
 
 		frame.getContentPane().add(panel, BorderLayout.NORTH);
 	}
@@ -175,7 +226,7 @@ public class Brot {
 		mntmOpenModelFile.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				final JFileChooser chooser = new JFileChooser(FileExplorerDefaultDirectory);
+				final JFileChooser chooser = new JFileChooser(FileExplorerDefaultDirectory.toFile());
 				if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
 					final Path path = chooser.getSelectedFile().toPath();
 					openFile(path);
@@ -213,6 +264,24 @@ public class Brot {
 		menuBar.add(mnFile);
 		frame.setJMenuBar(menuBar);
 	}
+	
+	/**
+	 * Creates a panel with a list of selected, unchanged, or deselected features.
+	 */
+	private JPanel createListPanel(String name, JList<?> listContent) {
+		JPanel columnPanel = new JPanel(new BorderLayout());
+		
+		JLabel header = new JLabel(name);
+		header.setHorizontalAlignment(SwingConstants.CENTER);
+		columnPanel.add(header, BorderLayout.NORTH);
+		
+		columnPanel.add(new JScrollPane(listContent), BorderLayout.CENTER);
+		
+		JLabel footer = new JLabel(" ");
+		footer.setHorizontalAlignment(SwingConstants.CENTER);
+		columnPanel.add(footer, BorderLayout.SOUTH);
+		return columnPanel;
+	}
 
 	private void createLists() {
 		// List 1
@@ -225,11 +294,11 @@ public class Brot {
 
 		JButton selectButton = new JButton("<-");
 		JButton selectRevertButton = new JButton("->");
-		JPanel panel_2 = createButtonPanel(selectButton, selectRevertButton);
+		JPanel selectButtonsPanel = createButtonPanel(selectButton, selectRevertButton);
 
 		JButton deselectButton = new JButton("->");
 		JButton deselectRevertButton = new JButton("<-");
-		JPanel panel_3 = createButtonPanel(deselectButton, deselectRevertButton);
+		JPanel deselectButtonsPanel = createButtonPanel(deselectButton, deselectRevertButton);
 
 		selectButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
@@ -255,36 +324,65 @@ public class Brot {
 			}
 		});
 
-		JPanel rootPanel = new JPanel();
+		// Create a panel which contains our main elements from left to right:
+		// gap | Selected List | buttons | Undecided List | buttons | Deselected List | gap
+		JPanel rootPanel = new JPanel(new GridBagLayout());
 		frame.getContentPane().add(rootPanel, BorderLayout.CENTER);
-		rootPanel.setLayout(
-				new MigLayout("", "[100px:n,grow,fill][60px,center][100px:n,grow,fill][60px,center][100px:n,grow,fill]",
-						"[top][grow,fill]"));
+		GridBagConstraints t = new GridBagConstraints();
+		
+		// Everything is in the first row
+		t.fill = GridBagConstraints.BOTH;
+		t.gridy = 0;
+		t.weighty = 1;
 
-		JLabel lblSelected = new JLabel("Selected");
-		lblSelected.setHorizontalAlignment(SwingConstants.CENTER);
-		rootPanel.add(lblSelected, "cell 0 0");
-
-		JLabel lblNewLabel = new JLabel("Undefined");
-		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		rootPanel.add(lblNewLabel, "cell 2 0");
-
-		JLabel lblDeselected = new JLabel("Deselected");
-		lblDeselected.setHorizontalAlignment(SwingConstants.CENTER);
-		rootPanel.add(lblDeselected, "cell 4 0");
-		rootPanel.add(new JScrollPane(selectedList), "cell 0 1,grow");
-		rootPanel.add(panel_2, "cell 1 1,alignx center,growy");
-		rootPanel.add(new JScrollPane(undefinedList), "cell 2 1,grow");
-		rootPanel.add(panel_3, "cell 3 1,alignx center,growy");
-		rootPanel.add(new JScrollPane(deselectedList), "cell 4 1,grow");
+		// place the labels at the top
+		t.weightx = 1;
+		{
+			t.gridx = 1;
+			rootPanel.add(createListPanel("Selected", selectedList), t);
+			t.gridx = 3;
+			rootPanel.add(createListPanel("Undefined", undefinedList), t);
+			t.gridx = 5;
+			rootPanel.add(createListPanel("Deselected", deselectedList), t);
+		}
+		
+		t.weightx = 0;
+		{
+			t.gridx = 2;
+			rootPanel.add(selectButtonsPanel, t);
+			t.gridx = 4;
+			rootPanel.add(deselectButtonsPanel, t);
+	
+			// borders left and right
+			t.gridx = 0;
+			rootPanel.add(new JPanel(), t);
+			t.gridx = 6;
+			rootPanel.add(new JPanel(), t);
+		}
 	}
 
 	private static JPanel createButtonPanel(JButton selectButton, JButton selectRevertButton) {
-		JPanel panel = new JPanel();
-		panel.setLayout(new MigLayout("", "[47px,grow]", "[25px][25px][grow]"));
-		panel.add(selectButton, "cell 0 0,alignx center,aligny top");
-		panel.add(selectRevertButton, "cell 0 1,alignx center,aligny top");
-		panel.add(new JPanel(), "cell 0 2,alignx center,growy");
+		JPanel panel = new JPanel(new GridBagLayout());
+		GridBagConstraints t = new GridBagConstraints();
+		
+		t.fill = GridBagConstraints.BOTH;
+		t.weighty = 1;
+		{
+			t.gridy = 0;
+			panel.add(new JPanel(), t);
+			t.gridy = 3;
+			panel.add(new JPanel(), t);
+		}
+		
+		t.fill = GridBagConstraints.NONE;
+		t.weighty = 0;
+		{
+			t.gridy = 1;
+			panel.add(selectButton, t);
+			t.gridy = 2;
+			panel.add(selectRevertButton, t);
+		}
+		
 		return panel;
 	}
 
