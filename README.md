@@ -1,6 +1,7 @@
 # SAT Encodings of the At-Most-k Constraint
 ## A Case Study on Configuring University Courses
 
+[![Paper](https://img.shields.io/badge/Paper-Read-purple)](https://link.springer.com/chapter/10.1007/978-3-030-30446-1_7)
 [![Preprint](https://img.shields.io/badge/Preprint-Read-purple)][preprint]
 [![License](https://img.shields.io/badge/License-GNU%20LGPLv3-blue)](LICENSE.LGPL3)
 
