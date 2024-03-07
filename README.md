@@ -16,15 +16,25 @@ Constraint Modelling and Reformulation. 2010.][2]
 [comment]: <> (Please cite as:)
 
 ### Tool
-We provide a jar file for testing our BRanch Of study Tool (Brot).
-It can open [FeatureIDE][7] feature model files and allows creating configurations for them.
+
+![Screenshot of the BroT GUI](Screenshot.png)
+
+We provide a runnable jar file for testing our BRanch Of study Tool (Brot) at the top level of this repository.
+The jar is built from the project `Code/EclipseWorkspaces/Development/Brot`.
+Our tool takes [FeatureIDE][7] feature model files as input and allows creating configurations for them.
 Opening the feature models of some branches may take a few minutes.
-You can find the model files for the [branches of study at TU Braunschweig][6] in `Code/EclipseWorkspaces/Runtime/tubs.cs.branches_of_study/Studienrichtungen`.
 
-Please note that opening them in the FeatureIDE plugins editor in eclipse may freeze the program because
-some of the models are too large.
+When running the jar, a graphical user interface will show up as shown in the screenshot above.
+You may use the `File` button to open a feature model for configuration.
+After loading a feature model, its features are shown in the center column. You may use the arrow buttons to move features from and to the lists of selected or deselected features, respectively.
+BroT will then automatically select or deselect other features to satisfy the feature model's constraints.
 
-Examples for **using the SAT encodings in your own software projects** can be found in the [dedicated example project](https://github.com/SoftVarE-Group/BroTLibraryExample/tree/master).
+As a possible input to our tool, you can find the feature model files for the [branches of study at TU Braunschweig][6] in `Code/EclipseWorkspaces/Runtime/tubs.cs.branches_of_study/Studienrichtungen`.
+These are files we (1) compiled from our DSL as described in our paper, and (2) performed our evaluation on.
+Beware: Opening the feature models in BroT or FeatureIDE may freeze the program because some of the models are very large.
+To play around, we recommend the `IT-Sicherheit` model, which is one of the smalles and least-constrained branches of study.
+
+In case you are interested in **reusing the SAT encodings in your own software project**, please have a look at our open-source [example project](https://github.com/SoftVarE-Group/BroTLibraryExample/tree/master).
 
 ### Code
 The code is given in two [Eclipse][3] workspaces: `Runtime` and `Development`.
